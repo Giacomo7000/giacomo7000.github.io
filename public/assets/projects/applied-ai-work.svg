@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4efe4"/>
+  <rect x="120" y="110" width="960" height="530" rx="34" fill="#fffaf0" stroke="#d9d0c1"/>
+  <g stroke="#315b5f" stroke-width="5" fill="none" opacity=".7">
+    <path d="M292 390h210l118-142h238"/>
+    <path d="M292 390l160 132h318"/>
+    <path d="M620 248l150 274"/>
+  </g>
+  <g fill="#315b5f">
+    <circle cx="292" cy="390" r="24"/>
+    <circle cx="502" cy="390" r="18"/>
+    <circle cx="620" cy="248" r="24"/>
+    <circle cx="858" cy="248" r="18"/>
+    <circle cx="452" cy="522" r="18"/>
+    <circle cx="770" cy="522" r="24"/>
+  </g>
+  <text x="150" y="170" fill="#17202a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="28" font-weight="700">Applied AI systems</text>
+</svg>

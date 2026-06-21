@@ -1,0 +1,63 @@
+---
+import type { Lang } from "@data/site";
+
+const { lang } = Astro.props as { lang: Lang };
+const entries = lang === "en"
+  ? [
+      ["High school", "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine."],
+      ["Bachelor", "IoT, Big Data and Machine Learning. Neural networks and AI systems became a central interest."],
+      ["Master", "AI & Cybersecurity double degree with the University of Klagenfurt, currently in progress."],
+      ["Aipertech", "Applied AI work for companies, combining technical analysis, client understanding, and development."]
+    ]
+  : [
+      ["Scuola superiore", "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine."],
+      ["Laurea triennale", "IoT, Big Data and Machine Learning. Qui l'interesse per reti neurali e sistemi AI e' diventato centrale."],
+      ["Laurea magistrale in corso", "AI & Cybersecurity, doppio titolo con University of Klagenfurt."],
+      ["Aipertech", "AI applicata alle aziende, tra analisi tecnica, comprensione del cliente e sviluppo."]
+    ];
+---
+
+<div class="timeline">
+  {entries.map(([title, body]) => (
+    <div class="timeline-entry reveal">
+      <div class="dot" aria-hidden="true"></div>
+      <h3>{title}</h3>
+      <p>{body}</p>
+    </div>
+  ))}
+</div>
+
+<style>
+  .timeline {
+    display: grid;
+    gap: 0;
+    border-left: 1px solid var(--line);
+    margin-left: 9px;
+  }
+
+  .timeline-entry {
+    position: relative;
+    display: grid;
+    gap: 8px;
+    padding: 0 0 28px 28px;
+  }
+
+  .timeline-entry:last-child {
+    padding-bottom: 0;
+  }
+
+  .dot {
+    position: absolute;
+    left: -6px;
+    top: 4px;
+    width: 11px;
+    height: 11px;
+    border-radius: 999px;
+    background: var(--accent);
+    box-shadow: 0 0 0 5px var(--bg);
+  }
+
+  p {
+    color: var(--muted);
+  }
+</style>

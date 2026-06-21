@@ -1,0 +1,18 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ProjectDetail from "@components/ProjectDetail.astro";
+import { getProjects } from "@lib/content";
+import { localize } from "@lib/i18n";
+
+export async function getStaticPaths() {
+  const projects = await getProjects();
+  return projects.map((project) => ({ params: { slug: project.slug }, props: { project } }));
+}
+
+const { project } = Astro.props;
+const lang = "en";
+---
+
+<BaseLayout lang={lang} title={localize(project.data.title, lang)} description={localize(project.data.summary, lang)} path={`/projects/${project.slug}`} image={project.data.cover || "/og-image.svg"}>
+  <ProjectDetail project={project} lang={lang} />
+</BaseLayout>

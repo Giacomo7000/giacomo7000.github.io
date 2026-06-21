@@ -1,0 +1,28 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import SectionHeading from "@components/SectionHeading.astro";
+import ArchiveCard from "@components/ArchiveCard.astro";
+import Search from "@components/Search.astro";
+import { getProjects, getArchiveEntries, buildSearchItems } from "@lib/content";
+
+const lang = "en";
+const archive = await getArchiveEntries();
+const projects = await getProjects();
+const searchItems = buildSearchItems(projects, archive);
+---
+
+<BaseLayout lang={lang} title="Archive" path="/archive" description="Archive of events, milestones, conferences, and short reflections by Giacomo Mariuzza.">
+  <section class="page-hero container">
+    <SectionHeading eyebrow="Archive" title="Events, milestones, and short reflections." lead="A lightweight editorial space for conferences, hackathons, professional experiences, and notes from the path." />
+    <Search items={searchItems} lang={lang} />
+    <div class="grid grid-3">
+      {archive.map((entry) => <ArchiveCard entry={entry} lang={lang} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: 82px 0 96px;
+  }
+</style>

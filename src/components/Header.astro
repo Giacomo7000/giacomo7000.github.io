@@ -1,0 +1,105 @@
+---
+import GMLogo from "./GMLogo.astro";
+import ThemeToggle from "./ThemeToggle.astro";
+import LanguageToggle from "./LanguageToggle.astro";
+import { navItems, type Lang } from "@data/site";
+import { localizedPath } from "@lib/i18n";
+import { t } from "@lib/i18n";
+
+const { lang, path } = Astro.props as { lang: Lang; path: string };
+---
+
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href={localizedPath(lang, "/")} data-logo-hit>
+      <GMLogo />
+      <span>Giacomo Mariuzza</span>
+    </a>
+    <div class="nav-links">
+      {navItems.map((item) => (
+        <a href={localizedPath(lang, item.href)} aria-current={path === localizedPath(lang, item.href) ? "page" : undefined}>
+          {t(lang, item.key)}
+        </a>
+      ))}
+    </div>
+    <div class="nav-actions">
+      <LanguageToggle lang={lang} path={path} />
+      <ThemeToggle label="Toggle light and dark mode" />
+    </div>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid var(--line);
+    background: color-mix(in srgb, var(--bg) 82%, transparent);
+    backdrop-filter: blur(18px);
+  }
+
+  .nav {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 22px;
+    min-height: 70px;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+  }
+
+  .brand span {
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .nav-links a {
+    padding: 8px 11px;
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 0.92rem;
+    font-weight: 700;
+  }
+
+  .nav-links a[aria-current="page"],
+  .nav-links a:hover {
+    background: var(--tag);
+    color: var(--text);
+  }
+
+  .nav-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  @media (max-width: 860px) {
+    .nav {
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      padding: 12px 0;
+    }
+
+    .nav-links {
+      grid-column: 1 / -1;
+      justify-content: flex-start;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+
+    .brand span {
+      display: none;
+    }
+  }
+</style>

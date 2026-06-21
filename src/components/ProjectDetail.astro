@@ -1,0 +1,170 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { Lang } from "@data/site";
+import { localize, localizedPath, t } from "@lib/i18n";
+import { formatProjectDate } from "@lib/dates";
+
+const { project, lang } = Astro.props as { project: CollectionEntry<"projects">; lang: Lang };
+const displayDate = formatProjectDate(project.data, lang);
+---
+
+<article class="detail container">
+  <a class="back-link" href={localizedPath(lang, "/projects")}>{t(lang, "backProjects")}</a>
+  <header class="detail-hero reveal">
+    <div>
+      <p class="eyebrow">{localize(project.data.status, lang)} · {displayDate}</p>
+      <h1>{localize(project.data.title, lang)}</h1>
+      <p class="lead">{localize(project.data.subtitle, lang)}</p>
+    </div>
+    {project.data.cover && <img class:list={[project.data.coverFit === "logo" && "logo-cover"]} src={project.data.cover} alt="" loading="eager" />}
+  </header>
+  <dl class="facts card reveal">
+    <div><dt>{t(lang, "role")}</dt><dd>{localize(project.data.role, lang)}</dd></div>
+    <div><dt>{t(lang, "status")}</dt><dd>{localize(project.data.status, lang)}</dd></div>
+    <div><dt>{t(lang, "year")}</dt><dd>{displayDate}</dd></div>
+  </dl>
+  <section class="detail-body">
+    {project.data.sections.map((section) => (
+      <div class="content-block reveal">
+        <h2>{localize(section.title, lang)}</h2>
+        <p>{localize(section.body, lang)}</p>
+      </div>
+    ))}
+  </section>
+  {project.data.technologies.length > 0 && (
+    <section class="content-block reveal">
+      <h2>{t(lang, "technologies")}</h2>
+      <div class="tag-row">
+        {project.data.technologies.map((tech) => <span class="tag">{tech}</span>)}
+      </div>
+    </section>
+  )}
+  {project.data.links.length > 0 && (
+    <section class="content-block reveal">
+      <h2>{t(lang, "links")}</h2>
+      <div class="button-row">
+        {project.data.links.map((link) => <a class="button secondary" href={link.url}>{localize(link.label, lang)}</a>)}
+      </div>
+    </section>
+  )}
+</article>
+
+<style>
+  .detail {
+    padding: 42px 0 96px;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 34px;
+    border: 1px solid color-mix(in srgb, var(--line) 86%, var(--text) 14%);
+    border-radius: var(--radius);
+    background: color-mix(in srgb, var(--surface) 70%, transparent);
+    color: var(--muted);
+    padding: 9px 13px;
+    font-size: 0.86rem;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+    transition: border-color var(--transition), background var(--transition), color var(--transition), transform var(--transition);
+  }
+
+  .back-link:hover {
+    border-color: color-mix(in srgb, var(--accent) 48%, var(--line));
+    background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+    color: var(--text);
+    transform: translateY(-1px);
+  }
+
+  .back-link:focus-visible {
+    outline: 2px solid color-mix(in srgb, var(--accent) 62%, transparent);
+    outline-offset: 3px;
+  }
+
+  .detail-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 42%);
+    gap: clamp(28px, 5vw, 58px);
+    align-items: center;
+    margin-bottom: 28px;
+  }
+
+  .detail-hero img {
+    width: 100%;
+    aspect-ratio: 16 / 11;
+    object-fit: cover;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--surface);
+  }
+
+  .detail-hero img.logo-cover {
+    object-fit: contain;
+    padding: clamp(28px, 6vw, 72px);
+    background: color-mix(in srgb, var(--surface) 72%, var(--accent) 6%);
+  }
+
+  .detail-hero h1 {
+    font-size: clamp(2.8rem, 7vw, 6.2rem);
+    margin-bottom: 18px;
+  }
+
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    margin: 20px 0 48px;
+  }
+
+  .facts div {
+    padding: 18px;
+    background: color-mix(in srgb, var(--surface-strong) 78%, transparent);
+  }
+
+  dt {
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 6px 0 0;
+    font-weight: 700;
+  }
+
+  .detail-body,
+  .content-block {
+    display: grid;
+    gap: 18px;
+  }
+
+  .detail-body {
+    max-width: 860px;
+  }
+
+  .content-block {
+    margin-top: 34px;
+  }
+
+  .content-block h2 {
+    font-family: var(--font-sans);
+    font-size: 1.4rem;
+  }
+
+  .content-block p {
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  @media (max-width: 840px) {
+    .detail-hero,
+    .facts {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

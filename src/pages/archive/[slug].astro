@@ -1,0 +1,18 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ArchiveDetail from "@components/ArchiveDetail.astro";
+import { getArchiveEntries } from "@lib/content";
+import { localize } from "@lib/i18n";
+
+export async function getStaticPaths() {
+  const entries = await getArchiveEntries();
+  return entries.map((entry) => ({ params: { slug: entry.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const lang = "en";
+---
+
+<BaseLayout lang={lang} title={localize(entry.data.title, lang)} description={localize(entry.data.summary, lang)} path={`/archive/${entry.slug}`} image={entry.data.cover || "/og-image.svg"}>
+  <ArchiveDetail entry={entry} lang={lang} />
+</BaseLayout>

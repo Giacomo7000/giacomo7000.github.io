@@ -1,0 +1,28 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import SectionHeading from "@components/SectionHeading.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import Search from "@components/Search.astro";
+import { getProjects, getArchiveEntries, buildSearchItems } from "@lib/content";
+
+const lang = "it";
+const projects = await getProjects();
+const archive = await getArchiveEntries();
+const searchItems = buildSearchItems(projects, archive);
+---
+
+<BaseLayout lang={lang} title="Progetti" path="/it/projects" description="Progetti di Giacomo Mariuzza tra AI applicata, software, universita' e prototipi personali.">
+  <section class="page-hero container">
+    <SectionHeading eyebrow="Progetti" title="Progetti su cui ho messo mano." lead="AI applicata, software, automazioni e interfacce: una raccolta di lavori che mostrano cosa ho costruito, testato e migliorato nel tempo." />
+    <Search items={searchItems} lang={lang} />
+    <div class="grid grid-3">
+      {projects.map((project) => <ProjectCard project={project} lang={lang} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: 82px 0 96px;
+  }
+</style>

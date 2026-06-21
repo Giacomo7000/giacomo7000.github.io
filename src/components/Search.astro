@@ -1,0 +1,88 @@
+---
+import type { Lang } from "@data/site";
+import { t, localize, localizedPath } from "@lib/i18n";
+
+const { items, lang } = Astro.props as { items: any[]; lang: Lang };
+const localizedItems = items.map((item) => ({
+  ...item,
+  title: localize(item.title, lang),
+  summary: localize(item.summary, lang),
+  href: localizedPath(lang, item.href)
+}));
+---
+
+<section class="search card reveal" aria-labelledby="search-title">
+  <label id="search-title" for="site-search">{t(lang, "search")}</label>
+  <input id="site-search" type="search" placeholder={t(lang, "searchPlaceholder")} data-search-input />
+  <div class="results" data-search-results hidden></div>
+  <template data-empty>{t(lang, "noResults")}</template>
+</section>
+
+<script define:vars={{ localizedItems }}>
+  const input = document.querySelector("[data-search-input]");
+  const results = document.querySelector("[data-search-results]");
+  const empty = document.querySelector("[data-empty]")?.innerHTML || "";
+
+  function render(query) {
+    if (!input || !results) return;
+    const normalized = query.trim().toLowerCase();
+    results.hidden = normalized.length < 2;
+    if (results.hidden) return;
+    const matches = localizedItems
+      .filter((item) => `${item.title} ${item.summary} ${item.tags?.join(" ") || ""}`.toLowerCase().includes(normalized))
+      .slice(0, 8);
+    results.innerHTML = matches.length
+      ? matches.map((item) => `<a href="${item.href}"><strong>${item.title}</strong><span>${item.type} · ${item.summary}</span></a>`).join("")
+      : `<p>${empty}</p>`;
+  }
+
+  input?.addEventListener("input", (event) => render(event.currentTarget.value));
+</script>
+
+<style>
+  .search {
+    display: grid;
+    gap: 12px;
+    padding: 18px;
+    margin-bottom: 26px;
+    box-shadow: none;
+  }
+
+  label {
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  input {
+    width: 100%;
+    min-height: 48px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface-strong);
+    color: var(--text);
+    padding: 0 14px;
+  }
+
+  .results {
+    display: grid;
+    gap: 8px;
+  }
+
+  .results :global(a) {
+    display: grid;
+    gap: 2px;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .results :global(span),
+  .results :global(p) {
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+</style>

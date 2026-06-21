@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#101417"/>
+  <rect x="150" y="150" width="900" height="450" rx="32" fill="#151b1f" stroke="#314047"/>
+  <path d="M332 405h110M387 350v110M738 366h1M820 438h1" stroke="#f4efe4" stroke-width="28" stroke-linecap="round"/>
+  <path d="M290 505c60-210 560-210 620 0" fill="none" stroke="#a7c7c8" stroke-width="10"/>
+  <text x="210" y="245" fill="#f4efe4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="700">UNIT-7</text>
+</svg>

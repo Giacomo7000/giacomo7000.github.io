@@ -1,0 +1,28 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import SectionHeading from "@components/SectionHeading.astro";
+import ArchiveCard from "@components/ArchiveCard.astro";
+import Search from "@components/Search.astro";
+import { getProjects, getArchiveEntries, buildSearchItems } from "@lib/content";
+
+const lang = "it";
+const archive = await getArchiveEntries();
+const projects = await getProjects();
+const searchItems = buildSearchItems(projects, archive);
+---
+
+<BaseLayout lang={lang} title="Archivio" path="/it/archive" description="Archivio di eventi, tappe, conferenze e riflessioni brevi di Giacomo Mariuzza.">
+  <section class="page-hero container">
+    <SectionHeading eyebrow="Archivio" title="Eventi, tappe e riflessioni brevi." lead="Uno spazio editoriale leggero per conferenze, hackathon, esperienze professionali e note di percorso." />
+    <Search items={searchItems} lang={lang} />
+    <div class="grid grid-3">
+      {archive.map((entry) => <ArchiveCard entry={entry} lang={lang} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: 82px 0 96px;
+  }
+</style>

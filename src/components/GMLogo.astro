@@ -1,0 +1,36 @@
+---
+const { size = 34 } = Astro.props;
+---
+
+<span class="gm-logo" style={`--logo-size: ${size}px`} aria-label="GM monogram" role="img">
+  <img class="logo-light" src="/assets/brand/gm-monogram-light.svg" alt="" loading="eager" />
+  <img class="logo-dark" src="/assets/brand/gm-monogram-night-blue.svg" alt="" loading="eager" />
+</span>
+
+<style>
+  .gm-logo {
+    display: inline-grid;
+    width: var(--logo-size);
+    height: var(--logo-size);
+    flex: 0 0 auto;
+  }
+
+  .gm-logo img {
+    grid-area: 1 / 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .logo-dark {
+    display: none;
+  }
+
+  :root[data-theme="dark"] .logo-light {
+    display: none;
+  }
+
+  :root[data-theme="dark"] .logo-dark {
+    display: block;
+  }
+</style>

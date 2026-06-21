@@ -1,0 +1,32 @@
+---
+import type { Lang } from "@data/site";
+import { alternatePath } from "@lib/i18n";
+
+const { lang, path } = Astro.props as { lang: Lang; path: string };
+const alt = alternatePath(lang, path);
+---
+
+<a class="lang-toggle" href={alt} hreflang={lang === "en" ? "it" : "en"} aria-label="Change language">
+  <span class={lang === "en" ? "active" : ""}>EN</span>
+  <span aria-hidden="true">/</span>
+  <span class={lang === "it" ? "active" : ""}>IT</span>
+</a>
+
+<style>
+  .lang-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 40px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 800;
+  }
+
+  .active {
+    color: var(--text);
+  }
+</style>

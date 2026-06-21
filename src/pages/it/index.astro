@@ -1,0 +1,121 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/Button.astro";
+import SectionHeading from "@components/SectionHeading.astro";
+import ProjectCard from "@components/ProjectCard.astro";
+import ArchiveCard from "@components/ArchiveCard.astro";
+import GMLogo from "@components/GMLogo.astro";
+import { getFeaturedProjects, getArchiveEntries } from "@lib/content";
+import { t, localizedPath } from "@lib/i18n";
+
+const lang = "it";
+const projects = await getFeaturedProjects();
+const archive = (await getArchiveEntries()).slice(0, 3);
+---
+
+<BaseLayout lang={lang} title="AI Developer" path="/it">
+  <section class="hero container">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">AI Developer e Technical Analyst</p>
+      <h1>Giacomo Mariuzza</h1>
+      <p class="lead">Lavoro su soluzioni AI orientate a problemi reali, combinando sviluppo e comprensione del cliente, mentre studio AI & Cybersecurity.</p>
+      <div class="button-row">
+        <Button href="/it/projects">{t(lang, "viewProjects")}</Button>
+        <Button href="/it/contact" variant="secondary">{t(lang, "contactMe")}</Button>
+        <Button href="/cv/giacomo-mariuzza-cv.pdf" variant="secondary">{t(lang, "viewCv")}</Button>
+      </div>
+    </div>
+    <div class="hero-mark reveal" aria-hidden="true">
+      <GMLogo size={260} />
+    </div>
+  </section>
+  <section class="section">
+    <div class="container split">
+      <SectionHeading eyebrow="Chi sono" title="AI, software e problemi reali." lead="Tra AI, software e cybersecurity, cerco di capire le cose mettendole alla prova: piccoli prototipi, automazioni, modelli locali, strumenti pratici. Lavoro su soluzioni AI applicate, ma mi interessa soprattutto il passaggio tra idea, esperimento e utilizzo reale." />
+      <Button href="/it/about" variant="secondary">Leggi di più</Button>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <SectionHeading eyebrow="Progetti" title={t(lang, "featuredProjects")} lead="Una selezione di progetti che raccontano il mio modo di lavorare: dall'idea al prototipo, fino a soluzioni reali e utilizzabili." />
+      <div class="grid grid-3">
+        {projects.map((project) => <ProjectCard project={project} lang={lang} />)}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <SectionHeading eyebrow="Eventi" title={t(lang, "latestArchive")} lead="Appunti, esperienze e momenti che segnano il mio percorso nel mondo della tecnologia." />
+      <div class="grid grid-3">
+        {archive.map((entry) => <ArchiveCard entry={entry} lang={lang} />)}
+      </div>
+    </div>
+  </section>
+  <section class="section contact-band">
+    <div class="container split">
+      <SectionHeading eyebrow="Contatti" title="Se vuoi parlare di AI, collaborazioni lavorative o un progetto da costruire, scrivimi." />
+      <Button href={localizedPath(lang, "/contact")}>{t(lang, "contactMe")}</Button>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 38%);
+    align-items: center;
+    gap: clamp(34px, 7vw, 80px);
+    min-height: calc(100vh - 70px);
+    padding: 72px 0;
+  }
+
+  .hero-copy {
+    display: grid;
+    gap: 24px;
+  }
+
+  .hero-mark {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border: 1px solid var(--line);
+    border-radius: 34px;
+    background: color-mix(in srgb, var(--surface) 88%, transparent);
+    overflow: hidden;
+  }
+
+  .hero-mark :global(.gm-logo) {
+    width: min(68%, 280px);
+    height: auto;
+    aspect-ratio: 1;
+  }
+
+  .split {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .contact-band {
+    background: color-mix(in srgb, var(--surface) 58%, transparent);
+  }
+
+  @media (max-width: 860px) {
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: auto;
+      padding: 56px 0;
+    }
+
+    .hero-mark {
+      max-width: 420px;
+    }
+
+    .split {
+      display: grid;
+      align-items: start;
+    }
+  }
+</style>

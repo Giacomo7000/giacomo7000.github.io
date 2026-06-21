@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4efe4"/>
+  <rect x="110" y="96" width="980" height="558" rx="34" fill="#fffaf0" stroke="#d9d0c1"/>
+  <rect x="180" y="190" width="320" height="360" rx="26" fill="#17202a"/>
+  <rect x="240" y="250" width="200" height="158" rx="18" fill="none" stroke="#a7c7c8" stroke-width="8"/>
+  <circle cx="340" cy="326" r="43" fill="none" stroke="#d1b38d" stroke-width="8"/>
+  <path d="M288 445c25-42 79-42 104 0" fill="none" stroke="#d1b38d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="314" cy="319" r="7" fill="#d1b38d"/>
+  <circle cx="366" cy="319" r="7" fill="#d1b38d"/>
+  <g fill="none" stroke="#315b5f" stroke-width="8" stroke-linecap="round">
+    <path d="M500 374h146"/>
+    <path d="M646 256h126"/>
+    <path d="M646 492h126"/>
+  </g>
+  <g fill="#fffaf0" stroke="#315b5f" stroke-width="7">
+    <rect x="646" y="204" width="220" height="104" rx="18"/>
+    <rect x="646" y="440" width="220" height="104" rx="18"/>
+    <rect x="792" y="300" width="220" height="148" rx="20"/>
+  </g>
+  <g stroke="#315b5f" stroke-width="7" stroke-linecap="round">
+    <path d="M704 255h104"/>
+    <path d="M704 491h104"/>
+    <path d="M850 350h104"/>
+    <path d="M850 398h72"/>
+  </g>
+  <text x="180" y="150" fill="#17202a" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="700">Local recognition, structured logs</text>
+</svg>

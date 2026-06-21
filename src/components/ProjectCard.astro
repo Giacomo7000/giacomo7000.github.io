@@ -1,0 +1,96 @@
+---
+import type { CollectionEntry } from "astro:content";
+import type { Lang } from "@data/site";
+import { localize, localizedPath, t } from "@lib/i18n";
+import { formatProjectDate } from "@lib/dates";
+
+const { project, lang } = Astro.props as { project: CollectionEntry<"projects">; lang: Lang };
+const href = localizedPath(lang, `/projects/${project.slug}`);
+const displayDate = formatProjectDate(project.data, lang);
+---
+
+<article class="project-card card reveal">
+  {project.data.cover && (
+    <a class="cover" href={href} aria-label={localize(project.data.title, lang)}>
+      <img class:list={[project.data.coverFit === "logo" && "logo-cover"]} src={project.data.cover} alt="" loading="lazy" />
+    </a>
+  )}
+  <div class="card-body">
+    <div class="meta">
+      <span>{displayDate}</span>
+      <span>{localize(project.data.status, lang)}</span>
+    </div>
+    <h3><a href={href}>{localize(project.data.title, lang)}</a></h3>
+    <p>{localize(project.data.summary, lang)}</p>
+    <div class="tag-row">
+      {project.data.technologies.slice(0, 4).map((tech) => <span class="tag">{tech}</span>)}
+    </div>
+    <a class="text-link" href={href}>{t(lang, "readMore")}</a>
+  </div>
+</article>
+
+<style>
+  .project-card {
+    overflow: hidden;
+    transition: transform var(--transition), border-color var(--transition);
+  }
+
+  .project-card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+  }
+
+  .cover {
+    display: block;
+    aspect-ratio: 16 / 10;
+    background: var(--surface-strong);
+    overflow: hidden;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cover img.logo-cover {
+    width: 72%;
+    height: 72%;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .cover:has(.logo-cover) {
+    display: grid;
+    place-items: center;
+    padding: 18px;
+    background: color-mix(in srgb, var(--surface) 72%, var(--accent) 6%);
+  }
+
+  .card-body {
+    display: grid;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: var(--muted);
+  }
+
+  .text-link {
+    width: fit-content;
+    color: var(--accent);
+    font-weight: 800;
+  }
+</style>
