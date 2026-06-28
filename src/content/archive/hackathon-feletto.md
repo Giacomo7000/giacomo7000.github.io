@@ -24,4 +24,10 @@ sections:
     body:
       en: "The project treated mobility as access to the city, especially for older people, people with disabilities, students, and families who need reliable real-time and accessibility-aware information. It was a good exercise in connecting AI with a concrete public-service problem."
       it: "Il progetto considerava la mobilita' come accesso alla citta', soprattutto per anziani, persone con disabilita', studenti e famiglie che hanno bisogno di informazioni affidabili, real-time e attente all'accessibilita'. E' stato un buon esercizio per collegare l'AI a un problema concreto di servizio pubblico."
+  - title:
+      en: "Technical notes"
+      it: "Note tecniche"
+    body:
+      en: "The proposal used TPL FVG and OpenData FVG as transport-data sources, with real GPS positions for buses, taxis, and sharing services. The conversational layer was designed around a custom Ollama LLM chatbot, connected to route combinations and accessibility-aware data. The team placed second and received a 1,000 euro prize."
+      it: "La proposta usava TPL FVG e OpenData FVG come fonti dati per il trasporto, con posizioni GPS reali per bus, taxi e servizi sharing. Il livello conversazionale era pensato intorno a un chatbot LLM custom con Ollama, collegato a combinazioni di percorso e dati di accessibilita'. Il team si e' classificato secondo e ha ricevuto un premio da 1.000 euro."
 ---

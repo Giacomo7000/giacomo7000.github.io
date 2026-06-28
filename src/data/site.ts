@@ -7,8 +7,9 @@ export const site = {
   email: "giacomo.mariuzza@outlook.it",
   emailLabel: "giacomo.mariuzza [at] outlook.it",
   linkedin: "https://www.linkedin.com/in/giacomo-mariuzza-9a7228363/?skipRedirect=true",
+  github: "https://github.com/Giacomo7000",
   cvPath: "/cv/giacomo-mariuzza-cv.pdf",
-  url: import.meta.env.PUBLIC_SITE_URL || "https://giacomomariuzza.github.io"
+  url: import.meta.env.PUBLIC_SITE_URL || "https://giacomo7000.github.io"
 };
 
 export const navItems = [

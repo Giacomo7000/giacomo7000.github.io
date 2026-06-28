@@ -24,4 +24,10 @@ sections:
     body:
       en: "The talk was part of an extracurricular project with students and researchers, aimed at reducing water loss in hydraulic networks through automatic valve-pressure regulation. It was a good reminder that AI becomes more interesting when it is tied to a real infrastructure problem."
       it: "Il talk faceva parte di un progetto extra-curriculare con studenti e ricercatori, orientato a ridurre la perdita d'acqua nelle reti idrauliche regolando automaticamente la pressione delle valvole. E' stato un buon promemoria: l'AI diventa piu' interessante quando e' collegata a un problema reale di infrastruttura."
+  - title:
+      en: "Technical notes"
+      it: "Note tecniche"
+    body:
+      en: "The technical core was Q-Learning for water-network pressure management: an agent learns valve actions through reward feedback to reduce losses over time. The event took place in Venice with about 200 students from the Triveneto area, and our University of Udine group presented the section on Europe and AI."
+      it: "Il nucleo tecnico era il Q-Learning applicato alla gestione della pressione nelle reti idriche: un agente impara azioni sulle valvole tramite feedback di reward per ridurre le perdite nel tempo. L'evento si e' svolto a Venezia con circa 200 studenti del Triveneto, e il nostro gruppo dell'Universita' di Udine ha presentato la sezione su Europa e AI."
 ---

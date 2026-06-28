@@ -30,4 +30,10 @@ sections:
     body:
       en: "I contributed as part of the team to shaping the concept and communicating it clearly in the final pitch. We placed second, and the result was meaningful because the idea connected a recognizable everyday problem with a product direction that was simple, tangible, and easy to explain."
       it: "Ho contribuito come parte del team a dare forma al concept e a comunicarlo con chiarezza nel pitch finale. Ci siamo classificati secondi, un risultato significativo perché l'idea collegava un problema quotidiano riconoscibile a una direzione di prodotto semplice, concreta e facile da spiegare."
+  - title:
+      en: "Technical notes"
+      it: "Note tecniche"
+    body:
+      en: "The concept combined four concrete features: a physical phone slot, white noise, activity scheduling, and an active focus mode. We framed the problem with two quantitative references from the pitch material: average attention dropping from 150 seconds in 2004 to 47 seconds, and more than 23 minutes needed to regain deep focus after a distraction."
+      it: "Il concept combinava quattro elementi concreti: uno slot fisico per il telefono, white noise, scheduling dell'attivita' e modalita' focus attiva. Abbiamo inquadrato il problema con due riferimenti quantitativi del pitch: attenzione media passata da 150 secondi nel 2004 a 47 secondi, e oltre 23 minuti necessari per recuperare il deep focus dopo una distrazione."
 ---
