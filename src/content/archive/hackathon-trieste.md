@@ -23,7 +23,7 @@ sections:
       it: "Soluzione"
     body:
       en: "Our team developed SHIFT, a product concept built around a simple behavioral ritual for entering a focused work state. The concept combined a physical phone slot, white noise, activity scheduling, and an active focus mode, with a minimal interface designed to show only what mattered during the session."
-      it: "Il team ha sviluppato SHIFT, un concept di prodotto costruito intorno a un rituale comportamentale semplice per entrare in uno stato di lavoro concentrato. L'idea combinava uno slot fisico per il telefono, white noise, scheduling dell'attività e una modalità focus attiva, con un'interfaccia minimale pensata per mostrare solo ciò che serviva durante la sessione."
+      it: "Il team, tre studenti di AI & Cybersecurity, un product designer e un full-stack developer, ha sviluppato SHIFT, un concept di prodotto costruito intorno a un rituale comportamentale semplice per entrare in uno stato di lavoro concentrato. L'idea combinava uno slot fisico per il telefono, white noise, scheduling dell'attività e una modalità focus attiva, con un'interfaccia minimale pensata per mostrare solo ciò che serviva durante la sessione: una schedule delle attività e un punteggio di performance a fine sessione, per motivare con un feedback immediato invece di un sovraccarico di informazioni. Un video dimostrativo mostra il dispositivo in azione: il telefono viene riposto nello slot e parte un timer da 25 minuti in stile Pomodoro."
   - title:
       en: "Result"
       it: "Risultato"
@@ -35,5 +35,5 @@ sections:
       it: "Note tecniche"
     body:
       en: "The concept combined four concrete features: a physical phone slot, white noise, activity scheduling, and an active focus mode. We framed the problem with two quantitative references from the pitch material: average attention dropping from 150 seconds in 2004 to 47 seconds, and more than 23 minutes needed to regain deep focus after a distraction."
-      it: "Il concept combinava quattro elementi concreti: uno slot fisico per il telefono, white noise, scheduling dell'attivita' e modalita' focus attiva. Abbiamo inquadrato il problema con due riferimenti quantitativi del pitch: attenzione media passata da 150 secondi nel 2004 a 47 secondi, e oltre 23 minuti necessari per recuperare il deep focus dopo una distrazione."
+      it: "Il concept combinava quattro elementi concreti: uno slot fisico per il telefono, white noise, scheduling dell'attività e una modalità focus attiva, una combinazione che, secondo l'analisi competitiva del pitch, nessun prodotto sul mercato offriva integrata in un solo dispositivo (i concorrenti coprivano singole feature isolate: slot fisico, white noise, o scheduling, mai tutte insieme). Abbiamo inquadrato il problema con due riferimenti quantitativi: attenzione media passata da 150 secondi nel 2004 a 47 secondi oggi, e oltre 23 minuti necessari per recuperare il deep focus dopo una distrazione. Il pitch includeva anche una stima di mercato a supporto del concept: il segmento italiano legato ai problemi di concentrazione vale circa 1,18 miliardi di euro, con una crescita stimata del 5,2% annuo."
 ---

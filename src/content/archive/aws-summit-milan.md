@@ -17,11 +17,17 @@ sections:
       it: "Riflessione"
     body:
       en: "What stood out to me was how every company seemed to give Agentic AI a slightly different nuance. Some framed agents as assistants that use tools, others as systems that plan and execute tasks, and others as components inside business workflows."
-      it: "Mi ha colpito come ogni azienda sembrasse dare all'Agentic AI una sfumatura diversa. Alcuni parlavano di assistenti che usano strumenti, altri di sistemi che pianificano ed eseguono task, altri ancora di componenti dentro workflow aziendali."
+      it: |-
+        L'evento mi è piaciuto molto anche perché mi ha dato l'opportunità di conoscere diverse aziende, osservare casi d'uso reali e confrontarmi con modi differenti di applicare l'intelligenza artificiale in contesti professionali. È stato utile vedere come organizzazioni diverse interpretino l'Agentic AI in base alle proprie esigenze: alcune puntano sull'automazione, altre sull'assistenza all'utente, altre ancora sull'integrazione nei processi già esistenti.
+
+        Questa varietà di approcci mi ha fatto riflettere su un punto importante: il valore di un agente non dipende solo dalla sua autonomia, ma dalla qualità dell'interazione che riesce a costruire con l'utente e con il contesto in cui opera.
   - title:
       en: "Takeaway"
       it: "Takeaway"
     body:
       en: "The most useful takeaway was practical: a good agent is not necessarily one that does everything alone. Often the important ability is knowing when to stop, ask the user for clarity, and continue with better context."
-      it: "Il takeaway piu' utile e' stato pratico: un buon agente non e' necessariamente quello che fa tutto da solo. Spesso la capacita' importante e' sapere quando fermarsi, chiedere chiarezza all'utente e continuare con piu' contesto."
+      it: |-
+        Il takeaway più significativo è stato pratico: un buon agente non è necessariamente quello che prova a fare tutto da solo. In molti casi, la capacità più importante è sapere quando fermarsi, chiedere chiarimenti, raccogliere più contesto e poi proseguire in modo più accurato.
+
+        Questa idea mi sembra centrale per progettare sistemi AI davvero utili: non solo modelli capaci di generare risposte, ma strumenti in grado di collaborare con le persone, ridurre l'ambiguità e inserirsi in modo affidabile nei workflow reali.
 ---
