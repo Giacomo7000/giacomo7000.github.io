@@ -4,9 +4,14 @@ import type { Lang } from "@data/site";
 import { localize, localizedPath, t } from "@lib/i18n";
 import { formatProjectDate } from "@lib/dates";
 
-const { project, lang } = Astro.props as { project: CollectionEntry<"projects">; lang: Lang };
+const { project, lang, descriptionField = "summary" } = Astro.props as {
+  project: CollectionEntry<"projects">;
+  lang: Lang;
+  descriptionField?: "summary" | "subtitle";
+};
 const href = localizedPath(lang, `/projects/${project.slug}`);
 const displayDate = formatProjectDate(project.data, lang);
+const description = project.data[descriptionField];
 ---
 
 <article class="project-card card reveal">
@@ -21,7 +26,7 @@ const displayDate = formatProjectDate(project.data, lang);
       <span>{localize(project.data.status, lang)}</span>
     </div>
     <h3><a href={href}>{localize(project.data.title, lang)}</a></h3>
-    <p>{localize(project.data.summary, lang)}</p>
+    <p>{localize(description, lang)}</p>
     <div class="tag-row">
       {project.data.technologies.slice(0, 4).map((tech) => <span class="tag">{tech}</span>)}
     </div>

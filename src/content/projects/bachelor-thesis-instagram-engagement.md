@@ -17,7 +17,7 @@ role:
   en: "Bachelor thesis project"
   it: "Progetto di tesi triennale"
 technologies: ["Python", "Pandas", "NumPy", "scikit-learn", "Keras", "TensorFlow", "Machine learning"]
-featured: false
+featured: true
 cover: "/assets/projects/copertina-tesi.png"
 sections:
   - title:

@@ -18,7 +18,7 @@ role:
   en: "Website co-creation and development"
   it: "Co-creazione e sviluppo del sito"
 technologies: ["Python", "Web app", "Decision tool", "Data display", "CSS"]
-featured: true
+featured: false
 cover: "/assets/projects/pienofvg-logo.png"
 coverFit: "logo"
 links:

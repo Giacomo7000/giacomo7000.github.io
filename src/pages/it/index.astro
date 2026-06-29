@@ -39,7 +39,13 @@ const archive = (await getArchiveEntries()).slice(0, 3);
     <div class="container">
       <SectionHeading eyebrow="Progetti" title={t(lang, "featuredProjects")} lead="Una selezione di progetti che raccontano il mio modo di lavorare: dall'idea al prototipo, fino a soluzioni reali e utilizzabili." />
       <div class="grid grid-3">
-        {projects.map((project) => <ProjectCard project={project} lang={lang} />)}
+        {projects.map((project) => (
+          <ProjectCard
+            project={project}
+            lang={lang}
+            descriptionField={project.slug === "bachelor-thesis-instagram-engagement" ? "subtitle" : "summary"}
+          />
+        ))}
       </div>
     </div>
   </section>
