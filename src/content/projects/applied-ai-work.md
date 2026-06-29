@@ -6,8 +6,8 @@ subtitle:
   en: "Applied AI work across client understanding, technical analysis, and hands-on implementation."
   it: "AI applicata tra comprensione del cliente, analisi tecnica e implementazione concreta."
 summary:
-  en: "At Aipertech, I work on practical AI solutions for real business contexts, from workflow automation to document/image analysis and conversational interfaces."
-  it: "In Aipertech lavoro su soluzioni AI pratiche per contesti aziendali reali, dall'automazione di workflow all'analisi di documenti e immagini fino alle interfacce conversazionali."
+  en: "At Aipertech, I work on applied AI systems for real business contexts: workflow automation, document and image analysis, conversational interfaces, and defining technical requirements together with clients."
+  it: "In Aipertech lavoro su sistemi AI applicati per contesti aziendali reali: automazione di workflow, analisi di documenti e immagini, interfacce conversazionali e definizione dei requisiti tecnici insieme ai clienti."
 year: "June 2025"
 date: "2025-06"
 order: 900

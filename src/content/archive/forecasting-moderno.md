@@ -5,12 +5,12 @@ title:
 summary:
   en: "A technical note on zero-shot forecasting and Chronos-2, focused on how a universal model can predict time series without task-specific training."
   it: "Una nota tecnica su zero-shot forecasting e Chronos-2, concentrata su come un modello universale possa prevedere serie temporali senza training specifico per ogni task."
-date: "2026-01-01"
+date: "2025-12-29"
 dateLabel:
-  en: "Technical note"
-  it: "Nota tecnica"
+  en: "October 23 - December 29"
+  it: "23 Ottobre - 29 Dicembre"
 location: "Research note"
-order: 610
+order: 690
 tags: ["Forecasting", "Time series", "Machine learning"]
 sections:
   - title:

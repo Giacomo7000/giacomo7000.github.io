@@ -19,7 +19,7 @@ role:
   it: "Progetto universitario"
 technologies: ["Erlang", "Python", "ErlPort", "BEAM", "Federated Learning", "Bully Algorithm", "Fault tolerance"]
 featured: false
-cover: "/assets/projects/federated-learning.svg"
+cover: "/assets/projects/distributed-system.png"
 sections:
   - title:
       en: "Context"

@@ -19,7 +19,7 @@ role:
   it: "Progetto universitario di gruppo"
 technologies: ["Raspberry Pi", "Python", "PiCamera", "MySQL", "Sockets", "Cryptography"]
 featured: false
-cover: "/assets/projects/iot-face-recognition-v2.svg"
+cover: "/assets/projects/iot.png"
 sections:
   - title:
       en: "Context"

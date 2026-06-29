@@ -11,13 +11,13 @@ const lang = "en";
   <section class="page-hero container reveal">
     <p class="eyebrow">About</p>
     <h1>I started by loving technology. I kept going by building it.</h1>
-    <p class="lead">I am Giacomo Mariuzza. My interest in computer science was shaped early by Apple’s way of combining technology, design, and user experience. After a bachelor’s degree in IoT, Big Data and Machine Learning, I became especially interested in neural networks and AI systems.</p>
+    <p class="lead">I am Giacomo Mariuzza. My passion for computer science comes from a precise inspiration: Apple’s approach to blending technology, design, and user experience. I firmly believe that software or an intelligent system should not only work perfectly, but should also feel intuitive and elegant for anyone who uses it. After my bachelor’s degree in IoT, Big Data and Machine Learning, I chose to specialize through a master’s path in machine learning, artificial-intelligence systems, and cybersecurity.</p>
   </section>
   <section class="section">
     <div class="container two-col">
       <div class="prose reveal">
         <p>I am now pursuing a master’s degree in AI & Cybersecurity, a double degree with the University of Klagenfurt, which lets me specialize across artificial intelligence and cybersecurity.</p>
-        <p>Alongside university, I work at Aipertech, a startup that brings AI into companies. I started from a more commercial and client-facing position because I enjoy understanding needs, discussing feasible solutions, and guiding implementation ideas. Over time, the work became a mix of client-facing strategy and hands-on programming, which fits how I like to work.</p>
+        <p>Alongside university, I work at Aipertech, a startup that brings AI into companies. I started from a more commercial and client-facing role because I enjoy understanding needs, discussing feasible solutions, and thinking through implementation. Over time, the work became a mix of technical analysis, client discussion, and development of applied AI systems, from automation pipelines to document/image analysis and conversational interfaces.</p>
       </div>
       <div>
         <h2>{t(lang, "timeline")}</h2>
@@ -29,17 +29,17 @@ const lang = "en";
     <div class="container">
       <SectionHeading eyebrow="Practice" title={t(lang, "howIWork")} lead="I am not only interested in imagining solutions: I like getting hands-on, testing them, understanding their limits, and turning them into something useful." />
       <div class="grid grid-3">
-        <div class="mini card reveal"><h3>Clarity</h3><p>Translate unclear needs into concrete requirements, constraints, and next steps.</p></div>
-        <div class="mini card reveal"><h3>Concreteness</h3><p>I like turning ideas and technologies into something real: a demo, a prototype, a tool that can be tested and improved.</p></div>
-        <div class="mini card reveal"><h3>Curiosity</h3><p>Keep learning across AI, software, cybersecurity, design, and real business use cases.</p></div>
+        <div class="mini card reveal"><h3>Clarity</h3><p>I help bring order. I turn unclear needs into requirements, constraints, and concrete next steps.</p></div>
+        <div class="mini card reveal"><h3>Concreteness</h3><p>I do not stop at imagining theoretical solutions. I like turning the idea into something real: a demo, a prototype, a tangible tool that can be evaluated and improved together.</p></div>
+        <div class="mini card reveal"><h3>Curiosity</h3><p>Innovation moves fast. I keep studying and experimenting by connecting artificial intelligence, cybersecurity, and design with one goal: finding real applications that bring immediate benefit to the business.</p></div>
       </div>
     </div>
   </section>
   <section class="section">
     <div class="container grid grid-3">
-      <div class="mini card reveal"><h3>{t(lang, "education")}</h3><p>Bachelor in IoT, Big Data and Machine Learning. Master in AI & Cybersecurity in progress, double degree with University of Klagenfurt.</p></div>
-      <div class="mini card reveal"><h3>{t(lang, "currentWork")}</h3><p>AI applied to companies at Aipertech, combining technical analysis, client work, and development.</p></div>
-      <div class="mini card reveal"><h3>{t(lang, "interests")}</h3><p>I am interested in applied AI, AI agents, local LLMs, and cybersecurity, especially when they become product-oriented software, minimal iOS interfaces, and design-conscious solutions.</p></div>
+      <div class="mini card reveal"><h3>{t(lang, "education")}</h3><ul><li>Bachelor’s Degree: IoT, Big Data and Machine Learning</li><li>Master’s Degree: AI & Cybersecurity, international double-degree path with the University of Klagenfurt</li></ul></div>
+      <div class="mini card reveal"><h3>{t(lang, "currentWork")}</h3><p>Development of AI systems at Aipertech: automation, data analysis, and conversational interfaces. Not only a programmer: I also work across technical analysis and client discussion.</p></div>
+      <div class="mini card reveal"><h3>{t(lang, "interests")}</h3><p>I focus on emerging technologies when I recognize their potential. Specifically:</p><ul><li>integration of AI systems and especially Local LLMs (local language models), which I see as the future;</li><li>Product Design: development of interfaces (in iOS environments) that combine minimal logic, attention to detail, and fluid user experience</li></ul></div>
     </div>
   </section>
 </BaseLayout>
@@ -76,8 +76,16 @@ const lang = "en";
     box-shadow: none;
   }
 
-  .mini p {
+  .mini p,
+  .mini ul {
     color: var(--muted);
+  }
+
+  .mini ul {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding-left: 18px;
   }
 
   @media (max-width: 860px) {

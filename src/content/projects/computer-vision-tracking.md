@@ -19,7 +19,7 @@ role:
   it: "Progetto universitario"
 technologies: ["Python", "OpenCV", "Haar Cascade", "Computer vision", "EMA smoothing"]
 featured: false
-cover: "/assets/projects/computer-vision.svg"
+cover: "/assets/projects/computer-vision.png"
 sections:
   - title:
       en: "Problem"

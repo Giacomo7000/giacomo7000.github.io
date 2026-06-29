@@ -18,7 +18,7 @@ role:
   it: "Progetto personale"
 technologies: ["Python", "Sports analytics", "Data processing", "Reporting"]
 featured: false
-cover: "/assets/projects/basketball.svg"
+cover: "/assets/projects/game-plan.png"
 sections:
   - title:
       en: "Context"

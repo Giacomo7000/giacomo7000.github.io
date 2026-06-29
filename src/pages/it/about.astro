@@ -11,13 +11,13 @@ const lang = "it";
   <section class="page-hero container reveal">
     <p class="eyebrow">Chi sono</p>
     <h1>Ho iniziato amando la tecnologia. Ho continuato costruendola.</h1>
-    <p class="lead">Sono Giacomo Mariuzza. Il mio interesse per l'informatica è stato influenzato presto da Apple e dal suo modo di unire tecnologia, design ed esperienza utente. Dopo la triennale in IoT, Big Data and Machine Learning, mi sono avvicinato in modo particolare a reti neurali e sistemi AI.</p>
+    <p class="lead">Sono Giacomo Mariuzza. La mia passione per l'informatica nasce da un'ispirazione precisa: l'approccio di Apple nel fondere tecnologia, design ed esperienza utente. Credo fermamente che un software o un sistema intelligente non debba solo funzionare alla perfezione, ma debba anche risultare intuitivo ed elegante per chiunque lo utilizzi. Dopo la triennale in IoT, Big Data and Machine Learning, ho scelto di specializzarmi con un percorso magistrale in machine learning, sistemi di intelligenza artificiale e cybersecurity.</p>
   </section>
   <section class="section">
     <div class="container two-col">
       <div class="prose reveal">
         <p>Ora sto frequentando la magistrale in AI & Cybersecurity, doppio titolo con University of Klagenfurt, un percorso che mi permette di specializzarmi sia in intelligenza artificiale sia in cybersecurity.</p>
-        <p>In parallelo all'università lavoro in Aipertech, una startup che porta l'AI nelle aziende. Ho iniziato da un ruolo più commerciale e a contatto con i clienti, perché mi piace capire le esigenze, discutere soluzioni realizzabili e ragionare sull'implementazione. Nel tempo il lavoro è diventato un mix tra strategia client-facing e programmazione, che rispecchia bene il mio modo di lavorare.</p>
+        <p>In parallelo all'università lavoro in Aipertech, una startup che porta l'AI nelle aziende. Ho iniziato da un ruolo più commerciale e a contatto con i clienti, perché mi piace capire le esigenze, discutere soluzioni realizzabili e ragionare sull'implementazione. Nel tempo il lavoro è diventato un mix tra analisi tecnica, confronto con i clienti e sviluppo di sistemi AI applicati, dalle pipeline di automazione all'analisi di documenti/immagini fino alle interfacce conversazionali.</p>
       </div>
       <div>
         <h2>{t(lang, "timeline")}</h2>
@@ -29,17 +29,17 @@ const lang = "it";
     <div class="container">
       <SectionHeading eyebrow="Metodo" title={t(lang, "howIWork")} lead="Non mi interessa solo immaginare soluzioni: mi piace metterci mano, testarle, capirne i limiti e farle diventare qualcosa di utile." />
       <div class="grid grid-3">
-        <div class="mini card reveal"><h3>Chiarezza</h3><p>Trasformare esigenze poco definite in requisiti, vincoli e passi concreti.</p></div>
-        <div class="mini card reveal"><h3>Concretezza</h3><p>Mi piace trasformare idee e tecnologie in qualcosa di reale: una demo, un prototipo, uno strumento che si può provare e migliorare.</p></div>
-        <div class="mini card reveal"><h3>Curiosità</h3><p>Continuare a imparare tra AI, software, cybersecurity, design e casi d'uso reali.</p></div>
+        <div class="mini card reveal"><h3>Chiarezza</h3><p>Aiuto a fare ordine. Trasformo esigenze poco definite in requisiti, vincoli e passi concreti.</p></div>
+        <div class="mini card reveal"><h3>Concretezza</h3><p>Non mi limito ad immaginare soluzioni teoriche. Mi piace trasformare l'idea in qualcosa di reale: una demo, un prototipo, uno strumento tangibile che si possa valutare e migliorare insieme.</p></div>
+        <div class="mini card reveal"><h3>Curiosità</h3><p>L'innovazione si muove velocemente. Continuo a studiare e a sperimentare incrociando intelligenza artificiale, cybersecurity e design con un unico obiettivo: trovare applicazioni reali che portino un beneficio immediato al business.</p></div>
       </div>
     </div>
   </section>
   <section class="section">
     <div class="container grid grid-3">
-      <div class="mini card reveal"><h3>{t(lang, "education")}</h3><p>Triennale in IoT, Big Data and Machine Learning. Magistrale in AI & Cybersecurity in corso, doppio titolo con University of Klagenfurt.</p></div>
-      <div class="mini card reveal"><h3>{t(lang, "currentWork")}</h3><p>AI applicata alle aziende in Aipertech, tra analisi tecnica, confronto con clienti e sviluppo.</p></div>
-      <div class="mini card reveal"><h3>{t(lang, "interests")}</h3><p>Mi interessano AI applicata, agenti AI, local LLM e cybersecurity, soprattutto quando diventano software orientato al prodotto, interfacce iOS minimali e soluzioni curate nel design.</p></div>
+      <div class="mini card reveal"><h3>{t(lang, "education")}</h3><ul><li>Laurea Triennale: IOT, Big Data e Machine Learning</li><li>Laurea Magistrale: AI & Cybersecurity, percorso internazionale a doppio titolo assieme alla University of Klagenfurt</li></ul></div>
+      <div class="mini card reveal"><h3>{t(lang, "currentWork")}</h3><p>Sviluppo di sistemi AI in Aipertech: automazione, analisi dati e interfacce conversazionali. Non solo programmatore: lavoro anche tra analisi tecnica e confronto con i clienti.</p></div>
+      <div class="mini card reveal"><h3>{t(lang, "interests")}</h3><p>Mi concentro su tecnologie emergenti quando ne riconosco il potenziale. Nello specifico:</p><ul><li>integrazione di sistemi AI e sopratutto Local LLM (modelli linguistici locali) che per me sono il futuro;</li><li>Product Design: sviluppo di interfacce (in ambiente iOS) che uniscono logica "minimal", cura nel dettaglio ed esperienza utente fluida</li></ul></div>
     </div>
   </section>
 </BaseLayout>
@@ -76,8 +76,16 @@ const lang = "it";
     box-shadow: none;
   }
 
-  .mini p {
+  .mini p,
+  .mini ul {
     color: var(--muted);
+  }
+
+  .mini ul {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding-left: 18px;
   }
 
   @media (max-width: 860px) {
