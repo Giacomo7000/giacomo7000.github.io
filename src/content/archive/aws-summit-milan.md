@@ -16,7 +16,10 @@ sections:
       en: "Reflection"
       it: "Riflessione"
     body:
-      en: "What stood out to me was how every company seemed to give Agentic AI a slightly different nuance. Some framed agents as assistants that use tools, others as systems that plan and execute tasks, and others as components inside business workflows."
+      en: |-
+        I enjoyed the event because it gave me the chance to discover different companies, observe real use cases, and compare different ways of applying artificial intelligence in professional contexts. It was useful to see how organizations interpret Agentic AI depending on their needs: some focus on automation, others on user assistance, and others on integration into existing processes.
+
+        This variety of approaches made me reflect on an important point: the value of an agent does not depend only on its autonomy, but on the quality of the interaction it can build with the user and with the context where it operates.
       it: |-
         L'evento mi è piaciuto molto anche perché mi ha dato l'opportunità di conoscere diverse aziende, osservare casi d'uso reali e confrontarmi con modi differenti di applicare l'intelligenza artificiale in contesti professionali. È stato utile vedere come organizzazioni diverse interpretino l'Agentic AI in base alle proprie esigenze: alcune puntano sull'automazione, altre sull'assistenza all'utente, altre ancora sull'integrazione nei processi già esistenti.
 
@@ -25,7 +28,10 @@ sections:
       en: "Takeaway"
       it: "Takeaway"
     body:
-      en: "The most useful takeaway was practical: a good agent is not necessarily one that does everything alone. Often the important ability is knowing when to stop, ask the user for clarity, and continue with better context."
+      en: |-
+        The most meaningful takeaway was practical: a good agent is not necessarily one that tries to do everything alone. In many cases, the most important ability is knowing when to stop, ask for clarification, gather more context, and then continue more accurately.
+
+        This idea feels central to designing AI systems that are genuinely useful: not only models that can generate answers, but tools that can collaborate with people, reduce ambiguity, and fit reliably into real workflows.
       it: |-
         Il takeaway più significativo è stato pratico: un buon agente non è necessariamente quello che prova a fare tutto da solo. In molti casi, la capacità più importante è sapere quando fermarsi, chiedere chiarimenti, raccogliere più contesto e poi proseguire in modo più accurato.
 
