@@ -12,6 +12,11 @@ dateLabel:
 location: "Research note"
 order: 690
 tags: ["Forecasting", "Time series", "Machine learning"]
+links:
+  - label:
+      en: "Read paper"
+      it: "Leggi il paper"
+    url: "https://arxiv.org/pdf/2510.15821"
 sections:
   - title:
       en: "Focus"

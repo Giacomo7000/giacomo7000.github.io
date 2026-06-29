@@ -5,6 +5,7 @@ import SectionHeading from "@components/SectionHeading.astro";
 import ProjectCard from "@components/ProjectCard.astro";
 import ArchiveCard from "@components/ArchiveCard.astro";
 import GMLogo from "@components/GMLogo.astro";
+import { site } from "@data/site";
 import { getFeaturedProjects, getArchiveEntries } from "@lib/content";
 import { t, localizedPath } from "@lib/i18n";
 
@@ -22,7 +23,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
       <div class="button-row">
         <Button href="/projects">{t(lang, "viewProjects")}</Button>
         <Button href="/contact" variant="secondary">{t(lang, "contactMe")}</Button>
-        <Button href="/cv/giacomo-mariuzza-cv.pdf" variant="secondary">{t(lang, "viewCv")}</Button>
+        <Button href={site.cvPath[lang]} variant="secondary">{t(lang, "viewCv")}</Button>
       </div>
     </div>
     <div class="hero-mark reveal" aria-hidden="true">
@@ -31,7 +32,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
   </section>
   <section class="section">
     <div class="container split">
-      <SectionHeading eyebrow="About" title="AI, software, and real-world problems." lead="Between AI, software, and cybersecurity, I try to understand things by putting them to the test: small prototypes, automations, local models, and practical tools. I work on applied AI solutions, but what interests me most is the transition from idea, to experiment, to real use." />
+      <SectionHeading eyebrow="About" title="AI, software, and real-world problems." lead="Between AI, software, and cybersecurity, I learn by putting things to the test: small prototypes, automations, local models, and practical tools. I work on applied AI solutions, but what interests me most is the transition from idea, to experiment, to real use." />
       <Button href="/about" variant="secondary">Read about me</Button>
     </div>
   </section>

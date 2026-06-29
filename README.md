@@ -1,8 +1,92 @@
 # Giacomo Mariuzza Portfolio
 
-Professional bilingual personal website for Giacomo Mariuzza, built with Astro, TypeScript, content collections, static pages, light/dark theme support, and GitHub Pages deployment.
+This repository contains the source code for Giacomo Mariuzza's bilingual personal portfolio, published at `giacomo7000.github.io`.
 
-## Commands
+The site presents projects, archive entries, professional background, contact links, and downloadable CVs in English and Italian. It is built as a static Astro website, so content is generated at build time and deployed as static HTML, CSS, JavaScript, images, and PDFs.
+
+## Technical Overview
+
+The project uses Astro with TypeScript and Astro Content Collections. Pages are rendered from structured Markdown frontmatter and reusable `.astro` components. This keeps the public content editable as data while preserving a consistent visual structure across project pages, archive pages, cards, navigation, and layout.
+
+The website supports:
+
+- English and Italian page variants.
+- Project and archive detail pages generated from content collections.
+- Static routing for GitHub Pages.
+- Light/dark theme support.
+- Public assets for project covers, archive images, branding, favicon, and CV PDFs.
+- Optional analytics through public environment variables.
+
+## Project Structure
+
+```text
+src/
+  components/        Reusable UI blocks such as cards, footer, header, timeline, and detail views
+  content/
+    projects/        Project entries rendered into /projects and /it/projects
+    archive/         Archive entries rendered into /archive and /it/archive
+  data/              Site-wide constants such as profile links, email, CV paths, and navigation items
+  layouts/           Base HTML layout shared by all pages
+  lib/               Localization, content loading, search data, and date formatting helpers
+  pages/             Astro routes for EN and IT pages
+  styles/            Global CSS, theme variables, layout primitives, and shared UI classes
+
+public/
+  assets/            Public images, SVGs, project covers, archive media, and brand files
+  cv/                Public downloadable CV PDFs
+  favicon/           Favicon assets
+```
+
+## Content Model
+
+Projects and archive entries are stored as Markdown files with structured frontmatter. Each entry contains localized `en` and `it` fields for titles, summaries, labels, and body sections.
+
+Project entries include data such as:
+
+- title and subtitle
+- summary
+- year and optional date
+- role, status, and technologies
+- cover image
+- optional external links
+- detail sections
+
+Archive entries include:
+
+- title and summary
+- date and optional visible date label
+- location
+- tags
+- optional gallery and external links
+- detail sections
+
+Ordering is controlled by the `order` field. Higher values appear first in listings and home-page selections.
+
+## Localization
+
+The site uses separate English and Italian routes:
+
+- English pages are served from root paths such as `/`, `/projects`, and `/archive`.
+- Italian pages are served from `/it`, `/it/projects`, and `/it/archive`.
+
+Reusable helpers in `src/lib/i18n.ts` select localized strings, build localized paths, and connect EN/IT page variants. Shared content files provide both languages in the same entry so each project or archive item stays synchronized.
+
+## Assets And CVs
+
+Public files live under `public/`, which is copied into the final static build. Project images and archive images are referenced through absolute public paths such as `/assets/projects/...`.
+
+The CV links are language-specific:
+
+```text
+public/cv/CV_Giacomo_Mariuzza_english.pdf
+public/cv/CV_Giacomo_Mariuzza_italiano.pdf
+```
+
+Private source materials, drafts, raw documents, datasets, and unapproved client details are intentionally kept outside `public/` so they are not shipped with the website.
+
+## Build And Deployment
+
+The site can be built locally with Astro:
 
 ```bash
 pnpm install
@@ -11,73 +95,19 @@ pnpm build
 pnpm preview
 ```
 
-## Content
+Production deployment is handled by GitHub Actions in `.github/workflows/deploy.yml`. On pushes to `main`, the workflow builds Astro's static `dist/` output and publishes it through GitHub Pages.
 
-Projects live in:
+## Environment Variables
 
-```text
-src/content/projects/
-```
+Optional public environment variables are documented in `.env.example`.
 
-Archive entries live in:
-
-```text
-src/content/archive/
-```
-
-Each content file contains English and Italian fields. Edit those Markdown frontmatter files to update titles, summaries, status, roles, technologies, detail sections, dates, links, and TODO notes.
-
-Project ordering uses the `order` field. Higher numbers appear first, so newer work can be shown before older work.
-
-## Assets
-
-Public assets are under:
-
-```text
-public/assets/
-public/cv/
-```
-
-Private working files outside this site are not part of the public website and must not be edited, moved, renamed, or published directly. Raw PDFs, datasets, archives, internal documents, and confidential client details should stay out of `public/`.
-
-The public CV file used by the site is:
-
-```text
-public/cv/giacomo-mariuzza-cv.pdf
-```
-
-## Configuration
-
-Copy `.env.example` to `.env` only for local configuration. Do not commit real secrets or private tracking keys.
-
-Supported public environment variables:
+Supported values:
 
 ```text
 PUBLIC_SITE_URL
 PUBLIC_PLAUSIBLE_DOMAIN
 PUBLIC_UMAMI_WEBSITE_ID
 PUBLIC_UMAMI_SCRIPT_URL
-PUBLIC_FORMSPREE_ENDPOINT
 ```
 
-Analytics scripts render only when the relevant public variables are set. The contact form falls back to `mailto:` when `PUBLIC_FORMSPREE_ENDPOINT` is not configured.
-
-## Deployment
-
-GitHub Pages deployment is configured in:
-
-```text
-.github/workflows/deploy.yml
-```
-
-The workflow builds Astro’s default `dist/` output and deploys on pushes to `main`.
-
-For a user/organization GitHub Pages repository named `<github-username>.github.io`, set repository Pages source to GitHub Actions.
-
-## Current TODOs
-
-- Confirm exact dates for archive entries that currently use a broad year.
-- Replace placeholder project links with real public URLs when available.
-- Confirm which project screenshots are approved for public use.
-- Keep Aipertech/client work generic unless specific public details are explicitly approved.
-- Configure Formspree, Plausible, or Umami only when production IDs are available.
+Analytics scripts render only when their public variables are configured.

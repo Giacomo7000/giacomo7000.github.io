@@ -43,6 +43,10 @@ const archive = defineCollection({
     cover: z.string().optional(),
     gallery: z.array(z.string()).default([]),
     tags: z.array(z.string()).default([]),
+    links: z.array(z.object({
+      label: localizedString,
+      url: z.string()
+    })).default([]),
     sections: z.array(z.object({
       title: localizedString,
       body: localizedString

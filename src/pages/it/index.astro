@@ -5,6 +5,7 @@ import SectionHeading from "@components/SectionHeading.astro";
 import ProjectCard from "@components/ProjectCard.astro";
 import ArchiveCard from "@components/ArchiveCard.astro";
 import GMLogo from "@components/GMLogo.astro";
+import { site } from "@data/site";
 import { getFeaturedProjects, getArchiveEntries } from "@lib/content";
 import { t, localizedPath } from "@lib/i18n";
 
@@ -22,7 +23,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
       <div class="button-row">
         <Button href="/it/projects">{t(lang, "viewProjects")}</Button>
         <Button href="/it/contact" variant="secondary">{t(lang, "contactMe")}</Button>
-        <Button href="/cv/giacomo-mariuzza-cv.pdf" variant="secondary">{t(lang, "viewCv")}</Button>
+        <Button href={site.cvPath[lang]} variant="secondary">{t(lang, "viewCv")}</Button>
       </div>
     </div>
     <div class="hero-mark reveal" aria-hidden="true">
@@ -31,7 +32,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
   </section>
   <section class="section">
     <div class="container split">
-      <SectionHeading eyebrow="Chi sono" title="AI, software e problemi reali." lead="Tra AI, software e cybersecurity, cerco di capire le cose mettendole alla prova: piccoli prototipi, automazioni, modelli locali, strumenti pratici. Lavoro su soluzioni AI applicate, ma mi interessa soprattutto il passaggio tra idea, esperimento e utilizzo reale." />
+      <SectionHeading eyebrow="Chi sono" title="AI, software e problemi reali." lead="Tra AI, software e cybersecurity, imparo mettendo le cose alla prova: piccoli prototipi, automazioni, modelli locali, strumenti pratici. Lavoro su soluzioni AI applicate, ma mi interessa soprattutto il passaggio tra idea, esperimento e utilizzo reale." />
       <Button href="/it/about" variant="secondary">Leggi di più</Button>
     </div>
   </section>

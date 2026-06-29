@@ -32,6 +32,15 @@ const displayDate = formatArchiveDate(entry.data, lang);
       {entry.data.gallery.map((image) => <img src={image} alt="" loading="lazy" />)}
     </section>
   )}
+  {entry.data.links.length > 0 && (
+    <section class="content-block reveal">
+      <div class="button-row">
+        {entry.data.links.map((link) => (
+          <a class="button" href={link.url} target="_blank" rel="noreferrer">{localize(link.label, lang)}</a>
+        ))}
+      </div>
+    </section>
+  )}
 </article>
 
 <style>
