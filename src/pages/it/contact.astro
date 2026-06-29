@@ -3,10 +3,8 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import Button from "@components/Button.astro";
 import SectionHeading from "@components/SectionHeading.astro";
 import { site } from "@data/site";
-import { t } from "@lib/i18n";
 
 const lang = "it";
-const endpoint = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT;
 ---
 
 <BaseLayout lang={lang} title="Contatti" path="/it/contact" description="Contatta Giacomo Mariuzza per conversazioni professionali e progetti AI applicati.">
@@ -22,14 +20,13 @@ const endpoint = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT;
           <Button href={site.cvPath} variant="secondary">CV</Button>
         </div>
       </div>
-      <form class="contact-card card reveal" action={endpoint || `mailto:${site.email}`} method={endpoint ? "POST" : "GET"}>
-        <label>{t(lang, "name")}<input name="name" autocomplete="name" /></label>
-        <label>Email<input name="email" type="email" autocomplete="email" /></label>
-        <label>{t(lang, "message")}<textarea name="message" rows="5"></textarea></label>
-        <input class="honeypot" name="company" tabindex="-1" autocomplete="off" />
-        <button class="button" type="submit">{t(lang, "send")}</button>
-        <p>{t(lang, "formNote")}</p>
-      </form>
+      <div class="contact-card card reveal">
+        <h2>Meglio via email</h2>
+        <p>Mandami una nota breve con contesto del progetto, tempi o domanda. Ti rispondo dalla mia inbox principale.</p>
+        <div class="button-row">
+          <Button href={`mailto:${site.email}`}>Scrivimi via email</Button>
+        </div>
+      </div>
     </div>
   </section>
 </BaseLayout>
@@ -59,29 +56,6 @@ const endpoint = import.meta.env.PUBLIC_FORMSPREE_ENDPOINT;
 
   .contact-card p {
     color: var(--muted);
-  }
-
-  label {
-    display: grid;
-    gap: 7px;
-    color: var(--muted);
-    font-size: 0.88rem;
-    font-weight: 800;
-  }
-
-  input,
-  textarea {
-    width: 100%;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface-strong);
-    color: var(--text);
-    padding: 12px;
-  }
-
-  .honeypot {
-    position: absolute;
-    left: -9999px;
   }
 
   @media (max-width: 820px) {
