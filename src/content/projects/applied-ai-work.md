@@ -26,18 +26,18 @@ sections:
       en: "Context"
       it: "Contesto"
     body:
-      en: "Alongside my studies, I work at Aipertech, a startup that helps companies adopt AI. My role combines client-facing work, technical scoping, implementation discussions, testing, and development."
-      it: "In parallelo agli studi lavoro in Aipertech, una startup che aiuta le aziende ad adottare l'AI. Il mio ruolo combina lavoro a contatto con i clienti, analisi tecnica, confronto sull'implementazione, test e sviluppo."
+      en: "I work in this startup alongside my university studies. It is the context where my technical training meets real business needs, covering the full cycle: from client discussion to development."
+      it: "Lavoro in questa startup parallelamente agli studi universitari. È il contesto in cui la mia formazione tecnica incontra le reali necessità del business coprendo l'intero ciclo: dal confronto con il cliente allo sviluppo."
   - title:
       en: "What I do"
       it: "Cosa faccio"
     body:
-      en: "My work touches areas such as workflow automation, document and image analysis, AI-assisted processes, and conversational interfaces. I keep client details confidential, but this experience represents the point where my technical background meets real-world business needs."
-      it: "Il mio lavoro tocca aree come automazione di workflow, analisi di documenti e immagini, processi assistiti dall'AI e interfacce conversazionali. Mantengo riservati i dettagli dei clienti, ma questa esperienza rappresenta il punto in cui il mio background tecnico incontra esigenze aziendali reali."
+      en: "My work touches areas such as workflow automation, document and image analysis, AI-assisted processes, and conversational interfaces. I keep specific project details confidential."
+      it: "Il mio lavoro tocca aree come automazione di workflow, analisi di documenti e immagini, processi assistiti dall'AI e interfacce conversazionali. Mantengo riservati i dettagli specifici dei progetti."
   - title:
       en: "Learning"
       it: "Cosa sto imparando"
     body:
-      en: "This work is teaching me how to translate business needs into feasible AI solutions, where technical constraints, user expectations, accuracy, and implementation strategy all matter."
-      it: "Questo lavoro mi sta insegnando a tradurre esigenze aziendali in soluzioni AI realizzabili, dove contano vincoli tecnici, aspettative utente, accuratezza e strategia di implementazione."
+      en: "This field experience is teaching me how to translate business goals into concrete AI solutions, balancing technical constraints, model accuracy, user experience, and implementation strategy."
+      it: "Questa esperienza sul campo mi sta insegnando a tradurre gli obiettivi aziendali in soluzioni AI concrete, bilanciando vincoli tecnici, accuratezza dei modelli, esperienza utente e strategia di implementazione."
 ---

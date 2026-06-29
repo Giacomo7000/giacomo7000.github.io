@@ -6,6 +6,7 @@ import { formatProjectDate } from "@lib/dates";
 
 const { project, lang } = Astro.props as { project: CollectionEntry<"projects">; lang: Lang };
 const displayDate = formatProjectDate(project.data, lang);
+const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
 ---
 
 <article class="detail container">
@@ -27,7 +28,7 @@ const displayDate = formatProjectDate(project.data, lang);
     {project.data.sections.map((section) => (
       <div class="content-block reveal">
         <h2>{localize(section.title, lang)}</h2>
-        <p>{localize(section.body, lang)}</p>
+        {sectionParagraphs(localize(section.body, lang)).map((paragraph) => <p>{paragraph}</p>)}
       </div>
     ))}
   </section>

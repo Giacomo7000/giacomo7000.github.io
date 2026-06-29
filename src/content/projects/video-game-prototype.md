@@ -30,12 +30,24 @@ sections:
       en: "Concept"
       it: "Concept"
     body:
-      en: "UNIT-7 is a videogame that represents the life and experience of an artificial intelligence. The player moves through three levels, solving puzzles while dealing with pressure from a countdown."
-      it: "UNIT-7 e' un videogioco che rappresenta la vita e l'esperienza di un'intelligenza artificiale. Il giocatore attraversa tre livelli, risolvendo puzzle mentre gestisce la pressione di un conto alla rovescia."
+      en: "UNIT-7 is a first-person 3D puzzle game set inside a futuristic building divided into three levels of increasing difficulty. The player wakes up with no memories and one goal: reach the central terminal before the timer runs out. What looks like a classic time loop turns out to be something else: in the third level we discover that the protagonist is not human, but an artificial intelligence in training. The loop is not a bug, but a system that was never shut down and keeps improving with every iteration."
+      it: "UNIT-7 è un puzzle game 3D in prima persona, ambientato in un edificio futuristico suddiviso in tre livelli di difficoltà crescente. Il giocatore si risveglia senza ricordi, con un solo obiettivo: raggiungere il terminale centrale prima che il timer scada. Quello che sembra un classico time-loop si rivela essere altro: nel terzo livello scopriamo che il protagonista non è umano, ma un'intelligenza artificiale in fase di addestramento. Il loop non è un bug, ma un sistema che non è mai stato spento, e che continua a migliorare a ogni iterazione."
   - title:
       en: "Mechanic"
       it: "Meccanica"
     body:
-      en: "The core mechanic is a time loop: the user plays against time, and if the timer runs out, the experience restarts from the beginning. This creates tension while reinforcing the idea of learning through repeated attempts."
-      it: "La meccanica centrale e' un time-loop: l'utente gioca contro il tempo e, se il timer finisce, l'esperienza ricomincia dall'inizio. Questo crea tensione e rafforza l'idea di apprendimento attraverso tentativi ripetuti."
+      en: "The heart of the game is a timed system: if the countdown expires, the level starts again and progress is lost, but knowledge remains in the real player's mind. It follows the same logic as training a machine learning model: each epoch restarts from zero, but carries the learning from the previous one. For this reason there is no real game-over screen: failure is not a punishment, it is part of the process."
+      it: "Il cuore del gioco è un sistema a tempo: se il countdown scade, il livello ricomincia da capo e i progressi si perdono, ma la conoscenza resta nella testa del giocatore reale. È la stessa logica con cui un modello di machine learning si addestra: ogni epoca riparte da zero, ma porta con sé l'apprendimento di quella precedente. Per questo non esiste una vera schermata di game over: il fallimento non è una punizione, è parte del processo."
+  - title:
+      en: "Level design"
+      it: "Design dei livelli"
+    body:
+      en: "Difficulty grows level by level, but the type of challenge changes too: in the first level the player learns the rules through free exploration, in the second memory becomes important, understanding which puzzles really matter and which are distractions, and in the third efficiency matters, optimizing the route after building knowledge through previous attempts. The progression is designed to mirror how an AI system moves from exploratory behavior to increasingly focused behavior."
+      it: "La difficoltà cresce livello per livello, ma cambia anche il tipo di sfida: nel primo si imparano le regole tramite esplorazione libera, nel secondo entra in gioco la memoria, capire quali puzzle contano davvero e quali sono solo distrazioni, nel terzo conta l'efficienza, ottimizzare il percorso dopo aver accumulato conoscenza nei tentativi precedenti. Un crescendo pensato per rispecchiare il modo in cui un sistema AI passa da un comportamento esplorativo a uno via via più mirato."
+  - title:
+      en: "What I learned"
+      it: "Cosa ho imparato"
+    body:
+      en: "Working on UNIT-7 made me understand how much a game mechanic can become the explanation of a technical concept itself: the time loop is not only a game-design element, it is a playable metaphor for how an AI learns by trial and error. It was an exercise in conceptual design before technical implementation, translating an idea (training by epochs) into an experience that the player understands intuitively, without needing explicit explanations."
+      it: "Lavorare su UNIT-7 mi ha fatto capire quanto una meccanica di gioco possa diventare essa stessa la spiegazione di un concetto tecnico: il time-loop non è solo un elemento di game design, è una metafora giocabile di come un'AI apprende per tentativi ed errori. È stato un esercizio di design concettuale prima che tecnico, tradurre un'idea (l'addestramento per epoche) in un'esperienza che il giocatore capisce intuitivamente, senza bisogno di spiegazioni esplicite."
 ---

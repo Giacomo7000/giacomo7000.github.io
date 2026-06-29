@@ -18,7 +18,7 @@ role:
   it: "Progetto universitario in team (E-Racing)"
 technologies: ["Autonomous systems", "Path planning", "YOLOv2", "PyTorch", "CGAL", "Delaunay triangulation", "Pure pursuit"]
 featured: false
-cover: "/assets/archive/driverless.svg"
+cover: "/assets/projects/path-planning.png"
 sections:
   - title:
       en: "Context"
