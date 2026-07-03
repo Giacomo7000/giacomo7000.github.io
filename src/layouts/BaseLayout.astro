@@ -73,13 +73,24 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
         appleIcon?.setAttribute("href", pngHref);
       };
 
+      const setLogos = (theme) => {
+        document.querySelectorAll("[data-theme-logo]").forEach((logo) => {
+          const nextSrc = theme === "dark" ? logo.dataset.darkSrc : logo.dataset.lightSrc;
+          if (nextSrc && logo.getAttribute("src") !== nextSrc) {
+            logo.setAttribute("src", nextSrc);
+          }
+        });
+      };
+
       const toggle = document.querySelector("[data-theme-toggle]");
       setFavicon(document.documentElement.dataset.theme);
+      setLogos(document.documentElement.dataset.theme);
       toggle?.addEventListener("click", () => {
         const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
         document.documentElement.dataset.theme = next;
         localStorage.setItem("theme", next);
         setFavicon(next);
+        setLogos(next);
       });
 
       const observer = "IntersectionObserver" in window && new IntersectionObserver((entries) => {
