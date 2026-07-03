@@ -27,7 +27,7 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
 ---
 
 <!doctype html>
-<html lang={lang} data-theme="light">
+<html lang={lang} data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,8 +46,7 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
     <meta name="twitter:image" content={imageUrl} />
     <script is:inline>
       const savedTheme = localStorage.getItem("theme");
-      const preferredTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-      document.documentElement.dataset.theme = savedTheme || preferredTheme;
+      document.documentElement.dataset.theme = savedTheme || "dark";
     </script>
     {plausibleDomain && <script defer data-domain={plausibleDomain} src="https://plausible.io/js/script.js"></script>}
     {umamiId && umamiScript && <script defer src={umamiScript} data-website-id={umamiId}></script>}
