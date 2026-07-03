@@ -1,17 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title id="title">GM monogram v2 light mode</title>
-  <desc id="desc">Clear minimal GM monogram for Giacomo Mariuzza, using a readable geometric G around a precise M.</desc>
-  <rect width="512" height="512" rx="96" fill="#F4EFE7"/>
-  <g fill="none" stroke="#1D2527" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Clear geometric G -->
-    <path d="M358 156
-             A142 142 0 1 0 358 356" stroke-width="36"/>
-    <path d="M358 256 H292" stroke-width="36"/>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>GM logo icon</title>
+  <rect x="0" y="0" width="1024" height="1024" rx="160" fill="#1C1F22"/>
 
-    <!-- More readable integrated M -->
-    <path d="M164 344 V192
-             L256 306
-             L348 192
-             V344" stroke-width="34"/>
+  <!-- Monogram -->
+  <g stroke="#F6E8D3" stroke-width="52" stroke-linecap="round" stroke-linejoin="round">
+    <!-- G outer curve and top continuation into M -->
+    <path d="M442 721
+             C316 721 212 631 212 508
+             C212 382 316 284 443 284
+             C505 284 562 304 604 344
+             L688 428
+             L838 278" />
+
+    <!-- Inner G horizontal bar -->
+    <path d="M396 480 L548 480" />
+
+    <!-- 7 diagonal, integrated with the G -->
+    <path d="M548 480 L444 855" />
+
+    <!-- Lower rounded G continuation, slightly beyond the 7 diagonal -->
+    <path d="M318 705
+             C354 726 401 736 452 734
+             L545 734" />
+
+    <!-- Right vertical M stem -->
+    <path d="M838 278 L838 721" />
   </g>
 </svg>
