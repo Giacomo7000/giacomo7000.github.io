@@ -1,29 +1,12 @@
-<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
   <title>GM logo icon</title>
-  <rect x="0" y="0" width="1024" height="1024" rx="160" fill="#1C1F22"/>
-
-  <!-- Monogram -->
-  <g stroke="#F6E8D3" stroke-width="52" stroke-linecap="round" stroke-linejoin="round">
-    <!-- G outer curve and top continuation into M -->
-    <path d="M442 721
-             C316 721 212 631 212 508
-             C212 382 316 284 443 284
-             C505 284 562 304 604 344
-             L688 428
-             L838 278" />
-
-    <!-- Inner G horizontal bar -->
-    <path d="M396 480 L548 480" />
-
-    <!-- 7 diagonal, integrated with the G -->
-    <path d="M548 480 L444 855" />
-
-    <!-- Lower rounded G continuation, slightly beyond the 7 diagonal -->
-    <path d="M318 705
-             C354 726 401 736 452 734
-             L545 734" />
-
-    <!-- Right vertical M stem -->
-    <path d="M838 278 L838 721" />
-  </g>
+  <style>
+    .dark { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .light { display: none; }
+      .dark { display: block; }
+    }
+  </style>
+  <image class="light" href="favicon-light.png" width="512" height="512" />
+  <image class="dark" href="favicon-dark.png" width="512" height="512" />
 </svg>

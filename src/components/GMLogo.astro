@@ -27,11 +27,11 @@ const { size = 34 } = Astro.props;
     display: none;
   }
 
-  :root[data-theme="dark"] .logo-light {
+  :global(:root[data-theme="dark"]) .logo-light {
     display: none;
   }
 
-  :root[data-theme="dark"] .logo-dark {
+  :global(:root[data-theme="dark"]) .logo-dark {
     display: block;
   }
 </style>

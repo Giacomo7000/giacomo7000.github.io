@@ -34,7 +34,9 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/favicon/favicon.png" type="image/png" />
+    <link rel="icon" href="/favicon/favicon-light.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon/favicon-light.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/favicon/favicon-light.png" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
@@ -46,7 +48,9 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
     <meta name="twitter:image" content={imageUrl} />
     <script is:inline>
       const savedTheme = localStorage.getItem("theme");
-      document.documentElement.dataset.theme = savedTheme || "dark";
+      const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      const initialTheme = savedTheme === "dark" || savedTheme === "light" ? savedTheme : systemTheme;
+      document.documentElement.dataset.theme = initialTheme;
     </script>
     {plausibleDomain && <script defer data-domain={plausibleDomain} src="https://plausible.io/js/script.js"></script>}
     {umamiId && umamiScript && <script defer src={umamiScript} data-website-id={umamiId}></script>}
@@ -58,11 +62,24 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
     </main>
     <Footer lang={lang} />
     <script is:inline>
+      const setFavicon = (theme) => {
+        const icon = document.querySelector('link[rel="icon"]');
+        const pngIcon = document.querySelector('link[rel="alternate icon"]');
+        const appleIcon = document.querySelector('link[rel="apple-touch-icon"]');
+        const iconHref = theme === "dark" ? "/favicon/favicon-dark.svg" : "/favicon/favicon-light.svg";
+        const pngHref = theme === "dark" ? "/favicon/favicon-dark.png" : "/favicon/favicon-light.png";
+        icon?.setAttribute("href", iconHref);
+        pngIcon?.setAttribute("href", pngHref);
+        appleIcon?.setAttribute("href", pngHref);
+      };
+
       const toggle = document.querySelector("[data-theme-toggle]");
+      setFavicon(document.documentElement.dataset.theme);
       toggle?.addEventListener("click", () => {
         const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
         document.documentElement.dataset.theme = next;
         localStorage.setItem("theme", next);
+        setFavicon(next);
       });
 
       const observer = "IntersectionObserver" in window && new IntersectionObserver((entries) => {
