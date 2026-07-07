@@ -19,12 +19,12 @@ role:
   it: "Progetto universitario di gruppo"
 technologies: ["Game design", "Game programming", "Puzzle design", "Time-loop mechanic"]
 featured: false
-cover: "/assets/projects/unit-7.svg"
+cover: "/assets/projects/unit-7-level-3.png"
 links:
   - label:
-      en: "Release page placeholder"
-      it: "Placeholder pagina release"
-    url: "#"
+      en: "Download"
+      it: "Installa"
+    url: "https://github.com/Giacomo7000/UNIT-7/releases/tag/Version_1.0.0"
 sections:
   - title:
       en: "Concept"
