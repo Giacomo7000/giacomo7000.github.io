@@ -1,0 +1,124 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import books from "@data/books.json";
+import type { Lang } from "@data/site";
+import { localizedPath, t } from "@lib/i18n";
+
+const { lang } = Astro.props as { lang: Lang };
+const catalog = [...books].sort((a, b) => b.position - a.position);
+---
+
+<BaseLayout lang={lang} title={t(lang, "readingTitle")} description={t(lang, "readingDescription")} path={localizedPath(lang, "/reading")}>
+  <section class="reading-page container" aria-labelledby="reading-title">
+    <header class="reading-intro">
+      <p class="eyebrow">{t(lang, "reading")}</p>
+      <h1 id="reading-title">{t(lang, "readingTitle")}</h1>
+      <p class="lead">{t(lang, "readingDescription")}</p>
+    </header>
+    <ul class="bookshelf" role="list">
+      {catalog.map((book, index) => (
+        <li class="book">
+          <div class="book-cover">
+            {book.cover ? (
+              <img src={book.cover} alt="" width="600" height="900" loading={index < 4 ? "eager" : "lazy"} decoding="async" />
+            ) : (
+              <span class="cover-pending">{t(lang, "coverPending")}</span>
+            )}
+          </div>
+          <h2 class="book-caption">{book.title} — {book.author}</h2>
+        </li>
+      ))}
+    </ul>
+    <p class="cover-credit">{t(lang, "coverCredit")}</p>
+  </section>
+</BaseLayout>
+
+<style>
+  .reading-page {
+    padding-block: clamp(48px, 7vw, 82px) clamp(64px, 8vw, 96px);
+  }
+
+  .reading-intro {
+    display: grid;
+    gap: 20px;
+    margin-bottom: clamp(36px, 5vw, 60px);
+    max-width: 850px;
+  }
+
+  .reading-intro .eyebrow { margin: 0; }
+
+  h1 {
+    max-width: 780px;
+    font-size: clamp(2.7rem, 6vw, 5.8rem);
+    text-wrap: balance;
+  }
+
+  .bookshelf {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(32px, 4vw, 48px) clamp(16px, 2.5vw, 28px);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .book { min-width: 0; }
+
+  .book-cover {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    transition: transform var(--transition), border-color var(--transition);
+  }
+
+  .book-cover img {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    object-fit: contain;
+    border-radius: calc(var(--radius) - 1px);
+  }
+
+  .book-caption {
+    margin-top: 16px;
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    font-weight: 750;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .cover-pending {
+    padding: 20px;
+    color: var(--muted);
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .cover-credit {
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .book:hover .book-cover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .bookshelf { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
+  @media (max-width: 600px) {
+    .bookshelf { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .book-caption { font-size: 0.88rem; margin-top: 12px; }
+  }
+</style>

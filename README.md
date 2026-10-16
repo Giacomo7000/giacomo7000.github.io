@@ -17,6 +17,32 @@ The website supports:
 - Public assets for project covers, archive images, branding, favicon, and CV PDFs.
 - Optional analytics through public environment variables.
 
+## Reading catalog
+
+Edit `src/data/books.json` to maintain the catalog at `/reading` and `/it/reading`.
+Each entry needs `title`, `author`, `cover` (a path under `public/`), and a unique
+numeric `position`. Keep entries in reading order, oldest first; the page sorts a
+copy by descending position so the most recent book appears first. No reading
+dates are inferred. Add a new entry with the next position; neither page needs
+editing. Titles and authors are shared verbatim across both languages; UI labels
+live in `src/lib/i18n.ts`.
+
+Keep `isbn`, `publisher`, `language`, `source` (the edition's catalog page), and
+`coverSource` (the original image URL) with each entry to make edition and image
+provenance reviewable. Assets in `public/assets/books/` are local WebP copies,
+resized without enlargement or cropping. Cover artwork belongs to the respective
+publishers and rights holders; it is not covered by a repository license.
+
+Without the owner's ISBNs, cover variants cannot be confirmed against their
+physical copies. The selected editions are documented in the data: Penguin
+English Library for Orwell, Planet Manga volume 1 for Pluto, Mondadori Vivavoce
+for Faggin, and Sceptre's English paperback for Dobelli. The Bompiani edition of
+Coelho is cataloged as ISBN 9788845210266. Mister Facebook (Barbera) and
+L'alchimista have `cover: null`: the verified sources only provided small images
+(roughly 200 pixels wide), so the catalog uses a localized neutral placeholder
+instead of enlarging a blurry image or substituting another book/edition. Set
+`cover` and `coverSource` once suitable artwork is available.
+
 ## Project Structure
 
 ```text

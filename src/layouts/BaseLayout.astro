@@ -2,6 +2,7 @@
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
 import { site, type Lang } from "@data/site";
+import { t } from "@lib/i18n";
 import "../styles/global.css";
 
 const {
@@ -47,17 +48,20 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageUrl} />
     <script is:inline>
-      const savedTheme = localStorage.getItem("theme");
+      let savedTheme;
+      try { savedTheme = localStorage.getItem("theme"); } catch {}
       const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
       const initialTheme = savedTheme === "dark" || savedTheme === "light" ? savedTheme : systemTheme;
       document.documentElement.dataset.theme = initialTheme;
     </script>
+    <noscript><style is:inline>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
     {plausibleDomain && <script defer data-domain={plausibleDomain} src="https://plausible.io/js/script.js"></script>}
     {umamiId && umamiScript && <script defer src={umamiScript} data-website-id={umamiId}></script>}
   </head>
   <body>
+    <a class="skip-link" href="#main-content">{t(lang, "skipToContent")}</a>
     <Header lang={lang} path={path} />
-    <main>
+    <main id="main-content" tabindex="-1">
       <slot />
     </main>
     <Footer lang={lang} />
@@ -88,7 +92,7 @@ const umamiScript = import.meta.env.PUBLIC_UMAMI_SCRIPT_URL;
       toggle?.addEventListener("click", () => {
         const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
         document.documentElement.dataset.theme = next;
-        localStorage.setItem("theme", next);
+        try { localStorage.setItem("theme", next); } catch {}
         setFavicon(next);
         setLogos(next);
       });

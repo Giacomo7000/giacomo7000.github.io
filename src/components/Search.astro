@@ -14,7 +14,7 @@ const localizedItems = items.map((item) => ({
 <section class="search card reveal" aria-labelledby="search-title">
   <label id="search-title" for="site-search">{t(lang, "search")}</label>
   <input id="site-search" type="search" placeholder={t(lang, "searchPlaceholder")} data-search-input />
-  <div class="results" data-search-results hidden></div>
+  <div class="results" data-search-results aria-live="polite" hidden></div>
   <template data-empty>{t(lang, "noResults")}</template>
 </section>
 
@@ -70,6 +70,8 @@ const localizedItems = items.map((item) => ({
     display: grid;
     gap: 8px;
   }
+
+  .results[hidden] { display: none; }
 
   .results :global(a) {
     display: grid;

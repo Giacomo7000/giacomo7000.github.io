@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "cover": "/assets/books/elon-musk.webp",
+    "position": 1,
+    "publisher": "Hoepli",
+    "isbn": "9788820380984",
+    "language": "it",
+    "source": "https://www.hoepli.it/libro/elon-musk/9788820380984.html",
+    "coverSource": "https://copertine.hoepli.it/archivio/978/8820/9788820380984.jpg"
+  },
+  {
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "cover": "/assets/books/nineteen-eighty-four.webp",
+    "position": 2,
+    "publisher": "Penguin Classics",
+    "isbn": "9780241341650",
+    "language": "en",
+    "source": "https://www.penguin.co.uk/books/57013/nineteen-eighty-four-by-orwell-george/9780241341650",
+    "coverSource": "https://cdn.penguin.co.uk/dam-assets/books/9780241341650/9780241341650-jacket-large.jpg"
+  },
+  {
+    "title": "Mister Facebook",
+    "author": "Jack Burton",
+    "cover": null,
+    "position": 3,
+    "publisher": "Barbera",
+    "isbn": "9788878994805",
+    "language": "it",
+    "source": "https://www.hoepli.it/libro/mister-facebook/9788878994805.html",
+    "coverSource": null,
+    "coverNote": "Verified title and publisher; available source images are too small. Add a high-resolution cover of this edition when available."
+  },
+  {
+    "title": "Vendere tutto",
+    "author": "Brad Stone",
+    "cover": "/assets/books/vendere-tutto.webp",
+    "position": 4,
+    "publisher": "Hoepli",
+    "isbn": "9788820359447",
+    "language": "it",
+    "source": "https://www.hoepli.it/libro/vendere-tutto/9788820359447.html",
+    "coverSource": "https://copertine.hoepli.it/archivio/978/8820/9788820359447.jpg"
+  },
+  {
+    "title": "Pluto",
+    "author": "Naoki Urasawa",
+    "cover": "/assets/books/pluto.webp",
+    "position": 5,
+    "publisher": "Panini Comics / Planet Manga",
+    "isbn": "9788891299314",
+    "language": "it",
+    "source": "https://www.comix21.it/fumetti-manga-comics-vendita-online/3396-pluto-1.html",
+    "coverSource": "https://www.comix21.it/68547-large_default/pluto-1.jpg"
+  },
+  {
+    "title": "Steve Jobs. La storia continua",
+    "author": "Jay Elliot, William L. Simon",
+    "cover": "/assets/books/steve-jobs.webp",
+    "position": 6,
+    "publisher": "Hoepli",
+    "isbn": "9788820352271",
+    "language": "it",
+    "source": "https://www.hoepli.it/libro/steve-jobs---la-storia-continua/9788820352271.html",
+    "coverSource": "https://copertine.hoepli.it/archivio/978/8820/9788820352271.jpg"
+  },
+  {
+    "title": "A canestro",
+    "author": "Idan Ravin",
+    "cover": "/assets/books/a-canestro.webp",
+    "position": 7,
+    "publisher": "Baldini + Castoldi",
+    "isbn": "9788868529734",
+    "language": "it",
+    "source": "https://www.baldinicastoldi.it/libri/a-canestro/",
+    "coverSource": "https://img2.libreriauniversitaria.it/BIT/500/973/9788868529734.jpg"
+  },
+  {
+    "title": "Tim Cook",
+    "author": "Leander Kahney",
+    "cover": "/assets/books/tim-cook.webp",
+    "position": 8,
+    "publisher": "Sperling & Kupfer",
+    "isbn": "9788820067601",
+    "language": "it",
+    "source": "https://www.hoepli.it/libro/tim-cook/9788820067601.html",
+    "coverSource": "https://copertine.hoepli.it/archivio/978/8820/9788820067601.jpg"
+  },
+  {
+    "title": "Silicio",
+    "author": "Federico Faggin",
+    "cover": "/assets/books/silicio.webp",
+    "position": 9,
+    "publisher": "Mondadori",
+    "isbn": "9788804712589",
+    "language": "it",
+    "source": "https://www.ibs.it/silicio-dall-invenzione-del-microprocessore-libro-federico-faggin/e/9788804712589",
+    "coverSource": "https://copertine.hoepli.it/archivio/978/8804/9788804712589.jpg"
+  },
+  {
+    "title": "L'alchimista",
+    "author": "Paulo Coelho",
+    "cover": null,
+    "position": 10,
+    "publisher": "Bompiani",
+    "isbn": "9788845210266",
+    "language": "it",
+    "source": "https://bompiani.it/catalogo/l-alchimista-9788845210266",
+    "coverSource": null,
+    "coverNote": "Verified title and publisher; available source images are too small. Add a high-resolution cover of this edition when available."
+  },
+  {
+    "title": "The Art of Thinking Clearly",
+    "author": "Rolf Dobelli",
+    "cover": "/assets/books/art-of-thinking-clearly.webp",
+    "position": 11,
+    "publisher": "Sceptre",
+    "isbn": "9781444759563",
+    "language": "en",
+    "source": "https://www.hachette.co.uk/titles/rolf-dobelli/the-art-of-thinking-clearly/9781444759563/",
+    "coverSource": "https://www.hachette.co.uk/wp-content/uploads/2019/04/hbg-title-the-art-of-thinking-clearly-56.jpg"
+  },
+  {
+    "title": "Perché imparare se le macchine sanno già tutto?",
+    "author": "Torkel Klingberg e Åsa Wikforss",
+    "cover": "/assets/books/perche-imparare.webp",
+    "position": 12,
+    "publisher": "Feltrinelli",
+    "isbn": "9788807092176",
+    "language": "it",
+    "source": "https://www.feltrinellieditore.it/opera/in-difesa-del-pensiero/",
+    "coverSource": "https://img2.libreriauniversitaria.it/BIT/500/217/9788807092176.jpg"
+  }
+]

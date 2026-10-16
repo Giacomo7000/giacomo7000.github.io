@@ -52,6 +52,26 @@ body {
   letter-spacing: 0;
 }
 
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 16px;
+  z-index: 100;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  background: var(--text);
+  color: var(--bg);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+
+main:focus { outline: none; }
+
+:is(h1, h2, h3, p, dd, .tag) { overflow-wrap: anywhere; }
+
+.grid > * { min-width: 0; }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -241,4 +261,10 @@ p {
     opacity: 1;
     transform: none;
   }
+}
+
+@media (max-width: 600px) {
+  .section { padding: 44px 0; }
+  body .container.page-hero { padding-block: 48px 60px; }
+  .button { min-height: 48px; }
 }
