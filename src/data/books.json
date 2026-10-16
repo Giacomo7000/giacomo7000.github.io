@@ -24,14 +24,14 @@
   {
     "title": "Mister Facebook",
     "author": "Jack Burton",
-    "cover": null,
+    "cover": "/assets/books/mister-facebook.webp",
     "position": 3,
     "publisher": "Barbera",
     "isbn": "9788878994805",
     "language": "it",
     "source": "https://www.hoepli.it/libro/mister-facebook/9788878994805.html",
-    "coverSource": null,
-    "coverNote": "Verified title and publisher; available source images are too small. Add a high-resolution cover of this edition when available."
+    "coverSource": "https://images-eu.ssl-images-amazon.com/images/P/8878994804.01.LZZZZZZZ.jpg",
+    "coverNote": "Authentic Barbera cover selected with owner approval. The available original is 200 × 298 pixels; display without enlargement."
   },
   {
     "title": "Vendere tutto",
@@ -102,14 +102,14 @@
   {
     "title": "L'alchimista",
     "author": "Paulo Coelho",
-    "cover": null,
+    "cover": "/assets/books/alchimista.webp",
     "position": 10,
-    "publisher": "Bompiani",
-    "isbn": "9788845210266",
+    "publisher": "La nave di Teseo",
+    "isbn": "9788893443029",
     "language": "it",
-    "source": "https://bompiani.it/catalogo/l-alchimista-9788845210266",
-    "coverSource": null,
-    "coverNote": "Verified title and publisher; available source images are too small. Add a high-resolution cover of this edition when available."
+    "source": "https://bookstores.ucsc.it/scheda-libro/paulo-coelho/lalchimista-9788893443029-252674.html",
+    "coverSource": "https://img2.libreriauniversitaria.it/BIT/500/302/9788893443029.jpg",
+    "coverNote": "Authentic Italian edition selected with owner approval; exact physical-copy edition unconfirmed."
   },
   {
     "title": "The Art of Thinking Clearly",

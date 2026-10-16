@@ -36,12 +36,13 @@ publishers and rights holders; it is not covered by a repository license.
 Without the owner's ISBNs, cover variants cannot be confirmed against their
 physical copies. The selected editions are documented in the data: Penguin
 English Library for Orwell, Planet Manga volume 1 for Pluto, Mondadori Vivavoce
-for Faggin, and Sceptre's English paperback for Dobelli. The Bompiani edition of
-Coelho is cataloged as ISBN 9788845210266. Mister Facebook (Barbera) and
-L'alchimista have `cover: null`: the verified sources only provided small images
-(roughly 200 pixels wide), so the catalog uses a localized neutral placeholder
-instead of enlarging a blurry image or substituting another book/edition. Set
-`cover` and `coverSource` once suitable artwork is available.
+for Faggin, and Sceptre's English paperback for Dobelli. With the owner's approval,
+Mister Facebook uses Barbera's authentic cover and L'alchimista uses the Italian
+La nave di Teseo edition (ISBN 9788893443029). Mister Facebook's available original
+is only 200 × 298 pixels: `object-fit: scale-down` preserves native sharpness
+without enlarging it inside the uniform frame. Replace it with a larger original
+when available. A `null` cover is supported for future entries whose artwork is
+not yet available, using a localized neutral placeholder.
 
 ## Project Structure
 
