@@ -8,6 +8,7 @@ summary:
 date: "2026-10-17"
 location: "Tavagnacco, Italy"
 order: 720
+cover: "/assets/archive/vittorino-andreoli-ai-forum.webp"
 tags: ["AI Forum", "Vittorino Andreoli", "Humanity"]
 sections:
   - title:
