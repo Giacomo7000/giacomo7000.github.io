@@ -4,60 +4,43 @@ import type { Lang } from "@data/site";
 const { lang } = Astro.props as { lang: Lang };
 const entries = lang === "en"
   ? [
-      ["High school", "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine."],
-      ["Bachelor", "IoT, Big Data and Machine Learning. Neural networks and AI systems became a central interest."],
-      ["Master", "AI & Cybersecurity double degree with the University of Klagenfurt, currently in progress."],
-      ["Aipertech", "Applied AI for companies, combining technical analysis, client understanding, and development of concrete solutions."]
+      { title: "Aipertech", label: "Current work", subtitle: "AI Developer and Technical Analyst", body: "I work at a startup bringing AI into companies. I started in a commercial, client-facing role. My work grew to include technical analysis and development: from understanding needs to building automation pipelines, document and image analysis, and conversational interfaces.", current: true },
+      { title: "Master’s degree", label: "In progress", subtitle: "AI & Cybersecurity", body: "An international double-degree programme with the University of Klagenfurt, bringing together machine learning, intelligent systems, and cybersecurity.", current: true },
+      { title: "Bachelor’s degree", label: "Education", subtitle: "IoT, Big Data and Machine Learning", body: "The foundation of my technical background, where neural networks and AI systems became a central interest.", current: false },
+      { title: "High school", label: "The beginning", subtitle: "Applied Sciences", body: "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine.", current: false }
     ]
   : [
-      ["Scuola superiore", "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine."],
-      ["Laurea triennale", "IoT, Big Data and Machine Learning. Qui l'interesse per reti neurali e sistemi AI e' diventato centrale."],
-      ["Laurea magistrale in corso", "AI & Cybersecurity, doppio titolo con University of Klagenfurt."],
-      ["Aipertech", "AI applicata alle aziende, tra analisi tecnica, comprensione del cliente e sviluppo di soluzioni concrete."]
+      { title: "Aipertech", label: "Lavoro attuale", subtitle: "AI Developer e Technical Analyst", body: "Lavoro in una startup che porta l’AI nelle aziende. Da un ruolo commerciale e a contatto con i clienti, il mio lavoro si è ampliato all’analisi tecnica e allo sviluppo: dalla comprensione delle esigenze alle pipeline di automazione, all’analisi di documenti e immagini e alle interfacce conversazionali.", current: true },
+      { title: "Laurea magistrale", label: "In corso", subtitle: "AI & Cybersecurity", body: "Un percorso internazionale a doppio titolo con la University of Klagenfurt, tra machine learning, sistemi intelligenti e cybersecurity.", current: true },
+      { title: "Laurea triennale", label: "Formazione", subtitle: "IoT, Big Data and Machine Learning", body: "Le basi del mio percorso tecnico, dove l’interesse per le reti neurali e i sistemi di intelligenza artificiale è diventato centrale.", current: false },
+      { title: "Scuola superiore", label: "Gli inizi", subtitle: "Scienze applicate", body: "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine.", current: false }
     ];
 ---
 
-<div class="timeline">
-  {entries.map(([title, body]) => (
-    <div class="timeline-entry reveal">
-      <div class="dot" aria-hidden="true"></div>
-      <h3>{title}</h3>
-      <p>{body}</p>
-    </div>
+<ol class="timeline" role="list">
+  {entries.map((entry) => (
+    <li class:list={["timeline-entry", { current: entry.current }]}>
+      <span class="dot" aria-hidden="true"></span>
+      <p class="entry-label">{entry.label}</p>
+      <h3>{entry.title}</h3>
+      <p class="entry-subtitle">{entry.subtitle}</p>
+      <p class="entry-body">{entry.body}</p>
+    </li>
   ))}
-</div>
+</ol>
 
 <style>
-  .timeline {
-    display: grid;
-    gap: 0;
-    border-left: 1px solid var(--line);
-    margin-left: 9px;
-  }
-
-  .timeline-entry {
-    position: relative;
-    display: grid;
-    gap: 8px;
-    padding: 0 0 28px 28px;
-  }
-
-  .timeline-entry:last-child {
-    padding-bottom: 0;
-  }
-
-  .dot {
-    position: absolute;
-    left: -6px;
-    top: 4px;
-    width: 11px;
-    height: 11px;
-    border-radius: 999px;
-    background: var(--accent);
-    box-shadow: 0 0 0 5px var(--bg);
-  }
-
-  p {
-    color: var(--muted);
+  .timeline { margin: 0; padding: 0; list-style: none; }
+  .timeline-entry { position: relative; display: grid; gap: 10px; margin-left: 6px; padding: 0 0 38px 32px; border-left: 1px solid var(--line); }
+  .timeline-entry:last-child { padding-bottom: 0; border-color: transparent; }
+  .dot { position: absolute; left: -5px; top: 5px; width: 9px; height: 9px; border: 1px solid var(--muted); border-radius: 50%; background: var(--bg); box-shadow: 0 0 0 5px var(--bg); }
+  .current .dot { border-color: var(--accent); background: var(--accent); }
+  .entry-label { color: var(--muted); font-size: 0.73rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+  .current .entry-label { color: var(--accent); }
+  h3 { font-size: clamp(1.35rem, 2vw, 1.65rem); font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
+  .entry-subtitle { color: var(--text); font-size: 0.92rem; }
+  .entry-body { color: var(--muted); font-size: 0.95rem; }
+  @media (max-width: 600px) {
+    .timeline-entry { padding-left: 26px; padding-bottom: 32px; }
   }
 </style>
