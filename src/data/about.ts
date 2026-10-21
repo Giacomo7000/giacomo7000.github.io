@@ -1,15 +1,17 @@
+import { site } from "./site";
+
 // Both routes share one layout and keep their copy together.
 export const about = {
   it: {
     title: "Chi sono",
-    description: "Il percorso, il metodo e gli interessi di Giacomo Mariuzza, AI Developer e Technical Analyst.",
+    description: "Il percorso, il metodo e gli interessi di Giacomo Mariuzza, tra sviluppo AI e consulenza tecnica.",
     headline: ["Ho iniziato amando la tecnologia.", "Ho continuato costruendola."],
-    introduction: "Sono Giacomo Mariuzza. Unisco sviluppo AI, analisi tecnica e attenzione all’esperienza di chi usa ciò che costruisco.",
+    introduction: "Sono Giacomo Mariuzza. Il mio lavoro unisce sviluppo e consulenza su soluzioni AI: sviluppo software, comprendo le esigenze dei clienti e collaboro con i team tecnici per trasformare sfide complesse in soluzioni concrete basate sull’AI.",
     belief: "Mi piacciono le idee che diventano strumenti utili. E i dettagli che li rendono semplici da usare.",
     now: "In questo momento",
     work: "Lavoro",
     study: "Studio",
-    workDetail: "AI Developer e Technical Analyst",
+    workDetail: site.role.it,
     studyDetail: "Magistrale · doppio titolo con Klagenfurt",
     journey: "Il percorso",
     journeyTitle: "Dalla curiosità alla pratica.",
@@ -34,14 +36,14 @@ export const about = {
   },
   en: {
     title: "About",
-    description: "The background, approach, and interests of Giacomo Mariuzza, AI Developer and Technical Analyst.",
+    description: "The background, approach, and interests of Giacomo Mariuzza, AI Solutions Consultant and AI Developer.",
     headline: ["I started by loving technology.", "I kept going by building it."],
-    introduction: "I’m Giacomo Mariuzza. I bring together AI development, technical analysis, and care for the people who use what I build.",
+    introduction: "I’m Giacomo Mariuzza. My work combines AI development and solutions consulting: I build software, understand client needs, and collaborate with technical teams to turn complex challenges into practical AI-powered solutions.",
     belief: "I like ideas that become useful tools. And the details that make those tools feel simple to use.",
     now: "Right now",
     work: "Work",
     study: "Study",
-    workDetail: "AI Developer and Technical Analyst",
+    workDetail: site.role.en,
     studyDetail: "Master’s · double degree with Klagenfurt",
     journey: "Journey",
     journeyTitle: "From curiosity to practice.",

@@ -1,8 +1,16 @@
 export const site = {
   name: "Giacomo Mariuzza",
   role: {
-    en: "AI Developer and Technical Analyst",
-    it: "AI Developer e Technical Analyst"
+    en: "AI Solutions Consultant | AI Developer",
+    it: "AI Solutions Consultant | AI Developer"
+  },
+  tagline: {
+    en: "AI development, solutions consulting, and thoughtful software.",
+    it: "Sviluppo AI, consulenza tecnica e software curato."
+  },
+  description: {
+    en: "AI software development and solutions consulting: turning business needs into practical, thoughtfully designed software.",
+    it: "Sviluppo software AI e consulenza sulle soluzioni: dalle esigenze aziendali a software concreti e curati nei dettagli."
   },
   email: "giacomo.mariuzza@outlook.it",
   emailLabel: "giacomo.mariuzza [at] outlook.it",

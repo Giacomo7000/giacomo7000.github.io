@@ -26,7 +26,11 @@ const projects = defineCollection({
     })).default([]),
     sections: z.array(z.object({
       title: localizedString,
-      body: localizedString
+      body: localizedString.optional(),
+      subsections: z.array(z.object({
+        title: localizedString,
+        body: localizedString
+      })).optional()
     })).default([])
   })
 });

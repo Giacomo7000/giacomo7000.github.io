@@ -14,12 +14,12 @@ const projects = await getFeaturedProjects();
 const archive = (await getArchiveEntries()).slice(0, 3);
 ---
 
-<BaseLayout lang={lang} title="AI Developer" path="/">
+<BaseLayout lang={lang} title={site.role[lang]} path="/">
   <section class="hero container">
     <div class="hero-copy reveal">
-      <p class="eyebrow">AI Developer and Technical Analyst</p>
+      <p class="eyebrow">{site.role[lang]}</p>
       <h1>Giacomo Mariuzza</h1>
-      <p class="lead">I operate on AI solutions applied to real-world problems, combining development, client understanding, and an interest in concrete machine-learning systems while completing a Master’s degree in AI & Cybersecurity.</p>
+      <p class="lead">I build AI-powered software and help businesses turn complex needs into practical solutions, combining hands-on development, technical expertise, and client-focused consulting.</p>
       <div class="button-row">
         <Button href="/projects">{t(lang, "viewProjects")}</Button>
         <Button href="/contact" variant="secondary">{t(lang, "contactMe")}</Button>
@@ -32,7 +32,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
   </section>
   <section class="section">
     <div class="container split">
-      <SectionHeading eyebrow="About" title="AI, software, and real-world problems." lead="Between AI, software, and cybersecurity, I learn by putting things to the test: small prototypes, automations, local models, and practical tools. I work on applied AI solutions, but what interests me most is the transition from idea, to experiment, to real use." />
+      <SectionHeading eyebrow="About" title="Where AI development meets real business needs." lead="I combine hands-on AI development with solutions consulting, from building intelligent applications and automation systems to understanding business challenges, assessing technical feasibility, and contributing to effective AI solutions." />
       <Button href="/about" variant="secondary">Read about me</Button>
     </div>
   </section>
@@ -60,7 +60,7 @@ const archive = (await getArchiveEntries()).slice(0, 3);
   </section>
   <section class="section contact-band">
     <div class="container split">
-      <SectionHeading eyebrow="Contact" title="If you want to talk about AI, professional collaborations, or a project to build, feel free to write me." />
+      <SectionHeading eyebrow="Contact" title="Let’s turn ideas into AI-powered solutions." lead="Interested in AI development, technical consulting, or potential collaborations? Let’s connect." />
       <Button href={localizedPath(lang, "/contact")}>{t(lang, "contactMe")}</Button>
     </div>
   </section>
@@ -93,6 +93,8 @@ const archive = (await getArchiveEntries()).slice(0, 3);
     height: auto;
     aspect-ratio: 1;
   }
+
+  .split > :global(.button) { flex-shrink: 0; }
 
   .split {
     display: flex;

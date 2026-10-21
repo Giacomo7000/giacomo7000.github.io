@@ -1,16 +1,16 @@
 ---
-import type { Lang } from "@data/site";
+import { site, type Lang } from "@data/site";
 
 const { lang } = Astro.props as { lang: Lang };
 const entries = lang === "en"
   ? [
-      { title: "Aipertech", label: "Current work", subtitle: "AI Developer and Technical Analyst", body: "I work at a startup bringing AI into companies. I started in a commercial, client-facing role. My work grew to include technical analysis and development: from understanding needs to building automation pipelines, document and image analysis, and conversational interfaces.", current: true },
+      { title: "AiperTech", label: "Current work", subtitle: site.role.en, body: "At AiperTech, I combine AI software development with client-facing technical consulting. I collaborate with businesses to understand their needs, identify AI opportunities, assess technical feasibility, and contribute to solution design alongside development teams.\n\nMy hands-on experience includes AI-powered applications, automation workflows, document and image analysis, and conversational systems.", current: true },
       { title: "Master’s degree", label: "In progress", subtitle: "AI & Cybersecurity", body: "An international double-degree programme with the University of Klagenfurt, bringing together machine learning, intelligent systems, and cybersecurity.", current: true },
       { title: "Bachelor’s degree", label: "Education", subtitle: "IoT, Big Data and Machine Learning", body: "The foundation of my technical background, where neural networks and AI systems became a central interest.", current: false },
       { title: "High school", label: "The beginning", subtitle: "Applied Sciences", body: "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine.", current: false }
     ]
   : [
-      { title: "Aipertech", label: "Lavoro attuale", subtitle: "AI Developer e Technical Analyst", body: "Lavoro in una startup che porta l’AI nelle aziende. Da un ruolo commerciale e a contatto con i clienti, il mio lavoro si è ampliato all’analisi tecnica e allo sviluppo: dalla comprensione delle esigenze alle pipeline di automazione, all’analisi di documenti e immagini e alle interfacce conversazionali.", current: true },
+      { title: "AiperTech", label: "Lavoro attuale", subtitle: site.role.it, body: "In AiperTech unisco lo sviluppo di software AI alla consulenza tecnica a contatto con i clienti. Collaboro con le aziende per comprenderne le esigenze, individuare opportunità di utilizzo dell’AI, valutare la fattibilità tecnica e contribuire alla progettazione delle soluzioni insieme ai team di sviluppo.\n\nLa mia esperienza pratica comprende applicazioni basate sull’AI, flussi di automazione, analisi di documenti e immagini e sistemi conversazionali.", current: true },
       { title: "Laurea magistrale", label: "In corso", subtitle: "AI & Cybersecurity", body: "Un percorso internazionale a doppio titolo con la University of Klagenfurt, tra machine learning, sistemi intelligenti e cybersecurity.", current: true },
       { title: "Laurea triennale", label: "Formazione", subtitle: "IoT, Big Data and Machine Learning", body: "Le basi del mio percorso tecnico, dove l’interesse per le reti neurali e i sistemi di intelligenza artificiale è diventato centrale.", current: false },
       { title: "Scuola superiore", label: "Gli inizi", subtitle: "Scienze applicate", body: "Liceo delle Scienze Applicate, I.S.I.S. Arturo Malignani, Udine.", current: false }
@@ -24,7 +24,7 @@ const entries = lang === "en"
       <p class="entry-label">{entry.label}</p>
       <h3>{entry.title}</h3>
       <p class="entry-subtitle">{entry.subtitle}</p>
-      <p class="entry-body">{entry.body}</p>
+      {entry.body.split("\n\n").map((paragraph) => <p class="entry-body">{paragraph}</p>)}
     </li>
   ))}
 </ol>

@@ -8,7 +8,7 @@ import "../styles/global.css";
 const {
   lang = "en",
   title = site.name,
-  description = "AI Developer building practical systems at the intersection of artificial intelligence, software, and business needs.",
+  description = site.description[lang],
   path = Astro.url.pathname,
   image = "/og-image.svg"
 } = Astro.props as {

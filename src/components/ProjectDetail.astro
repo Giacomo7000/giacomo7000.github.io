@@ -9,7 +9,7 @@ const displayDate = formatProjectDate(project.data, lang);
 const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
 ---
 
-<article class="detail container">
+<article class:list={["detail", "container", { "work-overview": project.slug === "applied-ai-work" }]}>
   <a class="back-link" href={localizedPath(lang, "/projects")}>{t(lang, "backProjects")}</a>
   <header class="detail-hero reveal">
     <div>
@@ -28,7 +28,13 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
     {project.data.sections.map((section) => (
       <div class="content-block reveal">
         <h2>{localize(section.title, lang)}</h2>
-        {sectionParagraphs(localize(section.body, lang)).map((paragraph) => <p>{paragraph}</p>)}
+        {section.body && sectionParagraphs(localize(section.body, lang)).map((paragraph) => <p>{paragraph}</p>)}
+        {section.subsections?.map((subsection) => (
+          <div class="content-subsection">
+            <h3>{localize(subsection.title, lang)}</h3>
+            {sectionParagraphs(localize(subsection.body, lang)).map((paragraph) => <p>{paragraph}</p>)}
+          </div>
+        ))}
       </div>
     ))}
   </section>
@@ -112,6 +118,13 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
     margin-bottom: 18px;
   }
 
+  .work-overview .detail-hero h1 {
+    font-size: clamp(2.35rem, 4.4vw, 4.25rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
   .facts {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -160,6 +173,18 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
   .content-block p {
     color: var(--muted);
     font-size: 1.05rem;
+  }
+
+  .content-subsection {
+    display: grid;
+    gap: 14px;
+    padding-top: 8px;
+  }
+
+  .content-subsection h3 {
+    font-size: 1.1rem;
+    line-height: 1.35;
+    font-weight: 650;
   }
 
   @media (max-width: 840px) {

@@ -1,13 +1,13 @@
 ---
 title:
-  en: "Building AI Solutions at Aipertech"
-  it: "Soluzioni AI in Aipertech"
+  en: "AI Development & Solutions Consulting at AiperTech"
+  it: "Sviluppo AI e consulenza in AiperTech"
 subtitle:
-  en: "Applied AI work across client understanding, technical analysis, and hands-on implementation."
-  it: "AI applicata tra comprensione del cliente, analisi tecnica e implementazione concreta."
+  en: "Bridging AI software development and business needs, from technical feasibility to practical implementation."
+  it: "Unire sviluppo software AI ed esigenze aziendali, dalla fattibilità tecnica alla realizzazione concreta."
 summary:
-  en: "At Aipertech, I work on applied AI systems for real business contexts: workflow automation, document and image analysis, conversational interfaces, and defining technical requirements together with clients."
-  it: "In Aipertech lavoro su sistemi AI applicati per contesti aziendali reali: automazione di workflow, analisi di documenti e immagini, interfacce conversazionali e definizione dei requisiti tecnici insieme ai clienti."
+  en: "AI software development and client-focused consulting at AiperTech, from understanding business needs and assessing feasibility to building practical applications and automation."
+  it: "Sviluppo software AI e consulenza orientata al cliente in AiperTech: dalla comprensione delle esigenze aziendali e dalla valutazione di fattibilità alla realizzazione di applicazioni e automazioni."
 year: "June 2025"
 date: "2025-06"
 order: 900
@@ -15,9 +15,9 @@ status:
   en: "In progress"
   it: "In corso"
 role:
-  en: "AI Developer and Technical Analyst"
-  it: "AI Developer e Technical Analyst"
-technologies: ["AI applications", "OpenAI APIs", "Chatbots", "Automation", "Technical analysis"]
+  en: "AI Solutions Consultant | AI Developer"
+  it: "AI Solutions Consultant | AI Developer"
+technologies: ["AI applications", "OpenAI APIs", "Chatbots", "Automation", "Solutions consulting"]
 featured: true
 cover: "/assets/projects/aipertech.png"
 coverFit: "logo"
@@ -26,18 +26,38 @@ sections:
       en: "Context"
       it: "Contesto"
     body:
-      en: "I work in this startup alongside my university studies. It is the context where my technical training meets real business needs, covering the full cycle: from client discussion to development."
-      it: "Lavoro in questa startup parallelamente agli studi universitari. È il contesto in cui la mia formazione tecnica incontra le reali necessità del business coprendo l'intero ciclo: dal confronto con il cliente allo sviluppo."
+      en: "Alongside my university studies, I work at AiperTech, where my technical training meets real business needs through AI development and solutions consulting."
+      it: "Lavoro in AiperTech parallelamente agli studi universitari. Qui la mia formazione tecnica incontra le reali esigenze delle aziende, attraverso lo sviluppo e la consulenza su soluzioni AI."
   - title:
       en: "What I do"
       it: "Cosa faccio"
-    body:
-      en: "My work touches areas such as workflow automation, document and image analysis, AI-assisted processes, and conversational interfaces. I keep specific project details confidential."
-      it: "Il mio lavoro tocca aree come automazione di workflow, analisi di documenti e immagini, processi assistiti dall'AI e interfacce conversazionali. Mantengo riservati i dettagli specifici dei progetti."
+    subsections:
+      - title:
+          en: "AI Development"
+          it: "Sviluppo AI"
+        body:
+          en: "I contribute to the development, testing, and evaluation of AI-powered applications, including conversational systems, automation workflows, and tools for document and image analysis."
+          it: "Contribuisco allo sviluppo, al test e alla valutazione di applicazioni basate sull’AI, tra cui sistemi conversazionali, flussi di automazione e strumenti per l’analisi di documenti e immagini."
+      - title:
+          en: "AI Solutions Consulting"
+          it: "Consulenza su soluzioni AI"
+        body:
+          en: |
+            I collaborate directly with clients to understand business requirements, identify potential AI use cases, and assess technical feasibility. Working alongside development teams, I contribute to defining technical requirements, evaluating suitable technologies, and designing practical solutions.
+
+            I also contribute to technical research, project documentation, and AI training activities for businesses.
+
+            Specific client and project details remain confidential.
+          it: |
+            Collaboro direttamente con i clienti per comprendere i requisiti aziendali, individuare possibili casi d’uso dell’AI e valutarne la fattibilità tecnica. Insieme ai team di sviluppo, contribuisco alla definizione dei requisiti tecnici, alla valutazione delle tecnologie più adatte e alla progettazione di soluzioni concrete.
+
+            Contribuisco inoltre alla ricerca tecnica, alla documentazione di progetto e alle attività di formazione sull’AI per le aziende.
+
+            I dettagli specifici relativi a clienti e progetti restano riservati.
   - title:
-      en: "Learning"
-      it: "Cosa sto imparando"
+      en: "From Analysis to Implementation"
+      it: "Dall’analisi alla realizzazione"
     body:
-      en: "This field experience is teaching me how to translate business goals into concrete AI solutions, balancing technical constraints, model accuracy, user experience, and implementation strategy."
-      it: "Questa esperienza sul campo mi sta insegnando a tradurre gli obiettivi aziendali in soluzioni AI concrete, bilanciando vincoli tecnici, accuratezza dei modelli, esperienza utente e strategia di implementazione."
+      en: "My work connects business requirements with technical implementation, combining feasibility assessment, AI development, and collaboration to deliver practical solutions."
+      it: "Il mio lavoro collega le esigenze aziendali alla realizzazione tecnica, unendo valutazione di fattibilità, sviluppo AI e collaborazione per creare soluzioni concrete."
 ---
