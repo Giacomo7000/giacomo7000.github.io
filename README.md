@@ -96,6 +96,23 @@ The site uses separate English and Italian routes:
 - English pages are served from root paths such as `/`, `/projects`, and `/archive`.
 - Italian pages are served from `/it`, `/it/projects`, and `/it/archive`.
 
+On the English homepage (`/` or `/index.html`), a small inline script chooses the
+default language before rendering. A manual EN/IT choice saved in `localStorage`
+takes priority; otherwise the first browser language (`navigator.languages[0]`,
+with `navigator.language` as a fallback) selects Italian for `it` and its regional
+variants. Other, missing, or inaccessible browser languages fall back to English.
+Automatic detection is not saved, so it follows the device until a manual choice
+is made. Direct page links retain the language of their URL, including `/it`.
+
+The language toggle carries a temporary `lang=en` or `lang=it` parameter to the
+destination. The head script remembers valid choices and removes the parameter
+while preserving other query parameters and the URL fragment. If browser storage
+is unavailable, the explicit parameter still prevents an immediate redirect back
+to the device language. Without JavaScript, the site retains its English default
+and the normal language links remain usable. The shared 404 never auto-redirects.
+
+Run language-selection regression checks with `node --test tests/language-preference.test.mjs`.
+
 Reusable helpers in `src/lib/i18n.ts` select localized strings, build localized paths, and connect EN/IT page variants. Shared content files provide both languages in the same entry so each project or archive item stays synchronized.
 
 ## Assets And CVs
