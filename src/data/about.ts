@@ -4,7 +4,7 @@ import { site } from "./site";
 export const about = {
   it: {
     title: "Chi sono",
-    description: "Il percorso, il metodo e gli interessi di Giacomo Mariuzza, tra sviluppo AI e consulenza tecnica.",
+    description: `Il percorso, il metodo e gli interessi di Giacomo Mariuzza, ${site.role.it}.`,
     headline: ["Ho iniziato amando la tecnologia.", "Ho continuato costruendola."],
     introduction: "Sono Giacomo Mariuzza. Il mio lavoro unisce sviluppo e consulenza su soluzioni AI: sviluppo software, comprendo le esigenze dei clienti e collaboro con i team tecnici per trasformare sfide complesse in soluzioni concrete basate sull’AI.",
     belief: "Mi piacciono le idee che diventano strumenti utili. E i dettagli che li rendono semplici da usare.",
@@ -36,7 +36,7 @@ export const about = {
   },
   en: {
     title: "About",
-    description: "The background, approach, and interests of Giacomo Mariuzza, AI Solutions Consultant and AI Developer.",
+    description: `The background, approach, and interests of Giacomo Mariuzza, ${site.role.en}.`,
     headline: ["I started by loving technology.", "I kept going by building it."],
     introduction: "I’m Giacomo Mariuzza. My work combines AI development and solutions consulting: I build software, understand client needs, and collaborate with technical teams to turn complex challenges into practical AI-powered solutions.",
     belief: "I like ideas that become useful tools. And the details that make those tools feel simple to use.",

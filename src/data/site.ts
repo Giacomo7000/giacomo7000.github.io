@@ -17,8 +17,8 @@ export const site = {
   linkedin: "https://www.linkedin.com/in/giacomo-mariuzza-9a7228363/?skipRedirect=true",
   github: "https://github.com/Giacomo7000",
   cvPath: {
-    en: "/cv/CV_Giacomo_Mariuzza_english.pdf",
-    it: "/cv/CV_Giacomo_Mariuzza_italiano.pdf"
+    en: "/cv/CV_Giacomo_Mariuzza_english.pdf?v=20261024",
+    it: "/cv/CV_Giacomo_Mariuzza_italiano.pdf?v=20261024"
   },
   url: import.meta.env.PUBLIC_SITE_URL || "https://giacomo7000.github.io"
 };
