@@ -132,5 +132,17 @@
     "language": "it",
     "source": "https://www.feltrinellieditore.it/opera/in-difesa-del-pensiero/",
     "coverSource": "https://img2.libreriauniversitaria.it/BIT/500/217/9788807092176.jpg"
+  },
+  {
+    "title": "Source Code: My Beginnings",
+    "author": "Bill Gates",
+    "cover": "/assets/books/source-code-my-beginnings.webp",
+    "position": 13,
+    "publisher": "Knopf",
+    "isbn": "9780593801581",
+    "language": "en",
+    "binding": "hardcover",
+    "source": "https://prhinternationalsales.com/book/?isbn=9780593801581",
+    "coverSource": "https://images.penguinrandomhouse.com/cover/tif/9780593801581"
   }
 ]
