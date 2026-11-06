@@ -42,7 +42,7 @@ const archive = defineCollection({
     summary: localizedString,
     date: z.string(),
     dateLabel: localizedString.optional(),
-    location: z.string().optional(),
+    location: z.union([z.string(), localizedString]).optional(),
     order: z.number(),
     cover: z.string().optional(),
     gallery: z.array(z.string()).default([]),

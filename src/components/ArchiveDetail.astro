@@ -6,6 +6,7 @@ import { formatArchiveDate } from "@lib/dates";
 
 const { entry, lang } = Astro.props as { entry: CollectionEntry<"archive">; lang: Lang };
 const displayDate = formatArchiveDate(entry.data, lang);
+const location = typeof entry.data.location === "string" ? entry.data.location : entry.data.location && localize(entry.data.location, lang);
 const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
 ---
 
@@ -14,7 +15,7 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
   <header class="detail-hero reveal">
     <p class="eyebrow">
       <time datetime={entry.data.date}>{displayDate}</time>
-      {entry.data.location && <> · {entry.data.location}</>}
+      {location && <> · {location}</>}
     </p>
     <h1>{localize(entry.data.title, lang)}</h1>
     <p class="lead">{localize(entry.data.summary, lang)}</p>
