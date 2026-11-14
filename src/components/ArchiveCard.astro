@@ -10,25 +10,26 @@ const displayDate = formatArchiveDate(entry.data, lang);
 const location = typeof entry.data.location === "string" ? entry.data.location : entry.data.location && localize(entry.data.location, lang);
 ---
 
-<article class="archive-card card reveal">
+<a class="archive-card card reveal" href={href} aria-label={localize(entry.data.title, lang)}>
   {entry.data.cover && (
-    <a class="cover" href={href} aria-label={localize(entry.data.title, lang)}>
+    <div class="cover">
       <img src={entry.data.cover} alt="" loading="lazy" />
-    </a>
+    </div>
   )}
   <div class="card-body">
     <div class="meta">
       <time datetime={entry.data.date}>{displayDate}</time>
       {location && <span>{location}</span>}
     </div>
-    <h3><a href={href}>{localize(entry.data.title, lang)}</a></h3>
+    <h3>{localize(entry.data.title, lang)}</h3>
     <p>{localize(entry.data.summary, lang)}</p>
-    <a class="text-link" href={href}>{t(lang, "readMore")}</a>
+    <span class="text-link">{t(lang, "readMore")}</span>
   </div>
-</article>
+</a>
 
 <style>
   .archive-card {
+    display: block;
     overflow: hidden;
   }
 
