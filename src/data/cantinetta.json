@@ -231,7 +231,25 @@
         "it": "Revisione e anno dell’esemplare da confermare; data riferita al debutto della famiglia.",
         "en": "Revision and unit year need confirmation; the date marks the family’s introduction."
       },
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/ibook-g4.webp",
+        "width": 800,
+        "height": 761,
+        "alt": {
+          "it": "Fotografia di iBook G4 12″.",
+          "en": "Photograph of iBook G4 12″."
+        },
+        "author": "Akira Kamikura (kamikura); Grm wnr (source crop)",
+        "title": "IBook G4.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IBook_G4.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/IBook_G4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Fotografia pulita del modello da 12″ con licenza di riutilizzo non ancora verificata.",
         "en": "A clean, reusable photograph of the 12-inch model has not yet been verified."
@@ -241,33 +259,37 @@
     {
       "id": "apple-remote",
       "name": {
-        "it": "Apple Remote (bianco, infrarossi)",
-        "en": "Apple Remote (white, infrared)"
+        "it": "Apple Remote (alluminio, infrarossi)",
+        "en": "Apple Remote (aluminum, infrared)"
       },
       "room": "accessories",
-      "introduced": "2005-10",
+      "introduced": "2009-10",
       "highlights": {
-        "it": "Infrarossi · Front Row",
-        "en": "Infrared · Front Row"
+        "it": "Alluminio · Infrarossi",
+        "en": "Aluminum · Infrared"
       },
       "description": {
-        "it": "Il piccolo Apple Remote bianco debuttò nell'ottobre 2005 con iMac G5 e Front Row. Il telecomando a infrarossi permetteva di controllare musica, fotografie e video a distanza, trasformando il Mac anche in un centro multimediale. La pulsantiera circolare riprendeva la semplicità dei controlli iPod, senza uno schermo proprio. È distinto dal successivo Remote in alluminio e dai Siri Remote Bluetooth: la sua storia appartiene alla fase in cui Apple sperimentava l'uso del computer dal divano, prima dell'attuale ecosistema televisivo.",
-        "en": "The compact white Apple Remote debuted in October 2005 with iMac G5 and Front Row. Infrared controls allowed music, photos and video to be managed from a distance, giving the Mac a media-centre role. Its circular controls echoed the simplicity of iPod interaction without having a display of their own. It is distinct from the later aluminium Remote and Bluetooth Siri Remotes, belonging to Apple's exploration of sofa-based computer use before today's television ecosystem."
+        "it": "Introdotto nell’ottobre 2009, Apple Remote in alluminio sostituiva il precedente telecomando bianco con un corpo più lungo e una nuova disposizione dei comandi. Il controllo a infrarossi permetteva di gestire riproduzione e navigazione sui prodotti Apple compatibili dotati di ricevitore. Il tasto di riproduzione e pausa era separato dal comando circolare, rendendo le azioni più riconoscibili al tatto. È il telecomando della fase precedente ai Siri Remote: non include microfono, superficie touch o connessione Bluetooth.",
+        "en": "Introduced in October 2009, the aluminum Apple Remote replaced the earlier white remote with a longer body and a revised control layout. Infrared communication handled playback and navigation on compatible Apple products equipped with a receiver. A separate play/pause button distinguished that action from the circular navigation control, making the buttons easier to recognize by touch. It belongs to the period before Siri Remote: it has no microphone, touch surface or Bluetooth connection."
       },
       "sources": [
         {
-          "label": "Apple Newsroom",
-          "url": "https://www.apple.com/newsroom/2005/10/12Apple-Introduces-the-New-iMac-G5/"
+          "label": "Apple Support",
+          "url": "https://support.apple.com/en-us/103233"
+        },
+        {
+          "label": "Apple · October 2009",
+          "url": "https://images.apple.com/education/pricelists/pdfs/10-20_ED_IPP_Addendum.pdf"
         }
       ],
       "confirmation": null,
       "photo": {
         "src": "/assets/cantinetta/apple-remote.webp",
-        "width": 384,
+        "width": 253,
         "height": 800,
         "alt": {
-          "it": "Fotografia di Apple Remote (bianco, infrarossi).",
-          "en": "Photograph of Apple Remote (white, infrared)."
+          "it": "Apple Remote in alluminio con comandi a infrarossi.",
+          "en": "Aluminum Apple Remote with infrared controls."
         },
         "author": "NerdyScienceDude",
         "title": "Appleremotes.JPG",
@@ -276,8 +298,8 @@
         "license": "Public domain",
         "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
         "changes": {
-          "it": "Ritagliata per mostrare soltanto il telecomando bianco; ridimensionata e convertita in WebP.",
-          "en": "Cropped to show only the white remote; resized and converted to WebP."
+          "it": "Ritagliata per mostrare soltanto il telecomando in alluminio; ridimensionata e convertita in WebP.",
+          "en": "Cropped to show only the aluminum remote; resized and converted to WebP."
         }
       },
       "photoNote": {
@@ -360,7 +382,25 @@
         "it": "Processore, GPU e memoria dell’esemplare da confermare.",
         "en": "The unit’s processor, GPU and memory remain unconfirmed."
       },
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/imac-24-2009.webp",
+        "width": 800,
+        "height": 532,
+        "alt": {
+          "it": "Fotografia di iMac 24″ (Early 2009).",
+          "en": "Photograph of iMac 24″ (Early 2009)."
+        },
+        "author": "Martin Pettitt from Bury St Edmunds, UK",
+        "title": "2009 iMac 24\" (44022210144).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:2009_iMac_24%22_(44022210144).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2009_iMac_24%22_%2844022210144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Fotografia riutilizzabile dell’iMac 24″ Early 2009 non verificata. Le immagini di altre revisioni non sono state usate.",
         "en": "No reusable photograph of the 24-inch Early 2009 iMac has been verified. Images of other revisions have not been substituted."
@@ -572,8 +612,8 @@
         "en": "Variant to identify"
       },
       "description": {
-        "it": "La diagonale da 21,5 pollici identifica una famiglia di iMac, ma non basta a stabilire la generazione. L'inventario indica “Mid 2012”, mentre il catalogo Apple riporta modelli Mid 2011 e Late 2012, con caratteristiche e costruzione differenti. Mantengo quindi l'oggetto in esposizione senza attribuirgli il progetto sottile o le specifiche di un'altra versione. Il codice identificativo del Mac permetterà di completare la scheda, raccontando correttamente il suo posto nell'evoluzione del desktop tutto-in-uno.",
-        "en": "The 21.5-inch screen identifies a family of iMacs, but not a generation. The inventory says “Mid 2012”, whereas Apple's catalog lists Mid 2011 and Late 2012 models with different construction and capabilities. This object therefore stays in the exhibition without being assigned another version's thin enclosure or specifications. Its Mac model identifier will allow the record to be completed and its place in the all-in-one desktop's development to be described accurately."
+        "it": "Questo iMac da 21,5 pollici appartiene alla famiglia con scocca in alluminio spessa e frontale in vetro, precedente al ridisegno sottile del 2012. Lo schermo e il computer sono riuniti in un unico oggetto da scrivania, con unità ottica integrata. È la fase in cui il formato panoramico da 21,5 pollici entra nella linea iMac, affiancando il più grande 27 pollici. L’anno dell’esemplare resta da confermare: la fotografia documenta l’involucro della famiglia, senza attribuire una configurazione interna alla collezione.",
+        "en": "This 21.5-inch iMac belongs to the family with a thicker aluminum enclosure and glass front, preceding the thin redesign of 2012. Screen and computer form a single desktop unit with an integrated optical drive. It represents the period when the widescreen 21.5-inch format entered the iMac lineup alongside the larger 27-inch version. The collection unit’s year remains unconfirmed: the photograph documents the family’s enclosure without assigning a particular internal configuration to the collection."
       },
       "sources": [
         {
@@ -582,10 +622,28 @@
         }
       ],
       "confirmation": {
-        "it": "Segnalato come “Mid 2012”: anno e identificativo modello da verificare.",
-        "en": "Listed as “Mid 2012”: year and model identifier need verification."
+        "it": "Scocca spessa confermata. La fotografia mostra un esemplare Mid 2011 della stessa famiglia da 21,5″; anno e configurazione dell’esemplare in collezione restano da verificare.",
+        "en": "The thicker enclosure is confirmed. The photograph shows a Mid 2011 unit from the same 21.5-inch family; the collection unit’s year and configuration still need verification."
       },
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/imac-21-unconfirmed.webp",
+        "width": 560,
+        "height": 465,
+        "alt": {
+          "it": "iMac da 21,5″ con scocca spessa; esemplare Mid 2011 fotografato.",
+          "en": "21.5-inch iMac with the thicker enclosure; a photographed Mid 2011 unit."
+        },
+        "author": "Riquix",
+        "title": "IMac Mitte 2011 21,5-vorn.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IMac_Mitte_2011_21,5-vorn.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/IMac_Mitte_2011_21%2C5-vorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "changes": {
+          "it": "Ritagliata per escludere tastiera e mouse; ridimensionata e convertita in WebP.",
+          "en": "Cropped to exclude the keyboard and mouse; resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Serve identificare il modello: “Mid 2012” non corrisponde alla denominazione Apple del 21,5″ Late 2012.",
         "en": "The model needs identification: “Mid 2012” does not match Apple’s 21.5-inch Late 2012 designation."
@@ -1080,7 +1138,25 @@
         }
       ],
       "confirmation": null,
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/macbook-air-intel-2020.webp",
+        "width": 800,
+        "height": 446,
+        "alt": {
+          "it": "Fotografia di MacBook Air Retina 13″ (2020, Intel Core i5).",
+          "en": "Photograph of MacBook Air Retina 13″ (2020, Intel Core i5)."
+        },
+        "author": "Daniel Romero",
+        "title": "Apple Macbook Air 2020",
+        "source": "https://unsplash.com/photos/4fy0sq4Iuow",
+        "original": "https://images.unsplash.com/photo-1585643248637-7d04f9461dd8",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Fotografia riutilizzabile del modello Retina Intel 2020 non ancora verificata.",
         "en": "A reusable photograph of the 2020 Intel Retina model has not yet been verified."
@@ -1158,60 +1234,30 @@
         }
       ],
       "confirmation": null,
-      "photo": null,
-      "photoNote": {
-        "it": "Fotografia del modello M1 da 11″ non ancora verificata: non sono state usate immagini del 12,9″.",
-        "en": "A photograph of the 11-inch M1 model has not yet been verified; 12.9-inch images have not been substituted."
-      },
-      "order": 25
-    },
-    {
-      "id": "airtag-1",
-      "name": {
-        "it": "AirTag (1ª generazione)",
-        "en": "AirTag (1st generation)"
-      },
-      "room": "accessories",
-      "introduced": "2021-04",
-      "highlights": {
-        "it": "Dov’è · Chip U1",
-        "en": "Find My · U1 chip"
-      },
-      "description": {
-        "it": "Presentato nell'aprile 2021, il primo AirTag estendeva la rete Dov'è agli oggetti personali. Utilizzava Bluetooth per essere rilevato dai dispositivi della rete e il chip U1 per la ricerca precisa con iPhone compatibili. Una batteria CR2032 sostituibile rendeva diversa la manutenzione rispetto agli accessori da ricaricare. La sua importanza era integrare un piccolo localizzatore nel sistema Apple, con segnalazioni e protezioni contro il tracciamento indesiderato. La scheda riguarda la prima generazione del 2021, non eventuali revisioni successive.",
-        "en": "Introduced in April 2021, the first AirTag extended the Find My network to personal belongings. Bluetooth allowed nearby network devices to detect it, while the U1 chip enabled Precision Finding on compatible iPhones. A replaceable CR2032 battery distinguished its maintenance from rechargeable accessories. Its significance was integrating a small tracker into Apple's system, including alerts and protections against unwanted tracking. This record concerns the original 2021 generation rather than any later revision with a similar appearance."
-      },
-      "sources": [
-        {
-          "label": "Apple Newsroom",
-          "url": "https://www.apple.com/newsroom/2021/04/apple-introduces-airtag/"
-        }
-      ],
-      "confirmation": null,
       "photo": {
-        "src": "/assets/cantinetta/airtag-1.webp",
+        "src": "/assets/cantinetta/ipad-pro-m1.webp",
         "width": 800,
-        "height": 800,
+        "height": 534,
         "alt": {
-          "it": "Fotografia di AirTag (1ª generazione).",
-          "en": "Photograph of AirTag (1st generation)."
+          "it": "Retro di iPad Pro 11″ M1 argento, accanto a uno smartphone.",
+          "en": "Rear of a silver 11-inch M1 iPad Pro, next to a smartphone."
         },
-        "author": "KKPCW",
-        "title": "Airtag - 6.jpg",
-        "source": "https://commons.wikimedia.org/wiki/File:Airtag_-_6.jpg",
-        "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Airtag_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Thai Nguyen",
+        "title": "Apple iPad Pro 11 inch M1 Silver, Xiaomi 12s Ultra",
+        "source": "https://unsplash.com/photos/9QPxhgIV2-4",
+        "original": "https://images.unsplash.com/photo-1658880776011-94f5cc09f2b1",
+        "license": "Unsplash License",
+        "licenseUrl": "https://unsplash.com/license",
         "changes": {
           "it": "Ridimensionata e convertita in WebP.",
           "en": "Resized and converted to WebP."
         }
       },
       "photoNote": {
-        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
-        "en": "A reusable photograph of the exact model has not yet been verified."
+        "it": "Fotografia del modello M1 da 11″ non ancora verificata: non sono state usate immagini del 12,9″.",
+        "en": "A photograph of the 11-inch M1 model has not yet been verified; 12.9-inch images have not been substituted."
       },
-      "order": 26
+      "order": 25
     },
     {
       "id": "airpods-3",
@@ -1259,7 +1305,7 @@
         "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
         "en": "A reusable photograph of the exact model has not yet been verified."
       },
-      "order": 27
+      "order": 26
     },
     {
       "id": "iphone-14-pro",
@@ -1307,7 +1353,7 @@
         "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
         "en": "A reusable photograph of the exact model has not yet been verified."
       },
-      "order": 28
+      "order": 27
     },
     {
       "id": "watch-se-2",
@@ -1358,7 +1404,7 @@
         "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
         "en": "A reusable photograph of the exact model has not yet been verified."
       },
-      "order": 29
+      "order": 28
     },
     {
       "id": "iphone-15-plus",
@@ -1406,7 +1452,7 @@
         "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
         "en": "A reusable photograph of the exact model has not yet been verified."
       },
-      "order": 30
+      "order": 29
     },
     {
       "id": "iphone-15-pro",
@@ -1454,7 +1500,7 @@
         "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
         "en": "A reusable photograph of the exact model has not yet been verified."
       },
-      "order": 31
+      "order": 30
     },
     {
       "id": "earpods-usbc",
@@ -1479,12 +1525,30 @@
         }
       ],
       "confirmation": null,
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/earpods-usbc.webp",
+        "width": 735,
+        "height": 800,
+        "alt": {
+          "it": "EarPods reali con connettore USB-C visibile, avvolti su un supporto per il cavo.",
+          "en": "Real EarPods with a visible USB-C connector, wrapped around a cable holder."
+        },
+        "author": "PufferMbu (ChrisBoorman)",
+        "title": "Apple earpods / earbuds holder, wrap (USB-C)",
+        "source": "https://www.printables.com/model/642560-apple-earpods-earbuds-holder-wrap-usb-c",
+        "original": "https://media.printables.com/media/prints/642560/images/5074153_2c3cda91-9887-4774-b17d-4913e8a00b63_0285b875-808b-41ed-9de5-eb36ee6822a2/thumbs/inside/1600x1200/jpeg/earbud.webp",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Fotografia riutilizzabile con connettore USB-C identificabile non ancora verificata.",
         "en": "A reusable photograph with an identifiable USB-C connector has not yet been verified."
       },
-      "order": 32
+      "order": 31
     },
     {
       "id": "airpods-pro-3",
@@ -1509,10 +1573,58 @@
         }
       ],
       "confirmation": null,
-      "photo": null,
+      "photo": {
+        "src": "/assets/cantinetta/airpods-pro-3.webp",
+        "width": 800,
+        "height": 436,
+        "alt": {
+          "it": "Fotografia di AirPods Pro (3ª generazione).",
+          "en": "Photograph of AirPods Pro (3rd generation)."
+        },
+        "author": "Burkhard Mücke",
+        "title": "Airpods Modell Pro 3.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Airpods_Modell_Pro_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
       "photoNote": {
         "it": "Fotografia riutilizzabile e non alterata dei prodotti di terza generazione non ancora verificata.",
         "en": "An unaltered, reusable photograph of the third-generation products has not yet been verified."
+      },
+      "order": 32
+    },
+    {
+      "id": "airtag-2",
+      "name": {
+        "it": "AirTag (2ª generazione)",
+        "en": "AirTag (2nd generation)"
+      },
+      "room": "accessories",
+      "introduced": "2026-01",
+      "highlights": {
+        "it": "Dov’è · Ultra Wideband di 2ª generazione",
+        "en": "Find My · 2nd-generation Ultra Wideband"
+      },
+      "description": {
+        "it": "Presentato nel gennaio 2026, AirTag di seconda generazione aggiorna la ricerca degli oggetti mantenendo il formato del modello originale e la compatibilità con gli accessori esistenti. Il nuovo chip Ultra Wideband migliora la ricerca precisa con dispositivi compatibili, mentre Bluetooth e altoparlante aggiornati aiutano a localizzare l’oggetto a distanza. La ricerca precisa arriva anche sugli Apple Watch supportati. È un’evoluzione soprattutto interna: la rete Dov’è e le protezioni contro il tracciamento indesiderato restano centrali nell’esperienza.",
+        "en": "Introduced in January 2026, second-generation AirTag updated item finding while retaining the original form factor and compatibility with existing accessories. Its new Ultra Wideband chip improves Precision Finding on compatible devices, while updated Bluetooth connectivity and a revised speaker help locate belongings from farther away. Precision Finding also extends to supported Apple Watch models. The changes are mainly internal: the Find My network and protections against unwanted tracking remain central to the experience."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia verificata della seconda generazione non ancora disponibile.",
+        "en": "A verified photograph of the second generation is not yet available."
       },
       "order": 33
     },

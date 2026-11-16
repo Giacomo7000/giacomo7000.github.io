@@ -71,13 +71,36 @@
       "sourceDescription": null
     },
     {
+      "deviceId": "ibook-g4",
+      "src": "/assets/cantinetta/ibook-g4.webp",
+      "width": 800,
+      "height": 761,
+      "alt": {
+        "it": "Fotografia di iBook G4 12″.",
+        "en": "Photograph of iBook G4 12″."
+      },
+      "author": "Akira Kamikura (kamikura); Grm wnr (source crop)",
+      "title": "IBook G4.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IBook_G4.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/62/IBook_G4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": null,
+      "sourceDescription": "File:IBook G4.jpg"
+    },
+    {
       "deviceId": "apple-remote",
       "src": "/assets/cantinetta/apple-remote.webp",
-      "width": 384,
+      "width": 253,
       "height": 800,
       "alt": {
-        "it": "Fotografia di Apple Remote (bianco, infrarossi).",
-        "en": "Photograph of Apple Remote (white, infrared)."
+        "it": "Apple Remote in alluminio con comandi a infrarossi.",
+        "en": "Aluminum Apple Remote with infrared controls."
       },
       "author": "NerdyScienceDude",
       "title": "Appleremotes.JPG",
@@ -86,8 +109,8 @@
       "license": "Public domain",
       "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
       "changes": {
-        "it": "Ritagliata per mostrare soltanto il telecomando bianco; ridimensionata e convertita in WebP.",
-        "en": "Cropped to show only the white remote; resized and converted to WebP."
+        "it": "Ritagliata per mostrare soltanto il telecomando in alluminio; ridimensionata e convertita in WebP.",
+        "en": "Cropped to show only the aluminum remote; resized and converted to WebP."
       },
       "checked": "2026-11-16",
       "sourceCredit": "Own work",
@@ -115,6 +138,29 @@
       "checked": "2026-11-16",
       "sourceCredit": "Own work",
       "sourceDescription": "iPhone (Original) mit 8GB Serial No. 7T7394K0WH8. Der Seriennummer Vergleich bei Apple als Beweis."
+    },
+    {
+      "deviceId": "imac-24-2009",
+      "src": "/assets/cantinetta/imac-24-2009.webp",
+      "width": 800,
+      "height": 532,
+      "alt": {
+        "it": "Fotografia di iMac 24″ (Early 2009).",
+        "en": "Photograph of iMac 24″ (Early 2009)."
+      },
+      "author": "Martin Pettitt from Bury St Edmunds, UK",
+      "title": "2009 iMac 24\" (44022210144).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2009_iMac_24%22_(44022210144).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2009_iMac_24%22_%2844022210144%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "2009 iMac 24\"",
+      "sourceDescription": "Hard drive replacement of a early 2009 24\" Apple iMac"
     },
     {
       "deviceId": "iphone-3gs",
@@ -207,6 +253,29 @@
       "checked": "2026-11-16",
       "sourceCredit": "Own work",
       "sourceDescription": "Black iPhone 4s having slight Blue neon shade on the surface"
+    },
+    {
+      "deviceId": "imac-21-unconfirmed",
+      "src": "/assets/cantinetta/imac-21-unconfirmed.webp",
+      "width": 560,
+      "height": 465,
+      "alt": {
+        "it": "iMac da 21,5″ con scocca spessa; esemplare Mid 2011 fotografato.",
+        "en": "21.5-inch iMac with the thicker enclosure; a photographed Mid 2011 unit."
+      },
+      "author": "Riquix",
+      "title": "IMac Mitte 2011 21,5-vorn.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IMac_Mitte_2011_21,5-vorn.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b8/IMac_Mitte_2011_21%2C5-vorn.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "changes": {
+        "it": "Ritagliata per escludere tastiera e mouse; ridimensionata e convertita in WebP.",
+        "en": "Cropped to exclude the keyboard and mouse; resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "iMac (21,5 Zoll, Mitte 2011)\nmacOS High Sierra, Version 10.13.6\nVierkern Prozessor: Quadcore i5 2,5 GHz Prozessor\n\nDraufsicht auf eine kabelgebundene Tastatur vom Typ Terra K120 und eine dazu passende Terra Laser-Maus. Bei den abgebildeten Eingabegeräten handelt es sich um OEM-Hardware des Herstellers Logitech, die von der deutschen Wortmann AG unter deren Eigenmarke „Terra“ vertrieben wird. Die schwarzen Peripheriegeräte sind auf einer weißen Oberfläche arrangiert; deutlich erkennbar sind die Marken-Logos sowie der Ziffernblock der Tastatur."
     },
     {
       "deviceId": "iphone-5s",
@@ -416,6 +485,29 @@
       "sourceDescription": "AirPods Pro"
     },
     {
+      "deviceId": "macbook-air-intel-2020",
+      "src": "/assets/cantinetta/macbook-air-intel-2020.webp",
+      "width": 800,
+      "height": 446,
+      "alt": {
+        "it": "Fotografia di MacBook Air Retina 13″ (2020, Intel Core i5).",
+        "en": "Photograph of MacBook Air Retina 13″ (2020, Intel Core i5)."
+      },
+      "author": "Daniel Romero",
+      "title": "Apple Macbook Air 2020",
+      "source": "https://unsplash.com/photos/4fy0sq4Iuow",
+      "original": "https://images.unsplash.com/photo-1585643248637-7d04f9461dd8",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": null,
+      "sourceDescription": "Apple Macbook Air 2020"
+    },
+    {
       "deviceId": "macbook-air-m1",
       "src": "/assets/cantinetta/macbook-air-m1.webp",
       "width": 800,
@@ -439,27 +531,27 @@
       "sourceDescription": "2020 Apple MacBook Air M1 showing the Wikipedia landing Page."
     },
     {
-      "deviceId": "airtag-1",
-      "src": "/assets/cantinetta/airtag-1.webp",
+      "deviceId": "ipad-pro-m1",
+      "src": "/assets/cantinetta/ipad-pro-m1.webp",
       "width": 800,
-      "height": 800,
+      "height": 534,
       "alt": {
-        "it": "Fotografia di AirTag (1ª generazione).",
-        "en": "Photograph of AirTag (1st generation)."
+        "it": "Retro di iPad Pro 11″ M1 argento, accanto a uno smartphone.",
+        "en": "Rear of a silver 11-inch M1 iPad Pro, next to a smartphone."
       },
-      "author": "KKPCW",
-      "title": "Airtag - 6.jpg",
-      "source": "https://commons.wikimedia.org/wiki/File:Airtag_-_6.jpg",
-      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Airtag_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Thai Nguyen",
+      "title": "Apple iPad Pro 11 inch M1 Silver, Xiaomi 12s Ultra",
+      "source": "https://unsplash.com/photos/9QPxhgIV2-4",
+      "original": "https://images.unsplash.com/photo-1658880776011-94f5cc09f2b1",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
       "changes": {
         "it": "Ridimensionata e convertita in WebP.",
         "en": "Resized and converted to WebP."
       },
       "checked": "2026-11-16",
-      "sourceCredit": "Own work",
-      "sourceDescription": "Airtag。"
+      "sourceCredit": null,
+      "sourceDescription": "Apple iPad Pro 11 inch M1 Silver, Xiaomi 12s Ultra"
     },
     {
       "deviceId": "airpods-3",
@@ -575,6 +667,52 @@
       "checked": "2026-11-16",
       "sourceCredit": " Own work ",
       "sourceDescription": "iPhone 15 Proの背面カメラ。"
+    },
+    {
+      "deviceId": "earpods-usbc",
+      "src": "/assets/cantinetta/earpods-usbc.webp",
+      "width": 735,
+      "height": 800,
+      "alt": {
+        "it": "EarPods reali con connettore USB-C visibile, avvolti su un supporto per il cavo.",
+        "en": "Real EarPods with a visible USB-C connector, wrapped around a cable holder."
+      },
+      "author": "PufferMbu (ChrisBoorman)",
+      "title": "Apple earpods / earbuds holder, wrap (USB-C)",
+      "source": "https://www.printables.com/model/642560-apple-earpods-earbuds-holder-wrap-usb-c",
+      "original": "https://media.printables.com/media/prints/642560/images/5074153_2c3cda91-9887-4774-b17d-4913e8a00b63_0285b875-808b-41ed-9de5-eb36ee6822a2/thumbs/inside/1600x1200/jpeg/earbud.webp",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": null,
+      "sourceDescription": "Apple earpods / earbuds holder, wrap (USB-C)"
+    },
+    {
+      "deviceId": "airpods-pro-3",
+      "src": "/assets/cantinetta/airpods-pro-3.webp",
+      "width": 800,
+      "height": 436,
+      "alt": {
+        "it": "Fotografia di AirPods Pro (3ª generazione).",
+        "en": "Photograph of AirPods Pro (3rd generation)."
+      },
+      "author": "Burkhard Mücke",
+      "title": "Airpods Modell Pro 3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Airpods_Modell_Pro_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Airpods Pro 1, 2, und 3 ohne und mit Case"
     },
     {
       "deviceId": "macbook-air-m5",

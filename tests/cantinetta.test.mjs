@@ -52,7 +52,7 @@ test("each displayed photograph is local, optimized and accompanied by matching 
     bilingual(photo.alt, `${device.id}.alt`);
     bilingual(photo.changes, `${device.id}.changes`);
     for (const key of ["author", "title", "license", "source", "original", "licenseUrl"]) assert.ok(photo[key]?.trim());
-    assert.equal(new URL(photo.source).hostname, "commons.wikimedia.org");
+    assert.ok(["commons.wikimedia.org", "unsplash.com", "www.printables.com"].includes(new URL(photo.source).hostname));
     const credit = credits.photos.find((entry) => entry.deviceId === device.id);
     assert.ok(credit, `${device.id}: missing attribution record`);
     for (const [key, value] of Object.entries(photo)) assert.deepEqual(credit[key], value, `${device.id}: stale ${key} credit`);
