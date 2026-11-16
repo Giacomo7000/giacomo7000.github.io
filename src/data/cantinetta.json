@@ -1,0 +1,1568 @@
+{
+  "rooms": [
+    {
+      "id": "iphone",
+      "name": {
+        "it": "iPhone",
+        "en": "iPhone"
+      }
+    },
+    {
+      "id": "desktop",
+      "name": {
+        "it": "Macintosh e iMac",
+        "en": "Macintosh & iMac"
+      }
+    },
+    {
+      "id": "laptops",
+      "name": {
+        "it": "MacBook e iBook",
+        "en": "MacBook & iBook"
+      }
+    },
+    {
+      "id": "ipad",
+      "name": {
+        "it": "iPad",
+        "en": "iPad"
+      }
+    },
+    {
+      "id": "ipod",
+      "name": {
+        "it": "iPod",
+        "en": "iPod"
+      }
+    },
+    {
+      "id": "watch",
+      "name": {
+        "it": "Apple Watch",
+        "en": "Apple Watch"
+      }
+    },
+    {
+      "id": "audio",
+      "name": {
+        "it": "Audio",
+        "en": "Audio"
+      }
+    },
+    {
+      "id": "accessories",
+      "name": {
+        "it": "Accessori",
+        "en": "Accessories"
+      }
+    }
+  ],
+  "devices": [
+    {
+      "id": "macintosh-plus",
+      "name": {
+        "it": "Macintosh Plus",
+        "en": "Macintosh Plus"
+      },
+      "room": "desktop",
+      "introduced": "1986-01",
+      "highlights": {
+        "it": "SCSI · Memoria espandibile",
+        "en": "SCSI · Expandable memory"
+      },
+      "description": {
+        "it": "Presentato nel gennaio 1986, Macintosh Plus ampliava le possibilità del Macintosh 512K senza abbandonare il piccolo formato tutto-in-uno. La memoria di serie passava a 1 MB, espandibile fino a 4 MB; la porta SCSI permetteva di collegare dischi e periferiche esterne. Il lettore per dischetti da 800 KB rendeva più pratico lo scambio dei documenti. È una tappa importante del primo Macintosh: conservava schermo monocromatico e interfaccia grafica, ma offriva più spazio per applicazioni e lavoro quotidiano.",
+        "en": "Introduced in January 1986, Macintosh Plus expanded the Macintosh 512K's capabilities without abandoning the compact all-in-one format. Standard memory rose to 1 MB, expandable to 4 MB, and a SCSI port allowed external disks and peripherals. An 800 KB floppy drive made document exchange more practical. It is an important stage in the early Macintosh story: it retained the monochrome display and graphical interface while providing more room for applications and everyday work."
+      },
+      "sources": [
+        {
+          "label": "Apple Support",
+          "url": "https://support.apple.com/en-ca/112183"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/macintosh-plus.webp",
+        "width": 800,
+        "height": 533,
+        "alt": {
+          "it": "Fotografia di Macintosh Plus.",
+          "en": "Photograph of Macintosh Plus."
+        },
+        "author": "Felix Winkelnkemper",
+        "title": "Apple Macintosh Plus white background.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Macintosh_Plus_white_background.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Apple_Macintosh_Plus_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 1
+    },
+    {
+      "id": "macintosh-lc-ii",
+      "name": {
+        "it": "Macintosh LC II",
+        "en": "Macintosh LC II"
+      },
+      "room": "desktop",
+      "introduced": "1992-03",
+      "highlights": {
+        "it": "Motorola 68030 · Colore",
+        "en": "Motorola 68030 · Colour"
+      },
+      "description": {
+        "it": "Presentato nel marzo 1992, Macintosh LC II aggiornava il Macintosh LC con un processore Motorola 68030 a 16 MHz. Manteneva il contenitore basso, spesso chiamato “pizza box”, e l'orientamento verso un Macintosh a colori più accessibile. La memoria di serie saliva a 4 MB. Il bus dati a 16 bit ne limitava però le prestazioni rispetto ad altri Mac con 68030. Racconta il tentativo di portare colore e interfaccia Macintosh in scuole e case con un formato compatto ed espandibile.",
+        "en": "Introduced in March 1992, Macintosh LC II updated the LC with a 16 MHz Motorola 68030 processor. It retained the low-profile “pizza box” enclosure and the goal of making a colour Macintosh more accessible. Standard memory increased to 4 MB. Its 16-bit data bus nevertheless limited performance compared with other 68030 Macs. The model illustrates Apple's effort to bring colour and the Macintosh interface into schools and homes through a compact, expandable desktop."
+      },
+      "sources": [
+        {
+          "label": "Apple Support",
+          "url": "https://support.apple.com/en-us/112198"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/macintosh-lc-ii.webp",
+        "width": 730,
+        "height": 517,
+        "alt": {
+          "it": "Fotografia di Macintosh LC II.",
+          "en": "Photograph of Macintosh LC II."
+        },
+        "author": "All About Apple Museum / www.allaboutapple.com; DrJunge (crop and processing)",
+        "title": "Macintosh LC II.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Macintosh_LC_II.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Macintosh_LC_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 2
+    },
+    {
+      "id": "pro-keyboard",
+      "name": {
+        "it": "Apple Pro Keyboard M7803",
+        "en": "Apple Pro Keyboard M7803"
+      },
+      "room": "accessories",
+      "introduced": "2000-07",
+      "highlights": {
+        "it": "USB · Scocca trasparente",
+        "en": "USB · Clear enclosure"
+      },
+      "description": {
+        "it": "Apple Pro Keyboard fu introdotta nel luglio 2000 con una scocca trasparente, tastiera completa e hub USB a due porte. I controlli dedicati per volume ed espulsione del disco rendevano visibili alcune funzioni quotidiane del Mac. L'esemplare segnalato è M7803 con tasti bianchi, collocato provvisoriamente intorno al 2002: la data di debutto della famiglia non determina quella della variante. Materiali e forma raccontano la stagione delle plastiche trasparenti Apple, prima delle tastiere in alluminio e dei profili più sottili.",
+        "en": "Apple Pro Keyboard was introduced in July 2000 with a clear enclosure, full-size keys and a two-port USB hub. Dedicated volume and disc-eject controls made everyday Mac functions directly accessible. The collected item is described as M7803 with white keys, provisionally dated around 2002: the family's launch does not determine this variant's year. Its materials and shape capture Apple's transparent-plastic period, before aluminium keyboards and lower-profile designs became the standard."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2000/07/19Apple-Unveils-Optical-Mouse-and-New-Pro-Keyboard/"
+        }
+      ],
+      "confirmation": {
+        "it": "Tasti bianchi e M7803 indicati nell’inventario; anno della variante da confermare (circa 2002).",
+        "en": "White keys and M7803 are recorded in the inventory; the variant’s year remains approximate (around 2002)."
+      },
+      "photo": {
+        "src": "/assets/cantinetta/pro-keyboard.webp",
+        "width": 800,
+        "height": 281,
+        "alt": {
+          "it": "Fotografia di Apple Pro Keyboard M7803.",
+          "en": "Photograph of Apple Pro Keyboard M7803."
+        },
+        "author": "All About Apple Museum / www.allaboutapple.com",
+        "title": "Apple Pro Keyboard white.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Pro_Keyboard_white.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/Apple_Pro_Keyboard_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 3
+    },
+    {
+      "id": "ibook-g4",
+      "name": {
+        "it": "iBook G4 12″",
+        "en": "iBook G4 12″"
+      },
+      "room": "laptops",
+      "introduced": "2003-10",
+      "highlights": {
+        "it": "PowerPC G4 · Unità slot-loading",
+        "en": "PowerPC G4 · Slot-loading drive"
+      },
+      "description": {
+        "it": "La famiglia iBook G4 debuttò nell'ottobre 2003, portando i processori PowerPC G4 nei portatili consumer Apple. Il modello da 12 pollici conservava il caratteristico involucro bianco e un formato compatto, aggiornando la piattaforma rispetto agli iBook G3. I primi modelli includevano un'unità Combo a caricamento slot e Mac OS X Panther. In questa collezione la diagonale è confermata, ma non ancora la revisione: frequenza del processore, memoria e anno dell'esemplare non vengono dedotti dalla sola forma.",
+        "en": "The iBook G4 family debuted in October 2003, bringing PowerPC G4 processors to Apple's consumer notebooks. The 12-inch version kept the distinctive white enclosure and compact format while updating the iBook G3 platform. The first models included a slot-loading Combo drive and Mac OS X Panther. The screen size of this collected unit is confirmed, but its revision is not: processor speed, memory and the individual machine's year cannot be inferred from appearance alone."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2003/10/22Apple-Unveils-New-Generation-G4-iBooks-Starting-at-Just-1-099/"
+        }
+      ],
+      "confirmation": {
+        "it": "Revisione e anno dell’esemplare da confermare; data riferita al debutto della famiglia.",
+        "en": "Revision and unit year need confirmation; the date marks the family’s introduction."
+      },
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia pulita del modello da 12″ con licenza di riutilizzo non ancora verificata.",
+        "en": "A clean, reusable photograph of the 12-inch model has not yet been verified."
+      },
+      "order": 4
+    },
+    {
+      "id": "apple-remote",
+      "name": {
+        "it": "Apple Remote (bianco, infrarossi)",
+        "en": "Apple Remote (white, infrared)"
+      },
+      "room": "accessories",
+      "introduced": "2005-10",
+      "highlights": {
+        "it": "Infrarossi · Front Row",
+        "en": "Infrared · Front Row"
+      },
+      "description": {
+        "it": "Il piccolo Apple Remote bianco debuttò nell'ottobre 2005 con iMac G5 e Front Row. Il telecomando a infrarossi permetteva di controllare musica, fotografie e video a distanza, trasformando il Mac anche in un centro multimediale. La pulsantiera circolare riprendeva la semplicità dei controlli iPod, senza uno schermo proprio. È distinto dal successivo Remote in alluminio e dai Siri Remote Bluetooth: la sua storia appartiene alla fase in cui Apple sperimentava l'uso del computer dal divano, prima dell'attuale ecosistema televisivo.",
+        "en": "The compact white Apple Remote debuted in October 2005 with iMac G5 and Front Row. Infrared controls allowed music, photos and video to be managed from a distance, giving the Mac a media-centre role. Its circular controls echoed the simplicity of iPod interaction without having a display of their own. It is distinct from the later aluminium Remote and Bluetooth Siri Remotes, belonging to Apple's exploration of sofa-based computer use before today's television ecosystem."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2005/10/12Apple-Introduces-the-New-iMac-G5/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/apple-remote.webp",
+        "width": 384,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di Apple Remote (bianco, infrarossi).",
+          "en": "Photograph of Apple Remote (white, infrared)."
+        },
+        "author": "NerdyScienceDude",
+        "title": "Appleremotes.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Appleremotes.JPG",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Appleremotes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+        "changes": {
+          "it": "Ritagliata per mostrare soltanto il telecomando bianco; ridimensionata e convertita in WebP.",
+          "en": "Cropped to show only the white remote; resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 5
+    },
+    {
+      "id": "iphone-original",
+      "name": {
+        "it": "iPhone (1ª generazione)",
+        "en": "iPhone (1st generation)"
+      },
+      "room": "iphone",
+      "introduced": "2007-01",
+      "highlights": {
+        "it": "Multi-Touch · Safari",
+        "en": "Multi-Touch · Safari"
+      },
+      "description": {
+        "it": "Presentato nel gennaio 2007, il primo iPhone riuniva telefono, iPod e navigazione web in un dispositivo controllato con le dita. Il display Multi-Touch da 3,5 pollici sostituiva la tastiera fisica con un'interfaccia che cambiava secondo l'applicazione. Safari mostrava pagine web complete, mentre Visual Voicemail permetteva di scegliere i messaggi vocali. Il modello iniziale usava reti EDGE, non 3G, e non disponeva ancora dell'App Store: racconta l'inizio della piattaforma, prima delle sue successive espansioni.",
+        "en": "Unveiled in January 2007, the original iPhone combined a phone, an iPod and web browsing in a device controlled with your fingers. Its 3.5-inch Multi-Touch display replaced the physical keyboard with an interface that adapted to each application. Safari displayed full web pages, while Visual Voicemail let users choose which message to hear. This first model used EDGE rather than 3G and did not yet have the App Store: it represents the platform before its later expansion."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-original.webp",
+        "width": 510,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone (1ª generazione).",
+          "en": "Photograph of iPhone (1st generation)."
+        },
+        "author": "Kaiser KurzydloVII",
+        "title": "IPhone (Original) von Apple mit 8GB.png",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_(Original)_von_Apple_mit_8GB.png",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f6/IPhone_%28Original%29_von_Apple_mit_8GB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 6
+    },
+    {
+      "id": "imac-24-2009",
+      "name": {
+        "it": "iMac 24″ (Early 2009)",
+        "en": "iMac 24″ (Early 2009)"
+      },
+      "room": "desktop",
+      "introduced": "2009-03",
+      "highlights": {
+        "it": "All-in-one · Display 1920 × 1200",
+        "en": "All-in-one · 1920 × 1200 display"
+      },
+      "description": {
+        "it": "Aggiornato nel marzo 2009, l'iMac da 24 pollici manteneva l'involucro in alluminio con cornice nera e un display da 1920 × 1200 pixel. La nuova gamma rendeva il formato da 24 pollici più accessibile e aggiornava memoria e piattaforma grafica. Il computer restava interamente integrato dietro lo schermo, riducendo l'ingombro sulla scrivania. In collezione rappresenta la fase precedente agli iMac unibody: per l'esemplare specifico restano da verificare processore, GPU e dotazione di memoria.",
+        "en": "Updated in March 2009, the 24-inch iMac retained its aluminium enclosure, black display surround and 1920 × 1200 screen. The revised range made the 24-inch format more accessible and updated memory and graphics options. The computer remained integrated behind the display, reducing desktop clutter. In the collection it represents the period before unibody iMacs; the particular unit's processor, graphics hardware and memory configuration still need checking rather than being inferred from its screen size."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2009/03/03Apple-Updates-Consumer-Desktop-Line/"
+        }
+      ],
+      "confirmation": {
+        "it": "Processore, GPU e memoria dell’esemplare da confermare.",
+        "en": "The unit’s processor, GPU and memory remain unconfirmed."
+      },
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia riutilizzabile dell’iMac 24″ Early 2009 non verificata. Le immagini di altre revisioni non sono state usate.",
+        "en": "No reusable photograph of the 24-inch Early 2009 iMac has been verified. Images of other revisions have not been substituted."
+      },
+      "order": 7
+    },
+    {
+      "id": "iphone-3gs",
+      "name": {
+        "it": "iPhone 3GS",
+        "en": "iPhone 3GS"
+      },
+      "room": "iphone",
+      "introduced": "2009-06",
+      "highlights": {
+        "it": "Video · Controllo vocale",
+        "en": "Video · Voice Control"
+      },
+      "description": {
+        "it": "Arrivato nel giugno 2009, iPhone 3GS conservava il design del 3G, ma puntava soprattutto sulla velocità. Introduceva una fotocamera da 3 megapixel con autofocus e registrazione video, una bussola digitale e il controllo vocale. Con iPhone OS 3 portava anche copia e incolla e ricerca Spotlight. Era un aggiornamento importante nell'uso quotidiano: meno attese e nuove possibilità per applicazioni, orientamento e contenuti multimediali, mentre l'App Store stava trasformando il telefono in una piattaforma software.",
+        "en": "Introduced in June 2009, iPhone 3GS retained the 3G's design while focusing on speed and responsiveness. It added a 3-megapixel autofocus camera with video recording, a digital compass and Voice Control. iPhone OS 3 also brought copy and paste and Spotlight search. These were practical changes: shorter waits and new possibilities for applications, navigation and media, at a time when the App Store was turning the phone into an increasingly versatile software platform."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2009/06/08Apple-Announces-the-New-iPhone-3GS-The-Fastest-Most-Powerful-iPhone-Yet/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-3gs.webp",
+        "width": 443,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone 3GS.",
+          "en": "Photograph of iPhone 3GS."
+        },
+        "author": "Khalid Mahmood",
+        "title": "Iphone 3GS-1.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Iphone_3GS-1.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Iphone_3GS-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 8
+    },
+    {
+      "id": "iphone-4",
+      "name": {
+        "it": "iPhone 4",
+        "en": "iPhone 4"
+      },
+      "room": "iphone",
+      "introduced": "2010-06",
+      "highlights": {
+        "it": "Retina · FaceTime",
+        "en": "Retina · FaceTime"
+      },
+      "description": {
+        "it": "Presentato nel giugno 2010, iPhone 4 cambiò profondamente l'aspetto dell'iPhone con vetro anteriore e posteriore e una struttura in acciaio. Il display Retina aumentava la definizione di testi e immagini; la fotocamera frontale rendeva possibile FaceTime. Il chip A4, il giroscopio e la registrazione video HD ampliavano le possibilità di applicazioni e giochi. Rispetto al 3GS rappresentava un salto evidente sia nella costruzione sia nello schermo, stabilendo un linguaggio visivo rimasto riconoscibile negli anni.",
+        "en": "Announced in June 2010, iPhone 4 changed the iPhone's appearance with glass on both sides and a stainless-steel structure. The Retina display made text and images much sharper, while a front-facing camera enabled FaceTime. Apple's A4 chip, a gyroscope and HD video recording expanded what applications and games could do. Compared with the 3GS, it was a substantial change in construction and display quality, establishing a visual language that remained distinctive for years."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2010/06/07Apple-Presents-iPhone-4/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-4.webp",
+        "width": 554,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone 4.",
+          "en": "Photograph of iPhone 4."
+        },
+        "author": "K2025",
+        "title": "IPhone 4 - front.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_4_-_front.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/IPhone_4_-_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 9
+    },
+    {
+      "id": "ipod-nano-6",
+      "name": {
+        "it": "iPod nano (6ª generazione)",
+        "en": "iPod nano (6th generation)"
+      },
+      "room": "ipod",
+      "introduced": "2010-09",
+      "highlights": {
+        "it": "Multi-Touch · Clip integrata",
+        "en": "Multi-Touch · Built-in clip"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2010, il sesto iPod nano sostituiva la ghiera cliccabile con un piccolo display Multi-Touch quadrato. La clip posteriore permetteva di fissarlo agli abiti; radio FM e funzioni legate all'ascolto restavano parte dell'esperienza. Rispetto alla quinta generazione cambiavano radicalmente forma e modalità d'uso, rinunciando alla videocamera del modello precedente. È una fase particolare dell'iPod: compatto e indossabile, anticipava alcuni gesti da polso senza essere ancora un Apple Watch né un dispositivo con applicazioni di terze parti.",
+        "en": "Introduced in September 2010, the sixth iPod nano replaced the click wheel with a small square Multi-Touch display. A rear clip attached it to clothing, while FM radio and music-focused features remained central. Compared with the fifth generation, its shape and interaction changed dramatically, and the previous model's video camera disappeared. It represents an unusual period in iPod history: compact and wearable, suggesting wrist-based interactions without yet being an Apple Watch or a platform for third-party applications."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2010/09/01Apple-Reinvents-iPod-nano-With-Multi-Touch-Interface/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/ipod-nano-6.webp",
+        "width": 800,
+        "height": 487,
+        "alt": {
+          "it": "Fotografia di iPod nano (6ª generazione).",
+          "en": "Photograph of iPod nano (6th generation)."
+        },
+        "author": "kauhoshi",
+        "title": "IPod nano 6G.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:IPod_nano_6G.JPG",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/IPod_nano_6G.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 10
+    },
+    {
+      "id": "iphone-4s",
+      "name": {
+        "it": "iPhone 4S",
+        "en": "iPhone 4S"
+      },
+      "room": "iphone",
+      "introduced": "2011-10",
+      "highlights": {
+        "it": "Siri · Chip A5",
+        "en": "Siri · A5 chip"
+      },
+      "description": {
+        "it": "Presentato nell'ottobre 2011, iPhone 4S manteneva l'involucro del 4 ma aggiornava la piattaforma con il chip dual-core A5, una fotocamera da 8 megapixel e video a 1080p. La novità più riconoscibile era Siri, inizialmente in beta: il telefono poteva rispondere a richieste formulate a voce. Il lancio coincideva con iOS 5 e iCloud. È un esempio della strategia degli aggiornamenti “S”, in cui un'estetica familiare nascondeva cambiamenti importanti nelle funzioni e nei servizi.",
+        "en": "Introduced in October 2011, iPhone 4S kept the iPhone 4's enclosure but updated the platform with the dual-core A5 chip, an 8-megapixel camera and 1080p video. Its most recognisable addition was Siri, initially in beta, which let users make requests through speech. The launch also brought iOS 5 and iCloud. It illustrates the role of Apple's “S” updates: a familiar exterior could conceal significant changes in capabilities, software and connected services."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-4s.webp",
+        "width": 800,
+        "height": 450,
+        "alt": {
+          "it": "Fotografia di iPhone 4S.",
+          "en": "Photograph of iPhone 4S."
+        },
+        "author": "iGeeksBlog",
+        "title": "IPhone 4s.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_4s.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/IPhone_4s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 11
+    },
+    {
+      "id": "imac-21-unconfirmed",
+      "name": {
+        "it": "iMac 21,5″",
+        "en": "iMac 21.5-inch"
+      },
+      "room": "desktop",
+      "introduced": null,
+      "highlights": {
+        "it": "Variante da identificare",
+        "en": "Variant to identify"
+      },
+      "description": {
+        "it": "La diagonale da 21,5 pollici identifica una famiglia di iMac, ma non basta a stabilire la generazione. L'inventario indica “Mid 2012”, mentre il catalogo Apple riporta modelli Mid 2011 e Late 2012, con caratteristiche e costruzione differenti. Mantengo quindi l'oggetto in esposizione senza attribuirgli il progetto sottile o le specifiche di un'altra versione. Il codice identificativo del Mac permetterà di completare la scheda, raccontando correttamente il suo posto nell'evoluzione del desktop tutto-in-uno.",
+        "en": "The 21.5-inch screen identifies a family of iMacs, but not a generation. The inventory says “Mid 2012”, whereas Apple's catalog lists Mid 2011 and Late 2012 models with different construction and capabilities. This object therefore stays in the exhibition without being assigned another version's thin enclosure or specifications. Its Mac model identifier will allow the record to be completed and its place in the all-in-one desktop's development to be described accurately."
+      },
+      "sources": [
+        {
+          "label": "Apple Support",
+          "url": "https://support.apple.com/en-us/108054"
+        }
+      ],
+      "confirmation": {
+        "it": "Segnalato come “Mid 2012”: anno e identificativo modello da verificare.",
+        "en": "Listed as “Mid 2012”: year and model identifier need verification."
+      },
+      "photo": null,
+      "photoNote": {
+        "it": "Serve identificare il modello: “Mid 2012” non corrisponde alla denominazione Apple del 21,5″ Late 2012.",
+        "en": "The model needs identification: “Mid 2012” does not match Apple’s 21.5-inch Late 2012 designation."
+      },
+      "order": 12
+    },
+    {
+      "id": "iphone-5s",
+      "name": {
+        "it": "iPhone 5s",
+        "en": "iPhone 5s"
+      },
+      "room": "iphone",
+      "introduced": "2013-09",
+      "highlights": {
+        "it": "Touch ID · A7 a 64 bit",
+        "en": "Touch ID · 64-bit A7"
+      },
+      "description": {
+        "it": "Nel settembre 2013, iPhone 5s introdusse Touch ID nel tasto Home e il chip A7 con architettura a 64 bit. Il coprocessore M7 raccoglieva i dati di movimento, separando parte di questo lavoro dal processore principale. La fotocamera iSight riceveva miglioramenti e il flash True Tone. Pur conservando il formato compatto dell'iPhone 5, il 5s segnava un passaggio importante per l'autenticazione biometrica e per l'architettura delle applicazioni mobili, accompagnando il nuovo linguaggio visivo di iOS 7.",
+        "en": "In September 2013, iPhone 5s introduced Touch ID in the Home button and the A7 chip with a 64-bit architecture. Its M7 motion coprocessor handled movement data separately from the main processor. The iSight camera was improved and gained a True Tone flash. Although it retained the iPhone 5's compact form, the 5s marked an important step in biometric authentication and mobile application architecture, alongside the new visual direction of iOS 7."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2013/09/10Apple-Announces-iPhone-5s-The-Most-Forward-Thinking-Smartphone-in-the-World/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-5s.webp",
+        "width": 547,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone 5s.",
+          "en": "Photograph of iPhone 5s."
+        },
+        "author": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+        "title": "IPhone 5s (model A1457)-3319.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_5s_(model_A1457)-3319.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/IPhone_5s_%28model_A1457%29-3319.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 13
+    },
+    {
+      "id": "macbook-air-2015",
+      "name": {
+        "it": "MacBook Air 11″ (Early 2015)",
+        "en": "MacBook Air 11″ (Early 2015)"
+      },
+      "room": "laptops",
+      "introduced": "2015-03",
+      "highlights": {
+        "it": "Intel di quinta generazione · Thunderbolt 2",
+        "en": "Fifth-generation Intel · Thunderbolt 2"
+      },
+      "description": {
+        "it": "Aggiornato nel marzo 2015, MacBook Air da 11 pollici manteneva il profilo a cuneo della linea con processori Intel Core di quinta generazione, grafica Intel HD Graphics 6000 e Thunderbolt 2. Il piccolo schermo non Retina e le porte integrate appartenevano ancora all'impostazione precedente alla riprogettazione del 2018. È importante distinguerlo dal 13 pollici: il comunicato attribuiva a quest'ultimo l'archiviazione flash aggiornata più veloce. Il modello da 11 pollici privilegiava soprattutto trasportabilità e ingombro ridotto.",
+        "en": "Updated in March 2015, the 11-inch MacBook Air retained the line's wedge profile with fifth-generation Intel Core processors, Intel HD Graphics 6000 and Thunderbolt 2. Its small non-Retina screen and built-in ports belonged to the approach preceding the 2018 redesign. It must be distinguished from the 13-inch model: Apple's announcement assigned the faster upgraded flash storage specifically to that larger version. The 11-inch notebook placed particular emphasis on portability and a small footprint."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2015/03/09Apple-Updates-13-inch-MacBook-Pro-with-Retina-Display-MacBook-Air/"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia riutilizzabile del modello da 11″ Early 2015 non ancora verificata.",
+        "en": "A reusable photograph of the 11-inch Early 2015 model has not yet been verified."
+      },
+      "order": 14
+    },
+    {
+      "id": "iphone-6s",
+      "name": {
+        "it": "iPhone 6s",
+        "en": "iPhone 6s"
+      },
+      "room": "iphone",
+      "introduced": "2015-09",
+      "highlights": {
+        "it": "3D Touch · Live Photos",
+        "en": "3D Touch · Live Photos"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2015, iPhone 6s sviluppava il formato da 4,7 pollici dell'iPhone 6 con il chip A9 e una scocca in alluminio serie 7000. 3D Touch distingueva diversi livelli di pressione per mostrare anteprime e azioni rapide. Live Photos aggiungeva movimento ai ricordi fotografici, mentre la fotocamera da 12 megapixel permetteva video 4K. Il modello racconta una fase di sperimentazione dell'interazione: il tocco poteva comunicare non soltanto una posizione, ma anche un'intenzione attraverso la pressione.",
+        "en": "Announced in September 2015, iPhone 6s developed the iPhone 6's 4.7-inch format with the A9 chip and a 7000-series aluminium enclosure. 3D Touch recognised different levels of pressure to reveal previews and quick actions. Live Photos added motion to still images, and the 12-megapixel camera supported 4K video. The device captures a period of experimentation in interaction design: a touch could convey not only a position but an intention through pressure."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2015/09/09Apple-Introduces-iPhone-6s-iPhone-6s-Plus/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-6s.webp",
+        "width": 450,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone 6s.",
+          "en": "Photograph of iPhone 6s."
+        },
+        "author": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+        "title": "IPhone 6s - rear view-92671.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_6s_-_rear_view-92671.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/IPhone_6s_-_rear_view-92671.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 15
+    },
+    {
+      "id": "iphone-7",
+      "name": {
+        "it": "iPhone 7",
+        "en": "iPhone 7"
+      },
+      "room": "iphone",
+      "introduced": "2016-09",
+      "highlights": {
+        "it": "A10 Fusion · Resistenza all’acqua",
+        "en": "A10 Fusion · Water resistance"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2016, iPhone 7 introdusse il chip A10 Fusion, altoparlanti stereo e resistenza ad acqua e polvere. Il tasto Home divenne una superficie a stato solido con risposta del Taptic Engine. La fotocamera del modello da 4,7 pollici guadagnava stabilizzazione ottica; il sistema a doppia fotocamera apparteneva invece al 7 Plus. La rimozione del jack da 3,5 mm rese questo modello un punto di svolta nella transizione verso audio Lightning e auricolari wireless.",
+        "en": "Introduced in September 2016, iPhone 7 brought the A10 Fusion chip, stereo speakers and water and dust resistance. The Home button became a solid-state surface with Taptic Engine feedback. The 4.7-inch model gained optical image stabilisation; the dual-camera system belonged to the larger 7 Plus. Removing the 3.5mm headphone jack made this model a turning point in Apple's move towards Lightning audio and wireless earphones, with consequences for accessories and everyday listening habits."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2016/09/apple-introduces-iphone-7-iphone-7-plus/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-7.webp",
+        "width": 800,
+        "height": 405,
+        "alt": {
+          "it": "Fotografia di iPhone 7.",
+          "en": "Photograph of iPhone 7."
+        },
+        "author": "cicwdn on Pixabay",
+        "title": "IPhone 7.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_7.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/IPhone_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 16
+    },
+    {
+      "id": "airpods-1",
+      "name": {
+        "it": "AirPods (1ª generazione)",
+        "en": "AirPods (1st generation)"
+      },
+      "room": "audio",
+      "introduced": "2016-09",
+      "highlights": {
+        "it": "Chip W1 · Connessione automatica",
+        "en": "W1 chip · Automatic connection"
+      },
+      "description": {
+        "it": "Presentati nel settembre 2016, i primi AirPods rendevano gli auricolari completamente wireless una parte centrale dell'ecosistema Apple. Il chip W1 semplificava l'abbinamento e il passaggio tra dispositivi collegati allo stesso account; sensori rilevavano quando venivano indossati. La custodia serviva anche a ricaricarli. Rispetto agli EarPods cablati cambiavano soprattutto preparazione e uso quotidiano, eliminando il collegamento fisico al telefono. La prima generazione va distinta dalla successiva con H1, anche quando l'aspetto esterno della custodia risulta molto simile.",
+        "en": "Announced in September 2016, the first AirPods made completely wireless earphones central to Apple's ecosystem. The W1 chip simplified pairing and use across devices connected to the same account, while sensors detected when the earphones were worn. Their case also recharged them. Compared with wired EarPods, the main change was preparation and everyday use without a physical connection to the phone. This generation must be distinguished from the later H1 version despite the very similar enclosure."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/sa/newsroom/2016/09/07Apple-Reinvents-the-Wireless-Headphone-with-AirPods/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/airpods-1.webp",
+        "width": 800,
+        "height": 546,
+        "alt": {
+          "it": "Fotografia di AirPods (1ª generazione).",
+          "en": "Photograph of AirPods (1st generation)."
+        },
+        "author": "Maurizio Pesce from Milan, Italia",
+        "title": "AirPods.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:AirPods.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/AirPods.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 17
+    },
+    {
+      "id": "watch-series-3",
+      "name": {
+        "it": "Apple Watch Series 3 · 38 mm",
+        "en": "Apple Watch Series 3 · 38 mm"
+      },
+      "room": "watch",
+      "introduced": "2017-09",
+      "highlights": {
+        "it": "Chip S3 · GPS",
+        "en": "S3 chip · GPS"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2017, Apple Watch Series 3 aggiornava l'orologio con un processore dual-core e nuove capacità wireless. La gamma comprendeva varianti GPS e GPS + Cellular: la connessione mobile permetteva a queste ultime di chiamare e usare dati anche lontano dall'iPhone. Il design conservava i formati da 38 e 42 mm. In questa scheda non si presume che l'esemplare abbia il modem cellulare: il ruolo storico della generazione va distinto dalle caratteristiche della singola configurazione posseduta.",
+        "en": "Introduced in September 2017, Apple Watch Series 3 updated the watch with a dual-core processor and new wireless capabilities. The range included GPS and GPS + Cellular versions; the latter could make calls and use mobile data away from an iPhone. The design retained the 38 and 42 mm sizes. This record does not assume that the collected unit has cellular hardware: the generation's historical role must be distinguished from the capabilities of an individual configuration."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2017/09/apple-watch-series-3-with-cellular-now-available/"
+        }
+      ],
+      "confirmation": {
+        "it": "Variante GPS o GPS + Cellular dell’esemplare da confermare.",
+        "en": "The unit’s GPS or GPS + Cellular variant needs confirmation."
+      },
+      "photo": {
+        "src": "/assets/cantinetta/watch-series-3.webp",
+        "width": 800,
+        "height": 800,
+        "alt": {
+          "it": "Retro di Apple Watch Series 3 da 38 mm, con i sensori.",
+          "en": "Underside of the 38 mm Apple Watch Series 3, showing its sensors."
+        },
+        "author": "Fletcher",
+        "title": "Apple Watch Series 3 Sensors.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_3_Sensors.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Apple_Watch_Series_3_Sensors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 18
+    },
+    {
+      "id": "iphone-xs",
+      "name": {
+        "it": "iPhone XS",
+        "en": "iPhone XS"
+      },
+      "room": "iphone",
+      "introduced": "2018-09",
+      "highlights": {
+        "it": "OLED · A12 Bionic",
+        "en": "OLED · A12 Bionic"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2018, iPhone XS perfezionava l'impostazione dell'iPhone X: display OLED Super Retina da 5,8 pollici, Face ID e doppia fotocamera posteriore. Il chip A12 Bionic a 7 nanometri e il Neural Engine supportavano elaborazione fotografica e apprendimento automatico. Smart HDR e il controllo della profondità miglioravano i ritratti. È il modello XS compatto, distinto da XS Max: una generazione di affinamento che consolidava il passaggio dall'interazione con tasto Home a quella basata sui gesti.",
+        "en": "Announced in September 2018, iPhone XS refined the iPhone X's approach: a 5.8-inch Super Retina OLED display, Face ID and two rear cameras. The 7-nanometre A12 Bionic chip and Neural Engine supported computational photography and machine learning. Smart HDR and Depth Control improved portrait photography. This is the smaller XS, distinct from XS Max, representing a generation of refinement that consolidated the transition from the Home button to gesture-based interaction."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2018/09/iphone-xs-and-iphone-xs-max-bring-the-best-and-biggest-displays-to-iphone/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-xs.webp",
+        "width": 800,
+        "height": 462,
+        "alt": {
+          "it": "Fotografia di iPhone XS.",
+          "en": "Photograph of iPhone XS."
+        },
+        "author": "Cullen Steber",
+        "title": "IPhone XS.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_XS.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/IPhone_XS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 19
+    },
+    {
+      "id": "iphone-xr",
+      "name": {
+        "it": "iPhone XR",
+        "en": "iPhone XR"
+      },
+      "room": "iphone",
+      "introduced": "2018-09",
+      "highlights": {
+        "it": "Liquid Retina · Face ID",
+        "en": "Liquid Retina · Face ID"
+      },
+      "description": {
+        "it": "Annunciato nel settembre 2018 e disponibile da ottobre, iPhone XR portava Face ID e il chip A12 Bionic in una proposta più accessibile rispetto agli XS. Utilizzava un display LCD Liquid Retina da 6,1 pollici e una struttura in alluminio, con diverse finiture colorate. La singola fotocamera posteriore offriva ritratti elaborati via software. Il suo ruolo era ampliare l'accesso all'esperienza senza tasto Home, mantenendo la piattaforma di elaborazione della gamma superiore ma scegliendo uno schermo e un sistema fotografico differenti.",
+        "en": "Announced in September 2018 and released in October, iPhone XR brought Face ID and A12 Bionic to a more accessible alternative to the XS. It used a 6.1-inch Liquid Retina LCD and an aluminium structure in several colours. Its single rear camera could create software-assisted portraits. Its role was to broaden access to the Home-button-free experience, retaining the higher-end processing platform while making different choices for the display and camera system."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2018/09/apple-introduces-iphone-xr/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-xr.webp",
+        "width": 600,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone XR.",
+          "en": "Photograph of iPhone XR."
+        },
+        "author": "Asdaiang14453",
+        "title": "IPhone XR.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_XR.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/IPhone_XR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 20
+    },
+    {
+      "id": "pencil-2",
+      "name": {
+        "it": "Apple Pencil (2ª generazione)",
+        "en": "Apple Pencil (2nd generation)"
+      },
+      "room": "accessories",
+      "introduced": "2018-10",
+      "highlights": {
+        "it": "Ricarica magnetica · Doppio tap",
+        "en": "Magnetic charging · Double-tap"
+      },
+      "description": {
+        "it": "Presentata nell'ottobre 2018 insieme ai nuovi iPad Pro, Apple Pencil di seconda generazione rivedeva collegamento, ricarica e impugnatura. Il lato piatto permetteva di agganciarla magneticamente a un iPad compatibile, dove si abbinava e ricaricava senza esporre un connettore. Il doppio tap introduceva un comando rapido per cambiare strumento nelle applicazioni compatibili. Rispetto alla prima Pencil, l'innovazione più evidente era rendere lo stilo parte del dispositivo anche quando non veniva usato, riducendo passaggi e piccoli accessori necessari.",
+        "en": "Introduced in October 2018 alongside new iPad Pro models, second-generation Apple Pencil revised connection, charging and handling. Its flat side attached magnetically to a compatible iPad, where it paired and charged without exposing a connector. Double-tap added a shortcut for changing tools in supported applications. Compared with the first Pencil, the clearest advance was making the stylus part of the device even between uses, reducing the steps and small accessories needed to keep it ready."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2018/10/new-ipad-pro-with-all-screen-design-is-most-advanced-powerful-ipad-ever/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/pencil-2.webp",
+        "width": 800,
+        "height": 450,
+        "alt": {
+          "it": "Fotografia di Apple Pencil (2ª generazione).",
+          "en": "Photograph of Apple Pencil (2nd generation)."
+        },
+        "author": "ajay_suresh",
+        "title": "Apple Pencil 2 (51013514266).jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Pencil_2_(51013514266).jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Apple_Pencil_2_%2851013514266%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 21
+    },
+    {
+      "id": "airpods-pro-1",
+      "name": {
+        "it": "AirPods Pro (1ª generazione)",
+        "en": "AirPods Pro (1st generation)"
+      },
+      "room": "audio",
+      "introduced": "2019-10",
+      "highlights": {
+        "it": "Cancellazione del rumore · Trasparenza",
+        "en": "Noise cancellation · Transparency"
+      },
+      "description": {
+        "it": "Presentati nell'ottobre 2019, i primi AirPods Pro aggiungevano cancellazione attiva del rumore e modalità Trasparenza agli auricolari wireless Apple. Il design in-ear con gommini in silicone cercava una tenuta più adatta a isolare l'ascolto; il sensore di pressione sullo stelo gestiva i comandi. Rispetto agli AirPods standard, la novità non era soltanto la forma, ma il controllo del rapporto con l'ambiente sonoro. Questo esemplare appartiene alla prima generazione, distinta dai modelli successivi con chip e custodie differenti.",
+        "en": "Introduced in October 2019, the first AirPods Pro added Active Noise Cancellation and Transparency mode to Apple's wireless earphones. Their in-ear design used silicone tips to create a more suitable acoustic seal, and a force sensor on the stem handled controls. Compared with standard AirPods, the change went beyond shape to control over the surrounding sound environment. This item represents the original generation, distinct from later models with different chips and charging cases."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2019/10/apple-reveals-new-airpods-pro-available-october-30/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/airpods-pro-1.webp",
+        "width": 800,
+        "height": 644,
+        "alt": {
+          "it": "Fotografia di AirPods Pro (1ª generazione).",
+          "en": "Photograph of AirPods Pro (1st generation)."
+        },
+        "author": "Arne Müseler / www.arne-mueseler.com",
+        "title": "Apple airpods pro.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_airpods_pro.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Apple_airpods_pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 22
+    },
+    {
+      "id": "macbook-air-intel-2020",
+      "name": {
+        "it": "MacBook Air Retina 13″ (2020, Intel Core i5)",
+        "en": "MacBook Air Retina 13″ (2020, Intel Core i5)"
+      },
+      "room": "laptops",
+      "introduced": "2020-03",
+      "highlights": {
+        "it": "Magic Keyboard · Intel Core i5",
+        "en": "Magic Keyboard · Intel Core i5"
+      },
+      "description": {
+        "it": "Presentato nel marzo 2020, questo MacBook Air appartiene all'ultima generazione Intel della linea. Il modello in collezione usa Core i5; la gamma adottava processori Intel di decima generazione e la Magic Keyboard con meccanismo a forbice, sostituendo la tastiera a farfalla. Conservava display Retina da 13 pollici, Touch ID e porte Thunderbolt 3. È una testimonianza del passaggio: pochi mesi dopo, l'Air M1 avrebbe mantenuto una forma simile cambiando architettura, gestione energetica e sistema di raffreddamento.",
+        "en": "Introduced in March 2020, this MacBook Air belongs to the line's final Intel generation. The collected model uses Core i5; the range adopted tenth-generation Intel processors and the scissor-switch Magic Keyboard, replacing the butterfly keyboard. It retained a 13-inch Retina display, Touch ID and Thunderbolt 3 ports. It captures a transition: just months later, the M1 Air would retain a similar shape while changing processor architecture, energy management and the cooling system."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2020/03/new-macbook-air-has-more-to-love-and-is-now-just-999/"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia riutilizzabile del modello Retina Intel 2020 non ancora verificata.",
+        "en": "A reusable photograph of the 2020 Intel Retina model has not yet been verified."
+      },
+      "order": 23
+    },
+    {
+      "id": "macbook-air-m1",
+      "name": {
+        "it": "MacBook Air M1",
+        "en": "MacBook Air M1"
+      },
+      "room": "laptops",
+      "introduced": "2020-11",
+      "highlights": {
+        "it": "Apple Silicon · Senza ventola",
+        "en": "Apple Silicon · Fanless"
+      },
+      "description": {
+        "it": "Presentato nel novembre 2020, MacBook Air M1 segnava il passaggio da Intel ad Apple Silicon. CPU, GPU e memoria unificata lavoravano in una piattaforma integrata, pensata per migliorare prestazioni ed efficienza. Il nuovo Air eliminava la ventola pur mantenendo il formato a cuneo e il display Retina da 13 pollici. Apple dichiarava fino a 18 ore di riproduzione video: un dato di laboratorio, non una misura dell'esemplare. Rosetta 2 accompagnava la transizione delle applicazioni Intel verso la nuova architettura.",
+        "en": "Introduced in November 2020, MacBook Air M1 marked the move from Intel to Apple Silicon. CPU, GPU and unified memory worked in an integrated platform designed to improve performance and energy efficiency. The new Air removed the fan while retaining the wedge shape and 13-inch Retina display. Apple advertised up to 18 hours of video playback, a laboratory claim rather than a measurement of this unit. Rosetta 2 helped bridge the transition for applications written for Intel Macs."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2020/11/introducing-the-next-generation-of-mac/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/macbook-air-m1.webp",
+        "width": 800,
+        "height": 645,
+        "alt": {
+          "it": "Fotografia di MacBook Air M1.",
+          "en": "Photograph of MacBook Air M1."
+        },
+        "author": "Padgriffin",
+        "title": "MacBook Air M1.png",
+        "source": "https://commons.wikimedia.org/wiki/File:MacBook_Air_M1.png",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/MacBook_Air_M1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 24
+    },
+    {
+      "id": "ipad-pro-m1",
+      "name": {
+        "it": "iPad Pro 11″ (M1)",
+        "en": "iPad Pro 11″ (M1)"
+      },
+      "room": "ipad",
+      "introduced": "2021-04",
+      "highlights": {
+        "it": "Chip M1 · Thunderbolt",
+        "en": "M1 chip · Thunderbolt"
+      },
+      "description": {
+        "it": "Annunciato nell'aprile 2021, iPad Pro con M1 portava nell'iPad lo stesso tipo di chip appena introdotto nei Mac. La versione da 11 pollici offriva display Liquid Retina, porta Thunderbolt e una fotocamera frontale ultragrandangolare con Inquadratura automatica. I modelli cellulari supportavano il 5G. Il pannello mini-LED Liquid Retina XDR era invece esclusivo del 12,9 pollici. Questa distinzione è essenziale: l'importanza dell'11 pollici sta nella nuova piattaforma e nella connettività, non in uno schermo appartenente all'altra variante.",
+        "en": "Announced in April 2021, iPad Pro with M1 brought the same class of chip recently introduced in Macs to iPad. The 11-inch version offered a Liquid Retina display, Thunderbolt and an Ultra Wide front camera with Center Stage. Cellular versions supported 5G. The mini-LED Liquid Retina XDR panel, however, was exclusive to the 12.9-inch model. The distinction matters: the 11-inch device's significance lies in its new computing platform and connectivity, not in the larger variant's display."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/04/apple-unveils-new-ipad-pro-with-m1-chip-and-stunning-liquid-retina-xdr-display/"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia del modello M1 da 11″ non ancora verificata: non sono state usate immagini del 12,9″.",
+        "en": "A photograph of the 11-inch M1 model has not yet been verified; 12.9-inch images have not been substituted."
+      },
+      "order": 25
+    },
+    {
+      "id": "airtag-1",
+      "name": {
+        "it": "AirTag (1ª generazione)",
+        "en": "AirTag (1st generation)"
+      },
+      "room": "accessories",
+      "introduced": "2021-04",
+      "highlights": {
+        "it": "Dov’è · Chip U1",
+        "en": "Find My · U1 chip"
+      },
+      "description": {
+        "it": "Presentato nell'aprile 2021, il primo AirTag estendeva la rete Dov'è agli oggetti personali. Utilizzava Bluetooth per essere rilevato dai dispositivi della rete e il chip U1 per la ricerca precisa con iPhone compatibili. Una batteria CR2032 sostituibile rendeva diversa la manutenzione rispetto agli accessori da ricaricare. La sua importanza era integrare un piccolo localizzatore nel sistema Apple, con segnalazioni e protezioni contro il tracciamento indesiderato. La scheda riguarda la prima generazione del 2021, non eventuali revisioni successive.",
+        "en": "Introduced in April 2021, the first AirTag extended the Find My network to personal belongings. Bluetooth allowed nearby network devices to detect it, while the U1 chip enabled Precision Finding on compatible iPhones. A replaceable CR2032 battery distinguished its maintenance from rechargeable accessories. Its significance was integrating a small tracker into Apple's system, including alerts and protections against unwanted tracking. This record concerns the original 2021 generation rather than any later revision with a similar appearance."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/04/apple-introduces-airtag/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/airtag-1.webp",
+        "width": 800,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di AirTag (1ª generazione).",
+          "en": "Photograph of AirTag (1st generation)."
+        },
+        "author": "KKPCW",
+        "title": "Airtag - 6.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Airtag_-_6.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Airtag_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 26
+    },
+    {
+      "id": "airpods-3",
+      "name": {
+        "it": "AirPods (3ª generazione)",
+        "en": "AirPods (3rd generation)"
+      },
+      "room": "audio",
+      "introduced": "2021-10",
+      "highlights": {
+        "it": "Audio spaziale · Equalizzazione adattiva",
+        "en": "Spatial audio · Adaptive EQ"
+      },
+      "description": {
+        "it": "Presentati nell'ottobre 2021, gli AirPods di terza generazione ridisegnavano la linea aperta, senza gommini, con steli più corti e sensore di pressione. Il chip H1 e un nuovo sistema acustico supportavano equalizzazione adattiva e audio spaziale con rilevamento dinamico della testa. Apple dichiarava fino a sei ore di ascolto, secondo le condizioni dei propri test. A differenza degli AirPods Pro, questo modello non introduceva cancellazione attiva del rumore: manteneva un'impostazione aperta con nuove funzioni e un formato rivisto.",
+        "en": "Introduced in October 2021, third-generation AirPods redesigned Apple's open-fit earphones with shorter stems and a force sensor, without silicone tips. The H1 chip and a new acoustic system supported Adaptive EQ and spatial audio with dynamic head tracking. Apple advertised up to six hours of listening under its test conditions. Unlike AirPods Pro, this model did not add Active Noise Cancellation: it retained an open design while updating the shape and listening features."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2021/10/introducing-the-next-generation-of-airpods/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/airpods-3.webp",
+        "width": 800,
+        "height": 665,
+        "alt": {
+          "it": "Fotografia di AirPods (3ª generazione).",
+          "en": "Photograph of AirPods (3rd generation)."
+        },
+        "author": "Yovt",
+        "title": "AirPods 3.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:AirPods_3.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/AirPods_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 27
+    },
+    {
+      "id": "iphone-14-pro",
+      "name": {
+        "it": "iPhone 14 Pro",
+        "en": "iPhone 14 Pro"
+      },
+      "room": "iphone",
+      "introduced": "2022-09",
+      "highlights": {
+        "it": "Dynamic Island · 48 MP",
+        "en": "Dynamic Island · 48MP"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2022, iPhone 14 Pro introduceva Dynamic Island, trasformando l'area dei sensori frontali in uno spazio per attività e notifiche. Il display da 6,1 pollici adottava la modalità sempre attiva, mentre il chip A16 Bionic e il sensore principale da 48 megapixel aggiornavano elaborazione e fotografia. Rispetto al 13 Pro, il cambiamento era evidente soprattutto nell'interfaccia superiore e nella fotocamera. Rilevamento incidenti ed emergenze via satellite aggiungevano funzioni di sicurezza, con disponibilità dipendente dal paese.",
+        "en": "Introduced in September 2022, iPhone 14 Pro brought Dynamic Island, turning the area around the front sensors into a space for activities and notifications. The 6.1-inch display gained Always-On operation, while A16 Bionic and a 48-megapixel main sensor updated processing and photography. Compared with the 13 Pro, the clearest changes were the upper interface and the camera. Crash Detection and satellite emergency features added safety capabilities, with availability depending on the country."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/09/apple-debuts-iphone-14-pro-and-iphone-14-pro-max/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-14-pro.webp",
+        "width": 800,
+        "height": 450,
+        "alt": {
+          "it": "Fotografia di iPhone 14 Pro.",
+          "en": "Photograph of iPhone 14 Pro."
+        },
+        "author": "iGeeksBlog",
+        "title": "IPhone 14 Pro Deep Purple.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_Deep_Purple.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/IPhone_14_Pro_Deep_Purple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 28
+    },
+    {
+      "id": "watch-se-2",
+      "name": {
+        "it": "Apple Watch SE (2ª generazione) · 40 mm",
+        "en": "Apple Watch SE (2nd generation) · 40 mm"
+      },
+      "room": "watch",
+      "introduced": "2022-09",
+      "highlights": {
+        "it": "Chip S8 · Rilevamento incidenti",
+        "en": "S8 chip · Crash Detection"
+      },
+      "description": {
+        "it": "Annunciato nel settembre 2022, il secondo Apple Watch SE aggiornava la proposta più accessibile della gamma con il chip S8 e Rilevamento incidenti. Manteneva le funzioni principali per attività, allenamento e notifiche, con casse da 40 e 44 mm. Rispetto alla prima generazione migliorava la piattaforma interna e introduceva un fondello ridisegnato. Va distinto dal Series 8 presentato nello stesso evento: SE non offriva il sensore di temperatura, l'ECG o il display sempre attivo del modello superiore.",
+        "en": "Announced in September 2022, the second Apple Watch SE updated the range's more accessible option with the S8 chip and Crash Detection. It retained core activity, workout and notification features in 40 and 44 mm cases. Compared with the first SE, it improved the internal platform and introduced a redesigned back case. It must be distinguished from Series 8, announced at the same event: SE did not include its temperature sensor, ECG or Always-On display."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2022/09/apple-reveals-apple-watch-series-8-and-the-new-apple-watch-se/"
+        }
+      ],
+      "confirmation": {
+        "it": "Variante GPS o GPS + Cellular dell’esemplare da confermare. La fotografia mostra la versione GPS + Cellular.",
+        "en": "The unit’s GPS or GPS + Cellular variant needs confirmation. The photograph shows the GPS + Cellular version."
+      },
+      "photo": {
+        "src": "/assets/cantinetta/watch-se-2.webp",
+        "width": 600,
+        "height": 800,
+        "alt": {
+          "it": "Apple Watch SE di seconda generazione, variante GPS + Cellular da 40 mm.",
+          "en": "Second-generation Apple Watch SE, 40 mm GPS + Cellular variant."
+        },
+        "author": "AzureSaturn",
+        "title": "Apple Watch SE 2 (GPS + Cellular, 40mm, Midnight) with Anchor Blue Sport Loop.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch_SE_2_(GPS_%2B_Cellular,_40mm,_Midnight)_with_Anchor_Blue_Sport_Loop.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apple_Watch_SE_2_%28GPS_%2B_Cellular%2C_40mm%2C_Midnight%29_with_Anchor_Blue_Sport_Loop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 29
+    },
+    {
+      "id": "iphone-15-plus",
+      "name": {
+        "it": "iPhone 15 Plus",
+        "en": "iPhone 15 Plus"
+      },
+      "room": "iphone",
+      "introduced": "2023-09",
+      "highlights": {
+        "it": "USB-C · Display 6,7″",
+        "en": "USB-C · 6.7-inch display"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2023, iPhone 15 Plus portava Dynamic Island e una fotocamera principale da 48 megapixel nella gamma non Pro. Il formato da 6,7 pollici offriva un ampio schermo, mentre il chip A16 Bionic riprendeva la piattaforma del 14 Pro. USB-C sostituiva Lightning per ricarica e collegamenti. È distinto dal più piccolo iPhone 15 e dai modelli Pro: qui la transizione riguardava soprattutto l'esperienza quotidiana, il connettore comune ad altri dispositivi e una maggiore flessibilità fotografica.",
+        "en": "Announced in September 2023, iPhone 15 Plus brought Dynamic Island and a 48-megapixel main camera to the non-Pro range. Its 6.7-inch format offered a large display, while A16 Bionic reused the processing platform from iPhone 14 Pro. USB-C replaced Lightning for charging and connections. It is distinct from the smaller iPhone 15 and the Pro models: the transition centred on everyday use, a connector shared with other devices and more flexible photography."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-15-plus.webp",
+        "width": 449,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di iPhone 15 Plus.",
+          "en": "Photograph of iPhone 15 Plus."
+        },
+        "author": "メイド理世",
+        "title": "IPhone 15 Plus, January 28, 2024.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:IPhone_15_Plus,_January_28,_2024.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/IPhone_15_Plus%2C_January_28%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 30
+    },
+    {
+      "id": "iphone-15-pro",
+      "name": {
+        "it": "iPhone 15 Pro",
+        "en": "iPhone 15 Pro"
+      },
+      "room": "iphone",
+      "introduced": "2023-09",
+      "highlights": {
+        "it": "Titanio · Tasto Azione",
+        "en": "Titanium · Action button"
+      },
+      "description": {
+        "it": "Presentato nel settembre 2023, iPhone 15 Pro adottava una struttura in titanio e bordi più arrotondati. Il tasto Azione sostituiva l'interruttore della suoneria con un comando personalizzabile; USB-C consentiva anche trasferimenti USB 3 con un cavo compatibile. A17 Pro introduceva ray tracing con accelerazione hardware per i giochi. Questo modello da 6,1 pollici conserva un teleobiettivo 3×: il sistema 5× a tetraprisma era riservato al Pro Max. La distinzione evita di attribuire al dispositivo innovazioni della variante più grande.",
+        "en": "Introduced in September 2023, iPhone 15 Pro adopted a titanium structure with more rounded edges. The Action button replaced the ring switch with a customisable control, while USB-C enabled USB 3 transfers with a suitable cable. A17 Pro introduced hardware-accelerated ray tracing for games. This 6.1-inch model retained a 3× telephoto camera: the 5× tetraprism system belonged to Pro Max. Keeping that distinction makes clear which advances actually apply to this smaller device."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/iphone-15-pro.webp",
+        "width": 600,
+        "height": 800,
+        "alt": {
+          "it": "Dettaglio delle fotocamere posteriori di iPhone 15 Pro.",
+          "en": "Close-up of the rear cameras on iPhone 15 Pro."
+        },
+        "author": "Kyu3",
+        "title": "Back camera of iPhone 15 Pro.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Back_camera_of_iPhone_15_Pro.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Back_camera_of_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 31
+    },
+    {
+      "id": "earpods-usbc",
+      "name": {
+        "it": "EarPods USB-C",
+        "en": "EarPods USB-C"
+      },
+      "room": "audio",
+      "introduced": "2023-09",
+      "highlights": {
+        "it": "Audio cablato · USB-C",
+        "en": "Wired audio · USB-C"
+      },
+      "description": {
+        "it": "Gli EarPods USB-C portano il design degli auricolari cablati Apple sui dispositivi con questa porta, nella transizione del 2023. Conservano la forma aperta e il telecomando sul cavo per volume, riproduzione e chiamate. La differenza rispetto alle versioni Lightning e jack è il connettore: USB-C consente l'ascolto cablato sui dispositivi compatibili senza passare da un adattatore Lightning. Rappresentano una scelta pratica per ascoltare e usare il microfono senza ricaricare auricolari o custodia, all'interno di un ecosistema sempre più orientato a USB-C.",
+        "en": "USB-C EarPods brought Apple's wired earbud design to devices with this connector during the 2023 transition. They retained the open fit and inline remote for volume, playback and calls. The change from the Lightning and headphone-jack versions was the connector: USB-C enabled wired listening on compatible devices without a Lightning adapter. They represented a practical option for audio and microphone use without charging earbuds or a case, within an ecosystem increasingly centered on USB-C."
+      },
+      "sources": [
+        {
+          "label": "Apple",
+          "url": "https://www.apple.com/shop/product/myqy3am/a/earpods-usb-c"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia riutilizzabile con connettore USB-C identificabile non ancora verificata.",
+        "en": "A reusable photograph with an identifiable USB-C connector has not yet been verified."
+      },
+      "order": 32
+    },
+    {
+      "id": "airpods-pro-3",
+      "name": {
+        "it": "AirPods Pro (3ª generazione)",
+        "en": "AirPods Pro (3rd generation)"
+      },
+      "room": "audio",
+      "introduced": "2025-09",
+      "highlights": {
+        "it": "Sensore cardiaco · Cancellazione del rumore",
+        "en": "Heart-rate sensing · Noise cancellation"
+      },
+      "description": {
+        "it": "Presentati nel settembre 2025, gli AirPods Pro di terza generazione aggiornano vestibilità, isolamento acustico e funzioni per l'attività fisica. Il sensore della frequenza cardiaca durante gli allenamenti estende il ruolo degli auricolari oltre l'ascolto. I nuovi gommini con schiuma migliorano l'isolamento passivo. Rispetto agli AirPods Pro 2, Apple dichiara una cancellazione attiva capace di rimuovere fino al doppio del rumore: un confronto del produttore, dipendente dalle condizioni di prova. La generazione unisce così evoluzione acustica e strumenti per l'allenamento.",
+        "en": "Introduced in September 2025, third-generation AirPods Pro updated fit, noise isolation and workout features. Heart-rate sensing during exercise extended the earbuds' role beyond listening. New foam-infused ear tips improved passive isolation. Compared with AirPods Pro 2, Apple claimed active cancellation could remove up to twice as much noise: a manufacturer comparison dependent on test conditions. This generation combined acoustic development with workout tools, bringing fitness tracking into a product previously focused primarily on personal audio."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2025/09/introducing-airpods-pro-3-the-ultimate-audio-experience/"
+        }
+      ],
+      "confirmation": null,
+      "photo": null,
+      "photoNote": {
+        "it": "Fotografia riutilizzabile e non alterata dei prodotti di terza generazione non ancora verificata.",
+        "en": "An unaltered, reusable photograph of the third-generation products has not yet been verified."
+      },
+      "order": 33
+    },
+    {
+      "id": "macbook-air-m5",
+      "name": {
+        "it": "MacBook Air 13″ (M5)",
+        "en": "MacBook Air 13″ (M5)"
+      },
+      "room": "laptops",
+      "introduced": "2026-03",
+      "highlights": {
+        "it": "Chip M5 · Connettività N1",
+        "en": "M5 chip · N1 connectivity"
+      },
+      "description": {
+        "it": "Presentato nel marzo 2026, MacBook Air con M5 proseguiva l'evoluzione di Apple Silicon nel portatile leggero di Apple. La variante più piccola usa un display Liquid Retina da 13,6 pollici. M5 introduce acceleratori neurali nei core della GPU, mentre il chip wireless N1 porta Wi-Fi 7 e Bluetooth 6. La gamma parte da 512 GB di archiviazione. Il progetto sottile senza ventola mantiene il funzionamento silenzioso, mentre MagSafe separa la ricarica dalle due porte Thunderbolt 4 per periferiche e schermi esterni.",
+        "en": "Introduced in March 2026, MacBook Air with M5 continued the evolution of Apple Silicon in Apple's lightweight laptop. The smaller version has a 13.6-inch Liquid Retina display. M5 adds Neural Accelerators to its GPU cores, while the N1 wireless chip brings Wi-Fi 7 and Bluetooth 6. Storage starts at 512 GB. The thin, fanless design remains silent, while MagSafe separates charging from the two Thunderbolt 4 ports used for peripherals and external displays."
+      },
+      "sources": [
+        {
+          "label": "Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/03/apple-introduces-the-new-macbook-air-with-m5/"
+        }
+      ],
+      "confirmation": null,
+      "photo": {
+        "src": "/assets/cantinetta/macbook-air-m5.webp",
+        "width": 800,
+        "height": 800,
+        "alt": {
+          "it": "Fotografia di MacBook Air 13″ (M5).",
+          "en": "Photograph of MacBook Air 13″ (M5)."
+        },
+        "author": "Kyu3a",
+        "title": "M5 Macbook Air 13 Sky Blue model.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:M5_Macbook_Air_13_Sky_Blue_model.jpg",
+        "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/M5_Macbook_Air_13_Sky_Blue_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "changes": {
+          "it": "Ridimensionata e convertita in WebP.",
+          "en": "Resized and converted to WebP."
+        }
+      },
+      "photoNote": {
+        "it": "Fotografia del modello esatto con licenza di riutilizzo non ancora verificata.",
+        "en": "A reusable photograph of the exact model has not yet been verified."
+      },
+      "order": 34
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Button from "@components/Button.astro";
+import { museum, museumDate } from "@lib/cantinetta";
+import { localize, localizedPath, t } from "@lib/i18n";
+import type { Lang } from "@data/site";
+import heroImac from "../assets/cantinetta/hero-imac.svg?raw";
+import heroIphone from "../assets/cantinetta/hero-iphone.svg?raw";
+import heroIpod from "../assets/cantinetta/hero-ipod.svg?raw";
+import "../styles/cantinetta.css";
+
+const { lang } = Astro.props as { lang: Lang };
+const devices = [...museum.devices].sort((a, b) => a.order - b.order);
+const roomName = (id: string) => localize(museum.rooms.find((room) => room.id === id)!.name, lang);
+---
+
+<BaseLayout lang={lang} title={t(lang, "cantinetta")} description={t(lang, "museumDescription")} path={localizedPath(lang, "/cantinetta")}>
+  <div class="museum" data-museum>
+    <section class="museum-hero container" aria-labelledby="museum-title">
+      <div class="museum-hero-copy">
+        <p class="eyebrow museum-microline">{t(lang, "museumCollection")}</p>
+        <h1 id="museum-title">{t(lang, "museumHeroStart")}<br />{t(lang, "museumHeroMiddle")} <em>{t(lang, "museumHeroStory")}</em></h1>
+        <p class="lead">{t(lang, "museumDescription")}</p>
+        <Button href="#sale">{t(lang, "museumExplore")} <span aria-hidden="true">↘</span></Button>
+      </div>
+      <div class="hero-exhibit" aria-hidden="true">
+        <div class="exhibit-orbit orbit-a"></div>
+        <div class="exhibit-orbit orbit-b"></div>
+        <div class="hero-device hero-device-a" set:html={heroImac}></div>
+        <div class="hero-device hero-device-b" set:html={heroIphone}></div>
+        <div class="hero-device hero-device-c" set:html={heroIpod}></div>
+        <div class="hero-floor"></div>
+      </div>
+    </section>
+
+    <section class="museum-rooms" id="sale" aria-labelledby="rooms-title">
+      <div class="container">
+        <header class="room-heading">
+          <h2 id="rooms-title">{t(lang, "museumGalleries")}</h2>
+          <p class="room-counter" role="status" aria-live="polite" aria-atomic="true">
+            <span data-visible-count>{devices.length}</span>
+            <span>{t(lang, "museumObjects")}</span>
+          </p>
+        </header>
+        <div class="rooms-toolbar" data-filter-toolbar>
+          <div class="room-tabs" role="group" aria-label={t(lang, "museumFilter")}>
+            <button type="button" class="room-tab" data-room="all" aria-pressed="true" aria-controls="museum-cards">
+              {t(lang, "museumAll")} <span>{devices.length}</span>
+            </button>
+            {museum.rooms.map((room) => (
+              <button type="button" class="room-tab" data-room={room.id} aria-pressed="false" aria-controls="museum-cards">
+                {localize(room.name, lang)} <span>{devices.filter((device) => device.room === room.id).length}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <ul class="museum-cards" id="museum-cards" role="list">
+          {devices.map((device, index) => (
+            <li class="museum-item" data-device-id={device.id} data-device-room={device.room}>
+              <a class="museum-card" href={`#object-${device.id}`} data-open-device={device.id} aria-label={`${t(lang, "museumOpen")} ${localize(device.name, lang)}`}>
+                <div class="case-art">
+                  <span class="case-top-label">{roomName(device.room)}</span>
+                  <span class="case-no" aria-hidden="true">/ {String(index + 1).padStart(2, "0")}</span>
+                  {device.photo ? (
+                    <img class="case-image" src={device.photo.src} alt="" width={device.photo.width} height={device.photo.height} loading="lazy" decoding="async" />
+                  ) : (
+                    <span class="case-placeholder">{t(lang, "museumPhotoPending")}</span>
+                  )}
+                  <span class="case-reflection" aria-hidden="true"></span>
+                </div>
+                <div class="case-info">
+                  <p class="case-year">{device.introduced?.slice(0, 4) || t(lang, "museumUnconfirmed")}</p>
+                  <h3>{localize(device.name, lang)}</h3>
+                  <p class="case-desc"><span>{localize(device.highlights, lang)}</span><span class="arrow-circle" aria-hidden="true">↗</span></p>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <p class="museum-empty" data-museum-empty hidden>{t(lang, "museumEmpty")}</p>
+
+        <div class="device-records">
+          {devices.map((device) => (
+            <article id={`object-${device.id}`} class="device-record" data-device-record={device.id}>
+              <div class="record-content">
+                <div class="drawer-art">
+                  {device.photo ? (
+                    <img src={device.photo.src} alt={localize(device.photo.alt, lang)} width={device.photo.width} height={device.photo.height} loading="lazy" decoding="async" />
+                  ) : (
+                    <div class="drawer-placeholder"><p>{t(lang, "museumPhotoPending")}</p><p>{localize(device.photoNote, lang)}</p></div>
+                  )}
+                </div>
+                <div class="drawer-copy">
+                  <p class="drawer-meta">{roomName(device.room)} · {museumDate(device.introduced, lang)}</p>
+                  <h2 data-record-title>{localize(device.name, lang)}</h2>
+                  <p class="drawer-description">{localize(device.description, lang)}</p>
+                  <p class="drawer-chip">{localize(device.highlights, lang)}</p>
+                  {device.confirmation && <p class="museum-confirmation"><strong>{t(lang, "museumConfirmation")}</strong>{localize(device.confirmation, lang)}</p>}
+                  <div class="drawer-sources">
+                    <h3>{t(lang, "museumSources")}</h3>
+                    <ul>{device.sources.map((source) => <li><a href={source.url} target="_blank" rel="noreferrer">{source.label}<span aria-hidden="true"> ↗</span></a></li>)}</ul>
+                  </div>
+                  {device.photo && (
+                    <div class="photo-credit">
+                      <p>{t(lang, "museumPhotoCredit")}: <a href={device.photo.source} target="_blank" rel="noreferrer">{device.photo.title}</a> — {device.photo.author} · <a href={device.photo.licenseUrl} target="_blank" rel="noreferrer">{device.photo.license}</a></p>
+                      <p>{localize(device.photo.changes, lang)}</p>
+                    </div>
+                  )}
+                  <a class="record-back" href="#sale">{t(lang, "museumBack")} ↑</a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <dialog class="museum-drawer" data-museum-dialog aria-labelledby="museum-dialog-title">
+      <div class="drawer-top">
+        <span>{t(lang, "cantinetta")} / <strong data-drawer-number></strong></span>
+        <button class="drawer-close" type="button" data-drawer-close aria-label={t(lang, "museumClose")} autofocus>×</button>
+      </div>
+      <div class="drawer-body" data-drawer-body></div>
+      <div class="drawer-bottom">
+        <button class="button secondary" type="button" data-drawer-next>{t(lang, "museumNext")} <span aria-hidden="true">→</span></button>
+      </div>
+    </dialog>
+  </div>
+  <script>
+    import "../scripts/cantinetta";
+  </script>
+</BaseLayout>

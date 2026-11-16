@@ -1,0 +1,603 @@
+{
+  "notes": "Photographs retain their individual licenses. See each source for original credits and license terms. Local changes are identified per image; no endorsement is implied.",
+  "photos": [
+    {
+      "deviceId": "macintosh-plus",
+      "src": "/assets/cantinetta/macintosh-plus.webp",
+      "width": 800,
+      "height": 533,
+      "alt": {
+        "it": "Fotografia di Macintosh Plus.",
+        "en": "Photograph of Macintosh Plus."
+      },
+      "author": "Felix Winkelnkemper",
+      "title": "Apple Macintosh Plus white background.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Macintosh_Plus_white_background.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Apple_Macintosh_Plus_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "https://www.flickr.com/photos/winkelnkemper/32871124317/",
+      "sourceDescription": "Apple Macintosh Plus with a white background"
+    },
+    {
+      "deviceId": "macintosh-lc-ii",
+      "src": "/assets/cantinetta/macintosh-lc-ii.webp",
+      "width": 730,
+      "height": 517,
+      "alt": {
+        "it": "Fotografia di Macintosh LC II.",
+        "en": "Photograph of Macintosh LC II."
+      },
+      "author": "All About Apple Museum / www.allaboutapple.com; DrJunge (crop and processing)",
+      "title": "Macintosh LC II.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Macintosh_LC_II.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Macintosh_LC_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": null,
+      "sourceDescription": null
+    },
+    {
+      "deviceId": "pro-keyboard",
+      "src": "/assets/cantinetta/pro-keyboard.webp",
+      "width": 800,
+      "height": 281,
+      "alt": {
+        "it": "Fotografia di Apple Pro Keyboard M7803.",
+        "en": "Photograph of Apple Pro Keyboard M7803."
+      },
+      "author": "All About Apple Museum / www.allaboutapple.com",
+      "title": "Apple Pro Keyboard white.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Pro_Keyboard_white.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/Apple_Pro_Keyboard_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": null,
+      "sourceDescription": null
+    },
+    {
+      "deviceId": "apple-remote",
+      "src": "/assets/cantinetta/apple-remote.webp",
+      "width": 384,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di Apple Remote (bianco, infrarossi).",
+        "en": "Photograph of Apple Remote (white, infrared)."
+      },
+      "author": "NerdyScienceDude",
+      "title": "Appleremotes.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:Appleremotes.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Appleremotes.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "changes": {
+        "it": "Ritagliata per mostrare soltanto il telecomando bianco; ridimensionata e convertita in WebP.",
+        "en": "Cropped to show only the white remote; resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "A side-by-side comparison of the two generations of the Apple Remote"
+    },
+    {
+      "deviceId": "iphone-original",
+      "src": "/assets/cantinetta/iphone-original.webp",
+      "width": 510,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone (1ª generazione).",
+        "en": "Photograph of iPhone (1st generation)."
+      },
+      "author": "Kaiser KurzydloVII",
+      "title": "IPhone (Original) von Apple mit 8GB.png",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_(Original)_von_Apple_mit_8GB.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f6/IPhone_%28Original%29_von_Apple_mit_8GB.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "iPhone (Original) mit 8GB Serial No. 7T7394K0WH8. Der Seriennummer Vergleich bei Apple als Beweis."
+    },
+    {
+      "deviceId": "iphone-3gs",
+      "src": "/assets/cantinetta/iphone-3gs.webp",
+      "width": 443,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone 3GS.",
+        "en": "Photograph of iPhone 3GS."
+      },
+      "author": "Khalid Mahmood",
+      "title": "Iphone 3GS-1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Iphone_3GS-1.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Iphone_3GS-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Iphone 3GS"
+    },
+    {
+      "deviceId": "iphone-4",
+      "src": "/assets/cantinetta/iphone-4.webp",
+      "width": 554,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone 4.",
+        "en": "Photograph of iPhone 4."
+      },
+      "author": "K2025",
+      "title": "IPhone 4 - front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_4_-_front.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/IPhone_4_-_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Front of black iPhone 4"
+    },
+    {
+      "deviceId": "ipod-nano-6",
+      "src": "/assets/cantinetta/ipod-nano-6.webp",
+      "width": 800,
+      "height": 487,
+      "alt": {
+        "it": "Fotografia di iPod nano (6ª generazione).",
+        "en": "Photograph of iPod nano (6th generation)."
+      },
+      "author": "kauhoshi",
+      "title": "IPod nano 6G.JPG",
+      "source": "https://commons.wikimedia.org/wiki/File:IPod_nano_6G.JPG",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/IPod_nano_6G.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Ipod nano 6th"
+    },
+    {
+      "deviceId": "iphone-4s",
+      "src": "/assets/cantinetta/iphone-4s.webp",
+      "width": 800,
+      "height": 450,
+      "alt": {
+        "it": "Fotografia di iPhone 4S.",
+        "en": "Photograph of iPhone 4S."
+      },
+      "author": "iGeeksBlog",
+      "title": "IPhone 4s.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_4s.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/83/IPhone_4s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Black iPhone 4s having slight Blue neon shade on the surface"
+    },
+    {
+      "deviceId": "iphone-5s",
+      "src": "/assets/cantinetta/iphone-5s.webp",
+      "width": 547,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone 5s.",
+        "en": "Photograph of iPhone 5s."
+      },
+      "author": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+      "title": "IPhone 5s (model A1457)-3319.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_5s_(model_A1457)-3319.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/b4/IPhone_5s_%28model_A1457%29-3319.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "iPhone 5s (model A1457)"
+    },
+    {
+      "deviceId": "iphone-6s",
+      "src": "/assets/cantinetta/iphone-6s.webp",
+      "width": 450,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone 6s.",
+        "en": "Photograph of iPhone 6s."
+      },
+      "author": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+      "title": "IPhone 6s - rear view-92671.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_6s_-_rear_view-92671.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/98/IPhone_6s_-_rear_view-92671.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "iPhone 6s - rear view"
+    },
+    {
+      "deviceId": "iphone-7",
+      "src": "/assets/cantinetta/iphone-7.webp",
+      "width": 800,
+      "height": 405,
+      "alt": {
+        "it": "Fotografia di iPhone 7.",
+        "en": "Photograph of iPhone 7."
+      },
+      "author": "cicwdn on Pixabay",
+      "title": "IPhone 7.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_7.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/ba/IPhone_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "This file is from Pixabay, where the creator has released it explicitly under the license Creative Commons Zero (see here).\nFile ID: 1737510",
+      "sourceDescription": "iPhone 7"
+    },
+    {
+      "deviceId": "airpods-1",
+      "src": "/assets/cantinetta/airpods-1.webp",
+      "width": 800,
+      "height": 546,
+      "alt": {
+        "it": "Fotografia di AirPods (1ª generazione).",
+        "en": "Photograph of AirPods (1st generation)."
+      },
+      "author": "Maurizio Pesce from Milan, Italia",
+      "title": "AirPods.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AirPods.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/AirPods.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "New Apple AirPods with iPhone 7",
+      "sourceDescription": "Photo of Apple AirPods wireless headphones and their case."
+    },
+    {
+      "deviceId": "watch-series-3",
+      "src": "/assets/cantinetta/watch-series-3.webp",
+      "width": 800,
+      "height": 800,
+      "alt": {
+        "it": "Retro di Apple Watch Series 3 da 38 mm, con i sensori.",
+        "en": "Underside of the 38 mm Apple Watch Series 3, showing its sensors."
+      },
+      "author": "Fletcher",
+      "title": "Apple Watch Series 3 Sensors.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_3_Sensors.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Apple_Watch_Series_3_Sensors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Underside of a 38mm Apple Watch Series 3"
+    },
+    {
+      "deviceId": "iphone-xs",
+      "src": "/assets/cantinetta/iphone-xs.webp",
+      "width": 800,
+      "height": 462,
+      "alt": {
+        "it": "Fotografia di iPhone XS.",
+        "en": "Photograph of iPhone XS."
+      },
+      "author": "Cullen Steber",
+      "title": "IPhone XS.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_XS.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4e/IPhone_XS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "iPhone xs white silver apple phone"
+    },
+    {
+      "deviceId": "iphone-xr",
+      "src": "/assets/cantinetta/iphone-xr.webp",
+      "width": 600,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone XR.",
+        "en": "Photograph of iPhone XR."
+      },
+      "author": "Asdaiang14453",
+      "title": "IPhone XR.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_XR.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5f/IPhone_XR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Apple's iPhone XR"
+    },
+    {
+      "deviceId": "pencil-2",
+      "src": "/assets/cantinetta/pencil-2.webp",
+      "width": 800,
+      "height": 450,
+      "alt": {
+        "it": "Fotografia di Apple Pencil (2ª generazione).",
+        "en": "Photograph of Apple Pencil (2nd generation)."
+      },
+      "author": "ajay_suresh",
+      "title": "Apple Pencil 2 (51013514266).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Pencil_2_(51013514266).jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Apple_Pencil_2_%2851013514266%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Apple Pencil 2",
+      "sourceDescription": "Apple Pencil, Apple Pencil 2, Product Photography, Stylus, Tablet"
+    },
+    {
+      "deviceId": "airpods-pro-1",
+      "src": "/assets/cantinetta/airpods-pro-1.webp",
+      "width": 800,
+      "height": 644,
+      "alt": {
+        "it": "Fotografia di AirPods Pro (1ª generazione).",
+        "en": "Photograph of AirPods Pro (1st generation)."
+      },
+      "author": "Arne Müseler / www.arne-mueseler.com",
+      "title": "Apple airpods pro.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_airpods_pro.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Apple_airpods_pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work\nhttp://www.arne-mueseler.com",
+      "sourceDescription": "AirPods Pro"
+    },
+    {
+      "deviceId": "macbook-air-m1",
+      "src": "/assets/cantinetta/macbook-air-m1.webp",
+      "width": 800,
+      "height": 645,
+      "alt": {
+        "it": "Fotografia di MacBook Air M1.",
+        "en": "Photograph of MacBook Air M1."
+      },
+      "author": "Padgriffin",
+      "title": "MacBook Air M1.png",
+      "source": "https://commons.wikimedia.org/wiki/File:MacBook_Air_M1.png",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/20/MacBook_Air_M1.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "2020 Apple MacBook Air M1 showing the Wikipedia landing Page."
+    },
+    {
+      "deviceId": "airtag-1",
+      "src": "/assets/cantinetta/airtag-1.webp",
+      "width": 800,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di AirTag (1ª generazione).",
+        "en": "Photograph of AirTag (1st generation)."
+      },
+      "author": "KKPCW",
+      "title": "Airtag - 6.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Airtag_-_6.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Airtag_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Airtag。"
+    },
+    {
+      "deviceId": "airpods-3",
+      "src": "/assets/cantinetta/airpods-3.webp",
+      "width": 800,
+      "height": 665,
+      "alt": {
+        "it": "Fotografia di AirPods (3ª generazione).",
+        "en": "Photograph of AirPods (3rd generation)."
+      },
+      "author": "Yovt",
+      "title": "AirPods 3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:AirPods_3.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/AirPods_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "AirPods generation 3"
+    },
+    {
+      "deviceId": "iphone-14-pro",
+      "src": "/assets/cantinetta/iphone-14-pro.webp",
+      "width": 800,
+      "height": 450,
+      "alt": {
+        "it": "Fotografia di iPhone 14 Pro.",
+        "en": "Photograph of iPhone 14 Pro."
+      },
+      "author": "iGeeksBlog",
+      "title": "IPhone 14 Pro Deep Purple.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_Deep_Purple.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/85/IPhone_14_Pro_Deep_Purple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "Deep Purple iPhone 14 Pro with clouds as a wallpaper on the screen"
+    },
+    {
+      "deviceId": "watch-se-2",
+      "src": "/assets/cantinetta/watch-se-2.webp",
+      "width": 600,
+      "height": 800,
+      "alt": {
+        "it": "Apple Watch SE di seconda generazione, variante GPS + Cellular da 40 mm.",
+        "en": "Second-generation Apple Watch SE, 40 mm GPS + Cellular variant."
+      },
+      "author": "AzureSaturn",
+      "title": "Apple Watch SE 2 (GPS + Cellular, 40mm, Midnight) with Anchor Blue Sport Loop.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Apple_Watch_SE_2_(GPS_%2B_Cellular,_40mm,_Midnight)_with_Anchor_Blue_Sport_Loop.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Apple_Watch_SE_2_%28GPS_%2B_Cellular%2C_40mm%2C_Midnight%29_with_Anchor_Blue_Sport_Loop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "A view of the Apple Watch SE 2 (GPS + Cellular, 40mm, Midnight) with an Anchor Blue Sport Loop on it."
+    },
+    {
+      "deviceId": "iphone-15-plus",
+      "src": "/assets/cantinetta/iphone-15-plus.webp",
+      "width": 449,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di iPhone 15 Plus.",
+        "en": "Photograph of iPhone 15 Plus."
+      },
+      "author": "メイド理世",
+      "title": "IPhone 15 Plus, January 28, 2024.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_15_Plus,_January_28,_2024.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/08/IPhone_15_Plus%2C_January_28%2C_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": " Own work ",
+      "sourceDescription": "iPhone 15 Plus"
+    },
+    {
+      "deviceId": "iphone-15-pro",
+      "src": "/assets/cantinetta/iphone-15-pro.webp",
+      "width": 600,
+      "height": 800,
+      "alt": {
+        "it": "Dettaglio delle fotocamere posteriori di iPhone 15 Pro.",
+        "en": "Close-up of the rear cameras on iPhone 15 Pro."
+      },
+      "author": "Kyu3",
+      "title": "Back camera of iPhone 15 Pro.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Back_camera_of_iPhone_15_Pro.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Back_camera_of_iPhone_15_Pro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": " Own work ",
+      "sourceDescription": "iPhone 15 Proの背面カメラ。"
+    },
+    {
+      "deviceId": "macbook-air-m5",
+      "src": "/assets/cantinetta/macbook-air-m5.webp",
+      "width": 800,
+      "height": 800,
+      "alt": {
+        "it": "Fotografia di MacBook Air 13″ (M5).",
+        "en": "Photograph of MacBook Air 13″ (M5)."
+      },
+      "author": "Kyu3a",
+      "title": "M5 Macbook Air 13 Sky Blue model.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:M5_Macbook_Air_13_Sky_Blue_model.jpg",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/M5_Macbook_Air_13_Sky_Blue_model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": {
+        "it": "Ridimensionata e convertita in WebP.",
+        "en": "Resized and converted to WebP."
+      },
+      "checked": "2026-11-16",
+      "sourceCredit": "Own work",
+      "sourceDescription": "M5 Macbook Air の13インチ、スカイブルーモデル。愛知県春日井市の家電量販店で撮影。"
+    }
+  ]
+}

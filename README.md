@@ -46,6 +46,11 @@ not yet available, using a localized neutral placeholder.
 
 ## Project Structure
 
+The Cantinetta museum lives at `/cantinetta` and `/it/cantinetta`. Edit galleries,
+devices and both translations in `src/data/cantinetta.json`. See
+[the maintenance and image attribution guide](docs/cantinetta.md) for the data
+schema, remaining model confirmations, photo placeholders and image licenses.
+
 ```text
 src/
   components/        Reusable UI blocks such as cards, footer, header, timeline, and detail views
