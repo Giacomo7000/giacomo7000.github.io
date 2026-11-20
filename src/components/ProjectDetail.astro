@@ -6,6 +6,7 @@ import { formatProjectDate } from "@lib/dates";
 
 const { project, lang } = Astro.props as { project: CollectionEntry<"projects">; lang: Lang };
 const displayDate = formatProjectDate(project.data, lang);
+const detailCover = project.data.detailCover || project.data.cover;
 const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph) => paragraph.trim()).filter(Boolean);
 ---
 
@@ -17,7 +18,7 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
       <h1>{localize(project.data.title, lang)}</h1>
       <p class="lead">{localize(project.data.subtitle, lang)}</p>
     </div>
-    {project.data.cover && <img class:list={[project.data.coverFit === "logo" && "logo-cover"]} src={project.data.cover} alt="" loading="eager" />}
+    {detailCover && <img class:list={[!project.data.detailCover && project.data.coverFit === "logo" && "logo-cover", project.data.detailCover && "screenshot-cover"]} src={detailCover} alt={project.data.detailCoverAlt ? localize(project.data.detailCoverAlt, lang) : ""} loading="eager" />}
   </header>
   <dl class="facts card reveal">
     <div><dt>{t(lang, "role")}</dt><dd>{localize(project.data.role, lang)}</dd></div>
@@ -111,6 +112,11 @@ const sectionParagraphs = (body: string) => body.split(/\n\s*\n/).map((paragraph
     object-fit: contain;
     padding: clamp(28px, 6vw, 72px);
     background: color-mix(in srgb, var(--surface) 72%, var(--accent) 6%);
+  }
+
+  .detail-hero img.screenshot-cover {
+    aspect-ratio: auto;
+    object-fit: contain;
   }
 
   .detail-hero h1 {

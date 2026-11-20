@@ -20,6 +20,8 @@ const projects = defineCollection({
     featured: z.boolean().default(false),
     cover: z.string().optional(),
     coverFit: z.enum(["cover", "logo"]).default("cover"),
+    detailCover: z.string().optional(),
+    detailCoverAlt: localizedString.optional(),
     links: z.array(z.object({
       label: localizedString,
       url: z.string()
